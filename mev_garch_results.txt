@@ -1,0 +1,3 @@
+GARCH on r_val (full): alpha+beta=0.9800, nu=4.0054
+GARCH on r_mev (MEV-specific): alpha+beta=0.9800, nu=4.0054
+r_val~r_eth R-squared: 0.000000
