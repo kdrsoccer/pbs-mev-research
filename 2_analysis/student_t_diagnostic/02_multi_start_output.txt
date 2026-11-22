@@ -1,0 +1,8 @@
+value start 0.1 0.88 -> {'mu': np.float64(-0.01274), 'omega': np.float64(0.74974), 'alpha': np.float64(0.79863), 'beta': np.float64(0.20137), 'nu': np.float64(2.71275), 'pers': np.float64(1.0)} ll -2697661.9029730167 nfev 400 69s
+value start 0.4 0.59 -> {'mu': np.float64(-0.00791), 'omega': np.float64(0.73314), 'alpha': np.float64(0.7971), 'beta': np.float64(0.2029), 'nu': np.float64(2.7077), 'pers': np.float64(1.0)} ll -2697713.5827845754 nfev 400 68s
+value start 0.6 0.39 -> {'mu': np.float64(-0.00209), 'omega': np.float64(0.74346), 'alpha': np.float64(0.79684), 'beta': np.float64(0.2029), 'nu': np.float64(2.69284), 'pers': np.float64(0.99974)} ll -2697884.8813054855 nfev 400 65s
+value start 0.2 0.79 -> {'mu': np.float64(-0.01273), 'omega': np.float64(0.74967), 'alpha': np.float64(0.79864), 'beta': np.float64(0.20136), 'nu': np.float64(2.71287), 'pers': np.float64(1.0)} ll -2697661.9074083115 nfev 400 66s
+value start 0.5 0.49 -> {'mu': np.float64(-0.01788), 'omega': np.float64(0.35254), 'alpha': np.float64(0.50053), 'beta': np.float64(0.49947), 'nu': np.float64(2.63258), 'pers': np.float64(1.0)} ll -2718060.285109857 nfev 400 66s
+value start 0.8 0.19 -> {'mu': np.float64(-0.01278), 'omega': np.float64(0.7495), 'alpha': np.float64(0.79859), 'beta': np.float64(0.20141), 'nu': np.float64(2.71288), 'pers': np.float64(0.99999)} ll -2697662.5337711247 nfev 400 68s
+value BEST {'mu': np.float64(-0.01274), 'omega': np.float64(0.74974), 'alpha': np.float64(0.79863), 'beta': np.float64(0.20137), 'nu': np.float64(2.71275), 'pers': np.float64(1.0)} ll -2697661.9029730167
+value arch polish: {'mu': -0.01274, 'omega': 0.74974, 'alpha[1]': 0.79863, 'beta[1]': 0.20137, 'nu': 2.71275} ll -2697661.9029730167 AIC 5395333.805946033 conv 0

@@ -1,0 +1,1260 @@
+2026-11-17 21:56:26 mode test: 1 days, 0 already done, 1 to do
+2026-11-17 21:59:00 2025-03-05: 1.50 GB zip, 23,890,469 rows, 10,431,205 kept, 3,204 slots | download 43s, read 92s, stats 20s
+2026-11-17 21:59:00   1/1 done; about 0.0 hours left at this rate
+2026-11-17 21:59:00 one day took 2.6 minutes -> every 10th day: about 2.6 hours; all 599 days: about 26 hours
+2026-11-17 21:59:02 days 1; slots 3,204; winning block found in the file: 99.8%
+2026-11-17 21:59:02 bids per slot: median 3066; builder keys bidding per slot: median 61; with a bid before the winning bid: median 59
+2026-11-17 21:59:02 builder keys linked by a shared block: 81 keys in 31 operators; largest [18, 14, 6, 4, 3]
+2026-11-17 21:59:02 margin over the best lower bid, by KEY, any arrival time      : median 0.009%  p10 0.000%  p90 0.249%  (n=3,204)
+2026-11-17 21:59:02 margin over the best lower bid, by KEY, arrived earlier       : median 0.099%  p10 0.000%  p90 2.285%  (n=3,196)
+2026-11-17 21:59:02 margin over the best lower bid, by OPERATOR, any arrival time : median 0.134%  p10 0.003%  p90 1.849%  (n=2,637)
+2026-11-17 21:59:02 margin over the best lower bid, by OPERATOR, arrived earlier  : median 2.019%  p10 0.068%  p90 10.023%  (n=2,618)
+2026-11-17 21:59:02 other keys within 1% of the winner (earlier bids): median 3; within 0.1%: median 1
+2026-11-17 21:59:02 slots where another key had bid MORE than the winner before the winning bid arrived: 44.6%
+2026-11-17 21:59:02 winning bid time: median 934 ms after slot start
+2026-11-17 22:02:19 mode test: 1 days, 0 already done, 1 to do
+2026-11-17 22:04:32 2025-03-05: 1.50 GB zip, 23,890,469 rows, 10,431,205 kept, 3,204 slots | download 23s, read 83s, stats 27s
+2026-11-17 22:04:32   1/1 done; about 0.0 hours left at this rate
+2026-11-17 22:04:32 one day took 2.2 minutes -> every 10th day: about 2.2 hours; all 599 days: about 22 hours
+2026-11-17 22:04:32 days 1; slots 3,204; winning block found in the file: 99.8%; winning bid time: median 934 ms
+2026-11-17 22:04:32 bids per slot: median 3066; keys bidding: median 61; operators bidding: median 27; operators with a bid before the winning bid: median 26
+2026-11-17 22:04:32 BY OPERATOR
+2026-11-17 22:04:32   margin over best lower bid, any arrival time   : median 0.193%  p10 0.006%  p90 3.080%  (n=3,204)
+2026-11-17 22:04:32   margin over best lower bid, arrived earlier    : median 1.865%  p10 0.089%  p90 8.214%  (n=3,196)
+2026-11-17 22:04:32   margin over best STANDING bid at winning time  : median 2.109%  p10 -0.348%  p90 8.914%  (n=3,196)
+2026-11-17 22:04:32   another operator had a higher standing bid when the winning bid arrived: 12.4% of slots; no other operator had bid yet: 0.0%
+2026-11-17 22:04:32   other operators with a standing bid within 1% of the winner: median 0, mean 0.54
+2026-11-17 22:04:32   another operator had bid above the winning value earlier (standing or not): 15.6% of slots
+2026-11-17 22:04:32 BY KEY (for comparison)
+2026-11-17 22:04:32   margin over best lower bid, any arrival time   : median 0.009%  p10 0.000%  p90 0.249%  (n=3,204)
+2026-11-17 22:04:32   margin over best lower bid, arrived earlier    : median 0.099%  p10 0.000%  p90 2.285%  (n=3,196)
+2026-11-17 22:04:32   margin over best STANDING bid at winning time  : median 0.054%  p10 -1.276%  p90 2.447%  (n=3,196)
+2026-11-17 22:09:39 mode test: 1 days, 0 already done, 1 to do
+2026-11-17 22:11:56 2025-03-05: 1.50 GB zip, 23,890,469 rows, 10,431,205 kept, 3,204 slots | download 37s, read 75s, stats 24s
+2026-11-17 22:11:56   1/1 done; about 0.0 hours left at this rate
+2026-11-17 22:11:56 TIMING: 1 day(s), average 2.3 minutes per day
+2026-11-17 22:11:56 one day took 2.3 minutes -> every 10th day: about 2.3 hours; all 599 days: about 23 hours
+2026-11-17 22:11:56 days 1; slots 3,204; winning block found in the file: 99.8%; winning bid time: median 934 ms
+2026-11-17 22:11:56 bids per slot: median 3066; keys bidding: median 61; operators bidding: median 27; operators with a bid before the winning bid: median 26
+2026-11-17 22:11:56 BY OPERATOR
+2026-11-17 22:11:56   margin over best lower bid, any arrival time   : median 0.193%  p10 0.006%  p90 3.080%  (n=3,204)
+2026-11-17 22:11:56   margin over best lower bid, arrived earlier    : median 1.865%  p10 0.089%  p90 8.214%  (n=3,196)
+2026-11-17 22:11:56   margin over best STANDING bid at winning time  : median 2.109%  p10 -0.348%  p90 8.914%  (n=3,196)
+2026-11-17 22:11:56   same, just before the winning key bid again    : median 1.799%  p10 -1.425%  p90 8.870%  (n=3,153)
+2026-11-17 22:11:56   time from the winning bid to the same key's next bid: median 39 ms, p90 174 ms; the key never bid again in 1.4% of slots
+2026-11-17 22:11:56   another operator's standing bid was higher just before that next bid: 19.1% of slots
+2026-11-17 22:11:56   another operator had a higher standing bid when the winning bid arrived: 12.4% of slots; no other operator had bid yet: 0.0%
+2026-11-17 22:11:56   other operators with a standing bid within 1% of the winner: median 0, mean 0.54
+2026-11-17 22:11:56   another operator had bid above the winning value earlier (standing or not): 15.6% of slots
+2026-11-17 22:11:56 BY KEY (for comparison)
+2026-11-17 22:11:56   margin over best lower bid, any arrival time   : median 0.009%  p10 0.000%  p90 0.249%  (n=3,204)
+2026-11-17 22:11:56   margin over best lower bid, arrived earlier    : median 0.099%  p10 0.000%  p90 2.285%  (n=3,196)
+2026-11-17 22:11:56   margin over best STANDING bid at winning time  : median 0.054%  p10 -1.276%  p90 2.447%  (n=3,196)
+2026-11-17 22:22:43 mode full: 599 days, 0 already done, 599 to do
+2026-11-17 22:23:36 2024-09-17: 1.06 GB zip, 16,568,362 rows, 447,390 kept, 192 slots | download 27s, read 24s, stats 1s
+2026-11-17 22:23:36   1/599 done; about 8.6 hours left at this rate
+2026-11-17 22:24:35 2024-09-18: 1.08 GB zip, 16,895,658 rows, 1,866,307 kept, 779 slots | download 32s, read 24s, stats 3s
+2026-11-17 22:24:35   2/599 done; about 9.2 hours left at this rate
+2026-11-17 22:25:34 2024-09-19: 1.08 GB zip, 17,060,963 rows, 1,853,082 kept, 761 slots | download 33s, read 24s, stats 3s
+2026-11-17 22:25:34   3/599 done; about 9.4 hours left at this rate
+2026-11-17 22:26:31 2024-09-20: 1.06 GB zip, 16,545,774 rows, 2,002,484 kept, 874 slots | download 31s, read 23s, stats 3s
+2026-11-17 22:26:31   4/599 done; about 9.4 hours left at this rate
+2026-11-17 22:27:19 mode sample: 60 days, 1 already done, 59 to do
+2026-11-17 22:28:14 2024-09-27: 0.79 GB zip, 12,384,700 rows, 1,077,102 kept, 618 slots | download 24s, read 29s, stats 2s
+2026-11-17 22:28:14   1/59 done; about 0.9 hours left at this rate
+2026-11-17 22:29:09 2024-10-07: 0.79 GB zip, 12,485,174 rows, 1,208,274 kept, 690 slots | download 25s, read 27s, stats 3s
+2026-11-17 22:29:09   2/59 done; about 0.9 hours left at this rate
+2026-11-17 22:29:50 2024-10-17: 0.64 GB zip, 9,803,587 rows, 828,068 kept, 574 slots | download 18s, read 21s, stats 2s
+2026-11-17 22:29:50   3/59 done; about 0.8 hours left at this rate
+2026-11-17 22:30:42 2024-09-21: 0.98 GB zip, 15,449,321 rows, 1,932,385 kept, 908 slots | download 227s, read 22s, stats 3s
+2026-11-17 22:30:43   5/599 done; about 15.8 hours left at this rate
+2026-11-17 22:31:11 2024-11-11: 0.76 GB zip, 11,592,210 rows, 1,246,609 kept, 764 slots | download 25s, read 25s, stats 3s
+2026-11-17 22:31:12   5/59 done; about 0.7 hours left at this rate
+2026-11-17 22:31:38 2024-09-22: 1.01 GB zip, 15,817,663 rows, 2,025,761 kept, 936 slots | download 30s, read 22s, stats 3s
+2026-11-17 22:31:39   6/599 done; about 14.7 hours left at this rate
+2026-11-17 22:32:02 2024-11-21: 0.72 GB zip, 11,085,564 rows, 1,115,599 kept, 697 slots | download 25s, read 23s, stats 2s
+2026-11-17 22:32:02   6/59 done; about 0.7 hours left at this rate
+2026-11-17 22:32:49 2024-12-01: 0.72 GB zip, 11,022,200 rows, 882,185 kept, 559 slots | download 21s, read 23s, stats 2s
+2026-11-17 22:32:49   7/59 done; about 0.7 hours left at this rate
+2026-11-17 22:33:42 2024-12-11: 0.83 GB zip, 12,692,134 rows, 1,123,262 kept, 623 slots | download 24s, read 27s, stats 2s
+2026-11-17 22:33:42   8/59 done; about 0.7 hours left at this rate
+2026-11-17 22:34:26 2024-12-21: 0.70 GB zip, 10,670,035 rows, 871,871 kept, 579 slots | download 20s, read 23s, stats 2s
+2026-11-17 22:34:26   9/59 done; about 0.7 hours left at this rate
+2026-11-17 22:34:56 2024-09-26: 0.79 GB zip, 12,513,176 rows, 1,065,864 kept, 597 slots | download 23s, read 18s, stats 1s
+2026-11-17 22:34:57   10/599 done; about 12.0 hours left at this rate
+2026-11-17 22:34:57   11/599 done; about 10.9 hours left at this rate
+2026-11-17 22:35:13 2024-12-31: 0.69 GB zip, 10,436,196 rows, 895,941 kept, 614 slots | download 23s, read 22s, stats 2s
+2026-11-17 22:35:13   10/59 done; about 0.6 hours left at this rate
+2026-11-17 22:35:37 2024-09-28: 0.71 GB zip, 11,224,728 rows, 746,481 kept, 474 slots | download 22s, read 17s, stats 1s
+2026-11-17 22:35:38   12/599 done; about 10.5 hours left at this rate
+2026-11-17 22:36:19 2024-09-29: 0.75 GB zip, 11,741,859 rows, 922,281 kept, 580 slots | download 23s, read 17s, stats 1s
+2026-11-17 22:36:19   13/599 done; about 10.2 hours left at this rate
+2026-11-17 22:37:04 2024-09-30: 0.82 GB zip, 12,874,537 rows, 1,100,244 kept, 603 slots | download 24s, read 20s, stats 2s
+2026-11-17 22:37:04   14/599 done; about 10.0 hours left at this rate
+2026-11-17 22:37:50 2024-10-01: 0.85 GB zip, 13,346,234 rows, 1,212,844 kept, 626 slots | download 24s, read 20s, stats 2s
+2026-11-17 22:37:50   15/599 done; about 9.8 hours left at this rate
+2026-11-17 22:38:33 2024-10-02: 0.81 GB zip, 12,824,017 rows, 1,198,103 kept, 616 slots | download 23s, read 18s, stats 2s
+2026-11-17 22:38:33   16/599 done; about 9.6 hours left at this rate
+2026-11-17 22:38:57 2025-01-30: 0.88 GB zip, 13,728,164 rows, 7,027,610 kept, 3,594 slots | download 25s, read 29s, stats 17s
+2026-11-17 22:38:57   13/59 done; about 0.7 hours left at this rate
+2026-11-17 22:39:16 2024-10-03: 0.81 GB zip, 12,765,682 rows, 1,129,093 kept, 620 slots | download 24s, read 18s, stats 2s
+2026-11-17 22:39:17   17/599 done; about 9.4 hours left at this rate
+2026-11-17 22:39:56 2025-02-09: 0.75 GB zip, 11,561,184 rows, 5,920,185 kept, 3,591 slots | download 20s, read 25s, stats 14s
+2026-11-17 22:39:57   14/59 done; about 0.7 hours left at this rate
+2026-11-17 22:40:39 2024-10-05: 0.75 GB zip, 11,818,758 rows, 1,199,674 kept, 715 slots | download 25s, read 17s, stats 2s
+2026-11-17 22:40:40   19/599 done; about 9.1 hours left at this rate
+2026-11-17 22:41:03 2025-02-19: 0.80 GB zip, 12,451,182 rows, 5,486,592 kept, 3,269 slots | download 27s, read 26s, stats 13s
+2026-11-17 22:41:03   15/59 done; about 0.7 hours left at this rate
+2026-11-17 22:41:23 2024-10-06: 0.78 GB zip, 12,269,651 rows, 1,233,376 kept, 702 slots | download 25s, read 17s, stats 2s
+2026-11-17 22:41:24   20/599 done; about 9.0 hours left at this rate
+2026-11-17 22:41:24   21/599 done; about 8.6 hours left at this rate
+2026-11-17 22:42:02 2024-10-08: 0.75 GB zip, 11,776,419 rows, 1,071,924 kept, 640 slots | download 21s, read 16s, stats 1s
+2026-11-17 22:42:02   22/599 done; about 8.4 hours left at this rate
+2026-11-17 22:42:23 2025-03-01: 1.14 GB zip, 17,877,452 rows, 7,540,334 kept, 3,156 slots | download 24s, read 38s, stats 18s
+2026-11-17 22:42:23   16/59 done; about 0.7 hours left at this rate
+2026-11-17 22:42:39 2024-10-09: 0.72 GB zip, 11,216,764 rows, 979,363 kept, 619 slots | download 21s, read 15s, stats 1s
+2026-11-17 22:42:40   23/599 done; about 8.3 hours left at this rate
+2026-11-17 22:43:17 2024-10-10: 0.72 GB zip, 11,321,970 rows, 933,868 kept, 577 slots | download 20s, read 16s, stats 1s
+2026-11-17 22:43:17   24/599 done; about 8.2 hours left at this rate
+2026-11-17 22:43:56 2024-10-11: 0.74 GB zip, 11,647,216 rows, 862,731 kept, 524 slots | download 22s, read 15s, stats 1s
+2026-11-17 22:43:56   25/599 done; about 8.1 hours left at this rate
+2026-11-17 22:43:57 2024-10-12: FAILED HTTPError: HTTP Error 404: Not Found
+2026-11-17 22:44:32 2024-10-13: 0.69 GB zip, 10,890,973 rows, 737,144 kept, 482 slots | download 19s, read 15s, stats 1s
+2026-11-17 22:44:32   27/599 done; about 8.0 hours left at this rate
+2026-11-17 22:45:03 2024-10-14: 0.67 GB zip, 10,513,290 rows, 768,723 kept, 537 slots | download 17s, read 14s, stats 1s
+2026-11-17 22:45:03   28/599 done; about 7.9 hours left at this rate
+2026-11-17 22:45:37 2024-10-15: 0.63 GB zip, 9,649,046 rows, 713,947 kept, 506 slots | download 20s, read 13s, stats 1s
+2026-11-17 22:45:37   29/599 done; about 7.8 hours left at this rate
+2026-11-17 22:46:09 2024-10-16: 0.60 GB zip, 9,213,554 rows, 762,671 kept, 581 slots | download 18s, read 13s, stats 1s
+2026-11-17 22:46:09   30/599 done; about 7.7 hours left at this rate
+2026-11-17 22:46:09   31/599 done; about 7.4 hours left at this rate
+2026-11-17 22:46:44 2024-10-18: 0.70 GB zip, 10,715,969 rows, 1,044,922 kept, 651 slots | download 19s, read 14s, stats 1s
+2026-11-17 22:46:44   32/599 done; about 7.3 hours left at this rate
+2026-11-17 22:47:16 2024-10-19: 0.60 GB zip, 9,259,106 rows, 787,458 kept, 572 slots | download 18s, read 13s, stats 1s
+2026-11-17 22:47:16   33/599 done; about 7.2 hours left at this rate
+2026-11-17 22:47:47 2024-10-20: 0.60 GB zip, 9,181,910 rows, 845,015 kept, 634 slots | download 18s, read 12s, stats 1s
+2026-11-17 22:47:47   34/599 done; about 7.1 hours left at this rate
+2026-11-17 22:48:18 2024-10-21: 0.62 GB zip, 9,579,231 rows, 894,973 kept, 634 slots | download 17s, read 13s, stats 1s
+2026-11-17 22:48:18   35/599 done; about 7.1 hours left at this rate
+2026-11-17 22:48:49 2024-10-22: 0.61 GB zip, 9,434,400 rows, 923,534 kept, 644 slots | download 17s, read 13s, stats 1s
+2026-11-17 22:48:49   36/599 done; about 7.0 hours left at this rate
+2026-11-17 22:49:14 2024-10-23: 0.61 GB zip, 9,391,452 rows, 877,359 kept, 615 slots | download 11s, read 13s, stats 1s
+2026-11-17 22:49:14   37/599 done; about 6.9 hours left at this rate
+2026-11-17 22:49:47 2024-10-24: 0.61 GB zip, 9,470,362 rows, 1,144,535 kept, 807 slots | download 18s, read 13s, stats 1s
+2026-11-17 22:49:47   38/599 done; about 6.8 hours left at this rate
+2026-11-17 22:50:20 2024-10-25: 0.62 GB zip, 9,586,585 rows, 1,127,743 kept, 787 slots | download 18s, read 13s, stats 2s
+2026-11-17 22:50:20   39/599 done; about 6.8 hours left at this rate
+2026-11-17 22:50:42 2024-10-26: 0.60 GB zip, 9,198,753 rows, 1,154,219 kept, 839 slots | download 7s, read 13s, stats 2s
+2026-11-17 22:50:42   40/599 done; about 6.7 hours left at this rate
+2026-11-17 22:50:42   41/599 done; about 6.5 hours left at this rate
+2026-11-17 22:51:15 2024-11-02: 0.64 GB zip, 9,854,845 rows, 928,394 kept, 650 slots | download 18s, read 13s, stats 1s
+2026-11-17 22:51:15   42/599 done; about 6.5 hours left at this rate
+2026-11-17 22:51:49 2024-11-03: 0.66 GB zip, 10,198,038 rows, 1,058,449 kept, 716 slots | download 19s, read 14s, stats 1s
+2026-11-17 22:51:49   43/599 done; about 6.4 hours left at this rate
+2026-11-17 22:52:25 2024-11-04: 0.66 GB zip, 10,152,857 rows, 1,161,395 kept, 776 slots | download 20s, read 14s, stats 2s
+2026-11-17 22:52:25   44/599 done; about 6.4 hours left at this rate
+2026-11-17 22:53:01 2024-11-05: 0.64 GB zip, 9,768,296 rows, 1,045,753 kept, 746 slots | download 21s, read 14s, stats 1s
+2026-11-17 22:53:01   45/599 done; about 6.4 hours left at this rate
+2026-11-17 22:53:40 2024-11-06: 0.71 GB zip, 10,817,149 rows, 1,274,223 kept, 818 slots | download 22s, read 15s, stats 2s
+2026-11-17 22:53:40   46/599 done; about 6.3 hours left at this rate
+2026-11-17 22:54:15 2024-11-07: 0.72 GB zip, 11,003,710 rows, 1,016,490 kept, 666 slots | download 19s, read 15s, stats 1s
+2026-11-17 22:54:15   47/599 done; about 6.3 hours left at this rate
+2026-11-17 22:54:52 2024-11-08: 0.70 GB zip, 10,770,518 rows, 915,973 kept, 619 slots | download 22s, read 15s, stats 1s
+2026-11-17 22:54:53   48/599 done; about 6.3 hours left at this rate
+2026-11-17 22:55:32 2024-11-09: 0.68 GB zip, 10,335,647 rows, 829,855 kept, 573 slots | download 25s, read 14s, stats 1s
+2026-11-17 22:55:32   49/599 done; about 6.3 hours left at this rate
+2026-11-17 22:56:08 2024-11-10: 0.72 GB zip, 11,050,458 rows, 850,330 kept, 548 slots | download 20s, read 15s, stats 1s
+2026-11-17 22:56:08   50/599 done; about 6.2 hours left at this rate
+2026-11-17 22:56:08   51/599 done; about 6.1 hours left at this rate
+2026-11-17 22:56:39 2024-11-12: 0.75 GB zip, 11,433,449 rows, 1,108,634 kept, 696 slots | download 14s, read 16s, stats 1s
+2026-11-17 22:56:39   52/599 done; about 6.1 hours left at this rate
+2026-11-17 22:57:25 2025-05-21: 1.74 GB zip, 28,119,288 rows, 5,442,491 kept, 1,436 slots | download 46s, read 59s, stats 12s
+2026-11-17 22:57:25   24/59 done; about 0.7 hours left at this rate
+2026-11-17 22:57:56 2024-11-14: 0.75 GB zip, 11,375,531 rows, 1,332,421 kept, 827 slots | download 23s, read 15s, stats 2s
+2026-11-17 22:57:57   54/599 done; about 6.0 hours left at this rate
+2026-11-17 22:58:32 2024-11-15: 0.75 GB zip, 11,420,423 rows, 1,220,238 kept, 756 slots | download 18s, read 15s, stats 2s
+2026-11-17 22:58:32   55/599 done; about 6.0 hours left at this rate
+2026-11-17 22:59:09 2024-11-16: 0.72 GB zip, 11,040,966 rows, 999,201 kept, 634 slots | download 21s, read 15s, stats 1s
+2026-11-17 22:59:09   56/599 done; about 6.0 hours left at this rate
+2026-11-17 22:59:47 2024-11-17: 0.73 GB zip, 11,132,316 rows, 1,114,377 kept, 703 slots | download 21s, read 15s, stats 1s
+2026-11-17 22:59:47   57/599 done; about 6.0 hours left at this rate
+2026-11-17 23:00:24 2024-11-18: 0.70 GB zip, 10,557,033 rows, 1,043,898 kept, 698 slots | download 22s, read 15s, stats 1s
+2026-11-17 23:00:24   58/599 done; about 6.0 hours left at this rate
+2026-11-17 23:01:15 2025-06-11: 1.64 GB zip, 26,945,788 rows, 7,046,371 kept, 1,945 slots | download 57s, read 57s, stats 17s
+2026-11-17 23:01:16   26/59 done; about 0.7 hours left at this rate
+2026-11-17 23:01:39 2024-11-20: 0.69 GB zip, 10,695,623 rows, 971,809 kept, 642 slots | download 21s, read 14s, stats 1s
+2026-11-17 23:01:40   60/599 done; about 5.9 hours left at this rate
+2026-11-17 23:01:40   61/599 done; about 5.8 hours left at this rate
+2026-11-17 23:02:19 2024-11-22: 0.72 GB zip, 10,922,208 rows, 1,042,374 kept, 665 slots | download 22s, read 15s, stats 1s
+2026-11-17 23:02:19   62/599 done; about 5.8 hours left at this rate
+2026-11-17 23:02:57 2024-11-23: 0.74 GB zip, 11,301,858 rows, 864,020 kept, 541 slots | download 21s, read 16s, stats 1s
+2026-11-17 23:02:57   63/599 done; about 5.8 hours left at this rate
+2026-11-17 23:03:40 2025-06-21: 1.84 GB zip, 30,912,282 rows, 7,647,060 kept, 1,840 slots | download 63s, read 63s, stats 18s
+2026-11-17 23:03:41   27/59 done; about 0.7 hours left at this rate
+2026-11-17 23:04:06 2024-11-25: 0.67 GB zip, 10,225,838 rows, 1,106,684 kept, 738 slots | download 17s, read 14s, stats 1s
+2026-11-17 23:04:07   65/599 done; about 5.8 hours left at this rate
+2026-11-17 23:04:37 2024-11-26: 0.58 GB zip, 9,013,294 rows, 1,077,417 kept, 813 slots | download 17s, read 12s, stats 1s
+2026-11-17 23:04:37   66/599 done; about 5.7 hours left at this rate
+2026-11-17 23:05:13 2024-11-27: 0.68 GB zip, 10,423,917 rows, 1,276,682 kept, 865 slots | download 19s, read 14s, stats 2s
+2026-11-17 23:05:13   67/599 done; about 5.7 hours left at this rate
+2026-11-17 23:05:54 2024-11-28: 0.69 GB zip, 10,685,657 rows, 1,091,385 kept, 701 slots | download 25s, read 15s, stats 1s
+2026-11-17 23:05:54   68/599 done; about 5.7 hours left at this rate
+2026-11-17 23:06:23 2024-11-29: 0.67 GB zip, 10,319,453 rows, 906,639 kept, 622 slots | download 14s, read 14s, stats 1s
+2026-11-17 23:06:23   69/599 done; about 5.7 hours left at this rate
+2026-11-17 23:06:59 2024-11-30: 0.70 GB zip, 10,600,388 rows, 922,967 kept, 606 slots | download 20s, read 14s, stats 1s
+2026-11-17 23:06:59   70/599 done; about 5.7 hours left at this rate
+2026-11-17 23:06:59   71/599 done; about 5.6 hours left at this rate
+2026-11-17 23:07:39 2024-12-02: 0.80 GB zip, 12,287,372 rows, 1,135,537 kept, 651 slots | download 22s, read 16s, stats 1s
+2026-11-17 23:07:39   72/599 done; about 5.6 hours left at this rate
+2026-11-17 23:08:25 2025-07-17: 1.75 GB zip, 28,625,117 rows, 7,615,116 kept, 2,018 slots | download 59s, read 59s, stats 17s
+2026-11-17 23:08:25   29/59 done; about 0.7 hours left at this rate
+2026-11-17 23:09:08 2024-12-04: 0.82 GB zip, 12,649,017 rows, 1,291,975 kept, 723 slots | download 26s, read 17s, stats 2s
+2026-11-17 23:09:09   74/599 done; about 5.6 hours left at this rate
+2026-11-17 23:09:50 2024-12-05: 0.83 GB zip, 12,781,921 rows, 1,410,735 kept, 773 slots | download 23s, read 17s, stats 2s
+2026-11-17 23:09:50   75/599 done; about 5.6 hours left at this rate
+2026-11-17 23:10:22 2024-12-06: 0.79 GB zip, 12,219,392 rows, 1,445,937 kept, 833 slots | download 13s, read 17s, stats 2s
+2026-11-17 23:10:22   76/599 done; about 5.5 hours left at this rate
+2026-11-17 23:10:53 2024-12-07: 0.77 GB zip, 11,812,692 rows, 1,031,483 kept, 626 slots | download 14s, read 16s, stats 1s
+2026-11-17 23:10:53   77/599 done; about 5.5 hours left at this rate
+2026-11-17 23:11:38 2024-12-08: 0.76 GB zip, 11,638,835 rows, 940,823 kept, 584 slots | download 28s, read 16s, stats 1s
+2026-11-17 23:11:38   78/599 done; about 5.5 hours left at this rate
+2026-11-17 23:12:25 2024-12-09: 0.83 GB zip, 12,709,622 rows, 1,528,572 kept, 849 slots | download 28s, read 17s, stats 2s
+2026-11-17 23:12:25   79/599 done; about 5.5 hours left at this rate
+2026-11-17 23:13:19 2025-08-06: 2.11 GB zip, 35,020,115 rows, 9,505,724 kept, 2,015 slots | download 58s, read 73s, stats 24s
+2026-11-17 23:13:20   31/59 done; about 0.7 hours left at this rate
+2026-11-17 23:13:53 2024-12-12: 0.84 GB zip, 12,723,815 rows, 1,089,625 kept, 602 slots | download 25s, read 18s, stats 1s
+2026-11-17 23:13:54   82/599 done; about 5.4 hours left at this rate
+2026-11-17 23:14:41 2024-12-13: 0.82 GB zip, 12,406,724 rows, 1,273,809 kept, 709 slots | download 29s, read 17s, stats 2s
+2026-11-17 23:14:41   83/599 done; about 5.4 hours left at this rate
+2026-11-17 23:15:24 2024-12-14: 0.76 GB zip, 11,539,553 rows, 972,132 kept, 606 slots | download 25s, read 16s, stats 1s
+2026-11-17 23:15:24   84/599 done; about 5.4 hours left at this rate
+2026-11-17 23:16:02 2024-12-15: 0.72 GB zip, 10,872,959 rows, 1,165,447 kept, 772 slots | download 22s, read 15s, stats 2s
+2026-11-17 23:16:02   85/599 done; about 5.4 hours left at this rate
+2026-11-17 23:16:45 2024-12-16: 0.76 GB zip, 11,543,597 rows, 1,206,065 kept, 717 slots | download 26s, read 16s, stats 2s
+2026-11-17 23:16:45   86/599 done; about 5.4 hours left at this rate
+2026-11-17 23:17:27 2024-12-17: 0.75 GB zip, 11,295,791 rows, 1,127,865 kept, 709 slots | download 24s, read 16s, stats 1s
+2026-11-17 23:17:27   87/599 done; about 5.4 hours left at this rate
+2026-11-17 23:18:04 2024-12-18: 0.72 GB zip, 10,793,871 rows, 1,014,145 kept, 656 slots | download 22s, read 15s, stats 1s
+2026-11-17 23:18:04   88/599 done; about 5.4 hours left at this rate
+2026-11-17 23:18:22 2025-08-26: 2.03 GB zip, 33,857,759 rows, 8,787,002 kept, 1,976 slots | download 53s, read 70s, stats 22s
+2026-11-17 23:18:22   33/59 done; about 0.7 hours left at this rate
+2026-11-17 23:18:50 2025-09-05: FAILED ConnectionResetError: [Errno 104] Connection reset by peer
+2026-11-17 23:19:24 2024-12-20: 0.75 GB zip, 11,283,459 rows, 1,120,698 kept, 684 slots | download 23s, read 16s, stats 2s
+2026-11-17 23:19:24   90/599 done; about 5.4 hours left at this rate
+2026-11-17 23:19:24   91/599 done; about 5.3 hours left at this rate
+2026-11-17 23:20:00 2024-12-22: 0.67 GB zip, 10,096,957 rows, 829,867 kept, 575 slots | download 21s, read 14s, stats 1s
+2026-11-17 23:20:00   92/599 done; about 5.3 hours left at this rate
+2026-11-17 23:20:38 2024-12-23: 0.69 GB zip, 10,482,394 rows, 987,011 kept, 659 slots | download 21s, read 15s, stats 1s
+2026-11-17 23:20:38   93/599 done; about 5.3 hours left at this rate
+2026-11-17 23:20:56 2025-09-15: 1.81 GB zip, 30,511,099 rows, 6,787,844 kept, 1,728 slots | download 47s, read 62s, stats 16s
+2026-11-17 23:20:56   35/59 done; about 0.6 hours left at this rate
+2026-11-17 23:21:17 2024-12-24: 0.70 GB zip, 10,650,023 rows, 879,399 kept, 587 slots | download 22s, read 15s, stats 1s
+2026-11-17 23:21:17   94/599 done; about 5.3 hours left at this rate
+2026-11-17 23:21:49 2024-12-25: 0.66 GB zip, 9,924,426 rows, 985,252 kept, 704 slots | download 17s, read 13s, stats 1s
+2026-11-17 23:21:49   95/599 done; about 5.3 hours left at this rate
+2026-11-17 23:22:36 2025-09-25: 1.46 GB zip, 23,874,474 rows, 4,843,652 kept, 1,567 slots | download 38s, read 49s, stats 12s
+2026-11-17 23:22:36   36/59 done; about 0.6 hours left at this rate
+2026-11-17 23:22:58 2024-12-27: 0.70 GB zip, 10,538,241 rows, 932,824 kept, 617 slots | download 17s, read 15s, stats 1s
+2026-11-17 23:22:59   97/599 done; about 5.2 hours left at this rate
+2026-11-17 23:23:24 2024-12-28: 0.65 GB zip, 9,846,741 rows, 909,519 kept, 645 slots | download 9s, read 14s, stats 1s
+2026-11-17 23:23:24   98/599 done; about 5.2 hours left at this rate
+2026-11-17 23:23:58 2024-12-29: 0.63 GB zip, 9,568,031 rows, 801,757 kept, 582 slots | download 20s, read 13s, stats 1s
+2026-11-17 23:23:58   99/599 done; about 5.2 hours left at this rate
+2026-11-17 23:24:32 2024-12-30: 0.66 GB zip, 10,058,030 rows, 860,008 kept, 604 slots | download 19s, read 14s, stats 1s
+2026-11-17 23:24:32   100/599 done; about 5.2 hours left at this rate
+2026-11-17 23:24:32   101/599 done; about 5.1 hours left at this rate
+2026-11-17 23:25:14 2025-10-15: 1.22 GB zip, 20,030,878 rows, 5,082,210 kept, 1,845 slots | download 31s, read 41s, stats 12s
+2026-11-17 23:25:14   38/59 done; about 0.5 hours left at this rate
+2026-11-17 23:25:37 2025-01-02: 0.67 GB zip, 10,043,318 rows, 1,027,992 kept, 744 slots | download 22s, read 14s, stats 1s
+2026-11-17 23:25:38   103/599 done; about 5.1 hours left at this rate
+2026-11-17 23:26:17 2025-01-03: 0.70 GB zip, 10,607,811 rows, 1,007,343 kept, 676 slots | download 22s, read 15s, stats 1s
+2026-11-17 23:26:17   104/599 done; about 5.1 hours left at this rate
+2026-11-17 23:26:58 2025-10-25: 1.53 GB zip, 25,628,016 rows, 4,610,664 kept, 1,378 slots | download 41s, read 53s, stats 10s
+2026-11-17 23:26:59   39/59 done; about 0.5 hours left at this rate
+2026-11-17 23:27:19 2025-01-05: 0.69 GB zip, 10,335,017 rows, 1,122,696 kept, 777 slots | download 20s, read 14s, stats 1s
+2026-11-17 23:27:20   106/599 done; about 5.1 hours left at this rate
+2026-11-17 23:27:56 2025-01-06: 0.73 GB zip, 10,944,650 rows, 1,229,252 kept, 789 slots | download 19s, read 15s, stats 2s
+2026-11-17 23:27:56   107/599 done; about 5.0 hours left at this rate
+2026-11-17 23:28:23 2025-01-07: 0.67 GB zip, 10,121,322 rows, 2,317,448 kept, 1,556 slots | download 10s, read 14s, stats 3s
+2026-11-17 23:28:23   108/599 done; about 5.0 hours left at this rate
+2026-11-17 23:29:17 2025-11-05: 2.12 GB zip, 35,566,359 rows, 6,776,298 kept, 1,501 slots | download 44s, read 73s, stats 21s
+2026-11-17 23:29:17   40/59 done; about 0.5 hours left at this rate
+2026-11-17 23:30:02 2025-01-09: 0.72 GB zip, 10,905,061 rows, 5,784,398 kept, 3,770 slots | download 27s, read 15s, stats 9s
+2026-11-17 23:30:03   110/599 done; about 5.0 hours left at this rate
+2026-11-17 23:30:03   111/599 done; about 5.0 hours left at this rate
+2026-11-17 23:30:42 2025-01-11: 0.65 GB zip, 9,932,837 rows, 5,268,032 kept, 3,785 slots | download 17s, read 14s, stats 9s
+2026-11-17 23:30:42   112/599 done; about 5.0 hours left at this rate
+2026-11-17 23:31:21 2025-01-12: 0.64 GB zip, 9,661,407 rows, 5,011,341 kept, 3,681 slots | download 17s, read 13s, stats 8s
+2026-11-17 23:31:21   113/599 done; about 5.0 hours left at this rate
+2026-11-17 23:32:04 2025-01-13: 0.74 GB zip, 11,163,504 rows, 5,828,061 kept, 3,695 slots | download 19s, read 15s, stats 9s
+2026-11-17 23:32:04   114/599 done; about 5.0 hours left at this rate
+2026-11-17 23:32:50 2025-01-14: 0.71 GB zip, 10,744,936 rows, 5,941,396 kept, 3,911 slots | download 22s, read 15s, stats 9s
+2026-11-17 23:32:50   115/599 done; about 5.0 hours left at this rate
+2026-11-17 23:33:43 2025-01-15: 0.77 GB zip, 11,752,491 rows, 6,667,941 kept, 4,033 slots | download 27s, read 16s, stats 11s
+2026-11-17 23:33:43   116/599 done; about 5.0 hours left at this rate
+2026-11-17 23:34:28 2025-11-25: 2.33 GB zip, 38,062,891 rows, 9,421,739 kept, 1,912 slots | download 46s, read 80s, stats 24s
+2026-11-17 23:34:29   42/59 done; about 0.5 hours left at this rate
+2026-11-17 23:35:12 2025-01-17: 0.80 GB zip, 12,273,579 rows, 6,455,478 kept, 3,730 slots | download 27s, read 17s, stats 10s
+2026-11-17 23:35:14   118/599 done; about 5.0 hours left at this rate
+2026-11-17 23:35:53 2025-12-10: 1.24 GB zip, 20,267,477 rows, 4,182,576 kept, 1,575 slots | download 33s, read 41s, stats 10s
+2026-11-17 23:35:54   43/59 done; about 0.4 hours left at this rate
+2026-11-17 23:36:12 2025-01-18: 0.80 GB zip, 12,308,902 rows, 6,488,148 kept, 3,765 slots | download 30s, read 17s, stats 11s
+2026-11-17 23:36:13   119/599 done; about 5.0 hours left at this rate
+2026-11-17 23:37:03 2025-01-19: 0.85 GB zip, 13,105,712 rows, 7,037,641 kept, 3,790 slots | download 21s, read 18s, stats 12s
+2026-11-17 23:37:03   120/599 done; about 5.0 hours left at this rate
+2026-11-17 23:37:03   121/599 done; about 4.9 hours left at this rate
+2026-11-17 23:37:27 2025-12-20: 1.27 GB zip, 20,856,392 rows, 6,181,344 kept, 2,358 slots | download 32s, read 45s, stats 16s
+2026-11-17 23:37:27   44/59 done; about 0.4 hours left at this rate
+2026-11-17 23:38:01 2025-01-21: 0.85 GB zip, 13,205,770 rows, 7,253,327 kept, 3,883 slots | download 26s, read 18s, stats 13s
+2026-11-17 23:38:01   122/599 done; about 4.9 hours left at this rate
+2026-11-17 23:38:48 2025-01-22: 0.79 GB zip, 12,116,343 rows, 5,802,848 kept, 3,429 slots | download 21s, read 16s, stats 9s
+2026-11-17 23:38:48   123/599 done; about 4.9 hours left at this rate
+2026-11-17 23:39:42 2025-01-23: 0.80 GB zip, 12,314,489 rows, 6,345,091 kept, 3,634 slots | download 27s, read 17s, stats 10s
+2026-11-17 23:39:42   124/599 done; about 5.0 hours left at this rate
+2026-11-17 23:40:38 2025-01-24: 0.82 GB zip, 12,678,383 rows, 6,694,392 kept, 3,725 slots | download 27s, read 18s, stats 11s
+2026-11-17 23:40:38   125/599 done; about 5.0 hours left at this rate
+2026-11-17 23:41:32 2025-01-25: 0.75 GB zip, 11,651,913 rows, 5,641,353 kept, 3,426 slots | download 30s, read 16s, stats 9s
+2026-11-17 23:41:32   126/599 done; about 5.0 hours left at this rate
+2026-11-17 23:42:08 2025-01-26: 0.74 GB zip, 11,454,369 rows, 5,675,914 kept, 3,522 slots | download 11s, read 16s, stats 9s
+2026-11-17 23:42:08   127/599 done; about 5.0 hours left at this rate
+2026-11-17 23:42:57 2025-01-27: 0.81 GB zip, 12,476,292 rows, 6,333,083 kept, 3,552 slots | download 22s, read 17s, stats 10s
+2026-11-17 23:42:57   128/599 done; about 5.0 hours left at this rate
+2026-11-17 23:43:47 2025-01-28: 0.77 GB zip, 11,968,409 rows, 6,340,814 kept, 3,756 slots | download 23s, read 16s, stats 10s
+2026-11-17 23:43:47   129/599 done; about 5.0 hours left at this rate
+2026-11-17 23:44:43 2026-01-30: 2.08 GB zip, 33,794,339 rows, 10,091,623 kept, 2,435 slots | download 54s, read 72s, stats 30s
+2026-11-17 23:44:44   48/59 done; about 0.3 hours left at this rate
+2026-11-17 23:45:37 2025-01-31: 0.91 GB zip, 14,135,770 rows, 7,093,987 kept, 3,548 slots | download 30s, read 19s, stats 12s
+2026-11-17 23:45:37   132/599 done; about 4.9 hours left at this rate
+2026-11-17 23:46:30 2025-02-01: 0.86 GB zip, 13,370,132 rows, 6,371,162 kept, 3,397 slots | download 24s, read 18s, stats 10s
+2026-11-17 23:46:30   133/599 done; about 4.9 hours left at this rate
+2026-11-17 23:46:56 2026-02-09: 1.86 GB zip, 30,283,015 rows, 7,752,030 kept, 2,206 slots | download 46s, read 64s, stats 23s
+2026-11-17 23:46:57   49/59 done; about 0.3 hours left at this rate
+2026-11-17 23:47:26 2025-02-02: 0.88 GB zip, 13,762,262 rows, 6,943,516 kept, 3,578 slots | download 27s, read 19s, stats 11s
+2026-11-17 23:47:28   134/599 done; about 4.9 hours left at this rate
+2026-11-17 23:48:30 2025-02-03: 0.97 GB zip, 15,069,925 rows, 7,706,166 kept, 3,637 slots | download 27s, read 21s, stats 13s
+2026-11-17 23:48:30   135/599 done; about 4.9 hours left at this rate
+2026-11-17 23:48:53 2026-02-19: 1.66 GB zip, 27,583,498 rows, 5,885,497 kept, 1,956 slots | download 43s, read 57s, stats 16s
+2026-11-17 23:48:53   50/59 done; about 0.2 hours left at this rate
+2026-11-17 23:49:26 2025-02-04: 0.93 GB zip, 14,404,951 rows, 7,228,196 kept, 3,543 slots | download 23s, read 20s, stats 13s
+2026-11-17 23:49:27   136/599 done; about 5.0 hours left at this rate
+2026-11-17 23:50:12 2025-02-05: 0.86 GB zip, 13,327,444 rows, 6,699,765 kept, 3,573 slots | download 17s, read 18s, stats 11s
+2026-11-17 23:50:12   137/599 done; about 5.0 hours left at this rate
+2026-11-17 23:50:36 2026-03-01: 1.36 GB zip, 22,203,944 rows, 5,903,346 kept, 2,089 slots | download 38s, read 48s, stats 16s
+2026-11-17 23:50:36   51/59 done; about 0.2 hours left at this rate
+2026-11-17 23:50:55 2025-02-06: 0.83 GB zip, 12,761,043 rows, 6,513,350 kept, 3,627 slots | download 15s, read 17s, stats 10s
+2026-11-17 23:50:57   138/599 done; about 4.9 hours left at this rate
+2026-11-17 23:51:44 2025-02-07: 0.78 GB zip, 12,060,564 rows, 6,159,959 kept, 3,614 slots | download 22s, read 16s, stats 10s
+2026-11-17 23:51:44   139/599 done; about 4.9 hours left at this rate
+2026-11-17 23:52:34 2025-02-08: 0.76 GB zip, 11,674,232 rows, 5,891,451 kept, 3,549 slots | download 24s, read 16s, stats 10s
+2026-11-17 23:52:34   140/599 done; about 4.9 hours left at this rate
+2026-11-17 23:52:34   141/599 done; about 4.9 hours left at this rate
+2026-11-17 23:53:24 2025-02-10: 0.80 GB zip, 12,350,183 rows, 6,243,323 kept, 3,571 slots | download 23s, read 17s, stats 10s
+2026-11-17 23:53:24   142/599 done; about 4.9 hours left at this rate
+2026-11-17 23:54:07 2025-02-11: 0.82 GB zip, 12,693,140 rows, 6,417,679 kept, 3,609 slots | download 15s, read 17s, stats 10s
+2026-11-17 23:54:07   143/599 done; about 4.9 hours left at this rate
+2026-11-17 23:54:47 2025-02-12: 0.80 GB zip, 12,340,204 rows, 6,010,842 kept, 3,490 slots | download 14s, read 17s, stats 10s
+2026-11-17 23:54:47   144/599 done; about 4.9 hours left at this rate
+2026-11-17 23:55:43 2026-03-31: 1.52 GB zip, 24,740,987 rows, 5,064,250 kept, 1,575 slots | download 40s, read 54s, stats 15s
+2026-11-17 23:55:43   54/59 done; about 0.1 hours left at this rate
+2026-11-17 23:56:22 2025-02-14: 0.78 GB zip, 12,070,407 rows, 6,451,693 kept, 3,787 slots | download 17s, read 17s, stats 10s
+2026-11-17 23:56:23   146/599 done; about 4.9 hours left at this rate
+2026-11-17 23:57:07 2026-04-10: 1.20 GB zip, 19,056,399 rows, 5,004,458 kept, 1,998 slots | download 28s, read 41s, stats 14s
+2026-11-17 23:57:07   55/59 done; about 0.1 hours left at this rate
+2026-11-17 23:57:40 2025-02-16: 0.70 GB zip, 10,849,620 rows, 5,557,614 kept, 3,656 slots | download 21s, read 15s, stats 9s
+2026-11-17 23:57:41   148/599 done; about 4.9 hours left at this rate
+2026-11-17 23:58:29 2025-02-17: 0.81 GB zip, 12,586,441 rows, 6,412,812 kept, 3,635 slots | download 22s, read 17s, stats 10s
+2026-11-17 23:58:30   149/599 done; about 4.9 hours left at this rate
+2026-11-17 23:58:47 2026-04-20: 1.43 GB zip, 22,818,964 rows, 5,329,193 kept, 1,772 slots | download 36s, read 49s, stats 15s
+2026-11-17 23:58:48   56/59 done; about 0.1 hours left at this rate
+2026-11-17 23:59:18 2025-02-18: 0.82 GB zip, 12,768,318 rows, 6,191,063 kept, 3,474 slots | download 22s, read 17s, stats 9s
+2026-11-17 23:59:19   150/599 done; about 4.9 hours left at this rate
+2026-11-17 23:59:19   151/599 done; about 4.8 hours left at this rate
+2026-11-18 00:00:13 2026-04-30: 1.16 GB zip, 18,323,731 rows, 5,466,722 kept, 2,276 slots | download 31s, read 39s, stats 15s
+2026-11-18 00:00:13   57/59 done; about 0.1 hours left at this rate
+2026-11-18 00:01:02 2025-02-21: 0.98 GB zip, 15,230,573 rows, 7,079,128 kept, 3,413 slots | download 25s, read 22s, stats 13s
+2026-11-18 00:01:03   153/599 done; about 4.8 hours left at this rate
+2026-11-18 00:02:02 2025-02-22: 0.92 GB zip, 14,314,561 rows, 6,525,370 kept, 3,326 slots | download 29s, read 20s, stats 11s
+2026-11-18 00:02:02   154/599 done; about 4.8 hours left at this rate
+2026-11-18 00:02:56 2026-05-13: 1.71 GB zip, 27,025,454 rows, 18,910,831 kept, 5,020 slots | download 41s, read 59s, stats 63s
+2026-11-18 00:02:56   58/59 done; about 0.0 hours left at this rate
+2026-11-18 00:03:50 2025-02-24: 0.96 GB zip, 14,890,770 rows, 7,122,572 kept, 3,490 slots | download 24s, read 21s, stats 15s
+2026-11-18 00:03:50   156/599 done; about 4.8 hours left at this rate
+2026-11-18 00:05:10 2025-02-25: 1.03 GB zip, 16,017,677 rows, 7,396,425 kept, 3,364 slots | download 38s, read 26s, stats 16s
+2026-11-18 00:05:10   157/599 done; about 4.8 hours left at this rate
+2026-11-18 00:05:35 2026-05-23: 1.57 GB zip, 25,395,218 rows, 16,665,540 kept, 4,727 slots | download 50s, read 56s, stats 53s
+2026-11-18 00:05:36   59/59 done; about 0.0 hours left at this rate
+2026-11-18 00:05:36 TIMING: 58 day(s), average 1.7 minutes per day
+2026-11-18 00:05:41 days 199; slots 345,366; winning block found in the file: 99.2%; winning bid time: median 958 ms
+2026-11-18 00:05:41 bids per slot: median 1833; keys bidding: median 63; operators bidding: median 29; operators with a bid before the winning bid: median 29
+2026-11-18 00:05:41 BY OPERATOR
+2026-11-18 00:05:41   margin over best lower bid, any arrival time   : median 0.057%  p10 0.000%  p90 0.888%  (n=345,364)
+2026-11-18 00:05:41   margin over best lower bid, arrived earlier    : median 0.284%  p10 0.006%  p90 3.524%  (n=342,549)
+2026-11-18 00:05:41   margin over best STANDING bid at winning time  : median 0.232%  p10 -1.698%  p90 3.958%  (n=342,550)
+2026-11-18 00:05:41   same, just before the winning key bid again    : median 0.085%  p10 -3.114%  p90 3.375%  (n=332,909)
+2026-11-18 00:05:41   time from the winning bid to the same key's next bid: median 48 ms, p90 266 ms; the key never bid again in 2.8% of slots
+2026-11-18 00:05:41   another operator's standing bid was higher just before that next bid: 35.6% of slots
+2026-11-18 00:05:41   another operator had a higher standing bid when the winning bid arrived: 23.3% of slots; no other operator had bid yet: 0.0%
+2026-11-18 00:05:41   other operators with a standing bid within 1% of the winner: median 1, mean 1.28
+2026-11-18 00:05:41   another operator had bid above the winning value earlier (standing or not): 28.6% of slots
+2026-11-18 00:05:41 BY KEY (for comparison)
+2026-11-18 00:05:42   margin over best lower bid, any arrival time   : median 0.001%  p10 0.000%  p90 0.118%  (n=345,364)
+2026-11-18 00:05:42   margin over best lower bid, arrived earlier    : median 0.019%  p10 0.000%  p90 1.070%  (n=342,550)
+2026-11-18 00:05:42   margin over best STANDING bid at winning time  : median 0.001%  p10 -1.993%  p90 1.149%  (n=342,550)
+2026-11-18 00:06:15 2025-02-26: 0.96 GB zip, 14,868,370 rows, 6,615,597 kept, 3,277 slots | download 29s, read 22s, stats 13s
+2026-11-18 00:06:15   158/599 done; about 4.8 hours left at this rate
+2026-11-18 00:07:28 2025-02-27: 1.09 GB zip, 16,987,951 rows, 7,209,431 kept, 3,132 slots | download 33s, read 26s, stats 14s
+2026-11-18 00:07:28   159/599 done; about 4.9 hours left at this rate
+2026-11-18 00:08:32 2025-02-28: 1.17 GB zip, 18,302,511 rows, 8,352,179 kept, 3,381 slots | download 23s, read 27s, stats 15s
+2026-11-18 00:08:32   160/599 done; about 4.9 hours left at this rate
+2026-11-18 00:08:32   161/599 done; about 4.8 hours left at this rate
+2026-11-18 00:09:43 2025-03-02: 1.12 GB zip, 17,489,674 rows, 7,933,764 kept, 3,344 slots | download 33s, read 24s, stats 14s
+2026-11-18 00:09:43   162/599 done; about 4.8 hours left at this rate
+2026-11-18 00:10:56 2025-03-03: 1.22 GB zip, 19,066,128 rows, 8,668,614 kept, 3,328 slots | download 32s, read 26s, stats 15s
+2026-11-18 00:10:56   163/599 done; about 4.9 hours left at this rate
+2026-11-18 00:12:16 2025-03-04: 1.29 GB zip, 20,299,253 rows, 8,977,543 kept, 3,229 slots | download 37s, read 28s, stats 15s
+2026-11-18 00:12:16   164/599 done; about 4.9 hours left at this rate
+2026-11-18 00:13:31 2025-03-05: 1.50 GB zip, 23,890,469 rows, 10,431,205 kept, 3,204 slots | download 27s, read 32s, stats 16s
+2026-11-18 00:13:31   165/599 done; about 4.9 hours left at this rate
+2026-11-18 00:15:11 2025-03-06: 1.61 GB zip, 25,495,591 rows, 10,895,348 kept, 3,169 slots | download 46s, read 34s, stats 20s
+2026-11-18 00:15:11   166/599 done; about 4.9 hours left at this rate
+2026-11-18 00:16:41 2025-03-07: 1.58 GB zip, 25,091,890 rows, 11,776,037 kept, 3,425 slots | download 33s, read 36s, stats 21s
+2026-11-18 00:16:41   167/599 done; about 4.9 hours left at this rate
+2026-11-18 00:18:15 2025-03-08: 1.49 GB zip, 23,795,641 rows, 10,834,175 kept, 3,320 slots | download 41s, read 33s, stats 20s
+2026-11-18 00:18:15   168/599 done; about 5.0 hours left at this rate
+2026-11-18 00:19:41 2025-03-09: 1.34 GB zip, 21,151,593 rows, 9,603,579 kept, 3,295 slots | download 39s, read 30s, stats 17s
+2026-11-18 00:19:41   169/599 done; about 5.0 hours left at this rate
+2026-11-18 00:20:52 2025-03-10: 1.39 GB zip, 21,920,567 rows, 10,337,325 kept, 3,427 slots | download 21s, read 31s, stats 18s
+2026-11-18 00:20:52   170/599 done; about 5.0 hours left at this rate
+2026-11-18 00:20:52   171/599 done; about 5.0 hours left at this rate
+2026-11-18 00:22:26 2025-03-12: 1.42 GB zip, 22,293,023 rows, 9,753,838 kept, 3,223 slots | download 46s, read 31s, stats 17s
+2026-11-18 00:22:26   172/599 done; about 5.0 hours left at this rate
+2026-11-18 00:24:01 2025-03-13: 1.44 GB zip, 22,866,272 rows, 10,487,285 kept, 3,353 slots | download 44s, read 32s, stats 19s
+2026-11-18 00:24:01   173/599 done; about 5.0 hours left at this rate
+2026-11-18 00:25:34 2025-03-14: 1.42 GB zip, 22,551,878 rows, 9,793,317 kept, 3,237 slots | download 43s, read 31s, stats 18s
+2026-11-18 00:25:34   174/599 done; about 5.0 hours left at this rate
+2026-11-18 00:27:07 2025-03-15: 1.40 GB zip, 22,214,491 rows, 9,845,344 kept, 3,299 slots | download 44s, read 31s, stats 19s
+2026-11-18 00:27:08   175/599 done; about 5.1 hours left at this rate
+2026-11-18 00:28:36 2025-03-16: 1.38 GB zip, 21,981,267 rows, 9,700,930 kept, 3,259 slots | download 40s, read 30s, stats 18s
+2026-11-18 00:28:36   176/599 done; about 5.1 hours left at this rate
+2026-11-18 00:30:11 2025-03-17: 1.45 GB zip, 22,957,928 rows, 9,783,257 kept, 3,186 slots | download 46s, read 32s, stats 18s
+2026-11-18 00:30:11   177/599 done; about 5.1 hours left at this rate
+2026-11-18 00:31:42 2025-03-18: 1.46 GB zip, 23,257,784 rows, 8,668,587 kept, 2,813 slots | download 44s, read 32s, stats 15s
+2026-11-18 00:31:42   178/599 done; about 5.1 hours left at this rate
+2026-11-18 00:33:16 2025-03-19: 1.49 GB zip, 23,685,581 rows, 8,372,358 kept, 2,668 slots | download 48s, read 32s, stats 15s
+2026-11-18 00:33:16   179/599 done; about 5.1 hours left at this rate
+2026-11-18 00:34:57 2025-03-20: 1.53 GB zip, 24,319,855 rows, 9,986,955 kept, 3,091 slots | download 49s, read 34s, stats 17s
+2026-11-18 00:34:57   180/599 done; about 5.2 hours left at this rate
+2026-11-18 00:34:57   181/599 done; about 5.1 hours left at this rate
+2026-11-18 00:36:15 2025-03-22: 1.32 GB zip, 20,894,474 rows, 8,686,520 kept, 3,110 slots | download 35s, read 29s, stats 15s
+2026-11-18 00:36:15   182/599 done; about 5.1 hours left at this rate
+2026-11-18 00:37:32 2025-03-23: 1.30 GB zip, 20,719,785 rows, 9,000,096 kept, 3,241 slots | download 11s, read 48s, stats 18s
+2026-11-18 00:37:32   183/599 done; about 5.1 hours left at this rate
+2026-11-18 00:39:17 2025-03-24: 1.47 GB zip, 23,298,501 rows, 10,442,432 kept, 3,329 slots | download 52s, read 33s, stats 20s
+2026-11-18 00:39:17   184/599 done; about 5.2 hours left at this rate
+2026-11-18 00:40:52 2025-03-25: 1.44 GB zip, 22,864,830 rows, 9,982,535 kept, 3,280 slots | download 45s, read 31s, stats 19s
+2026-11-18 00:40:52   185/599 done; about 5.2 hours left at this rate
+2026-11-18 00:42:25 2025-03-26: 1.47 GB zip, 23,472,527 rows, 10,249,298 kept, 3,232 slots | download 41s, read 32s, stats 19s
+2026-11-18 00:42:25   186/599 done; about 5.2 hours left at this rate
+2026-11-18 00:43:55 2025-03-27: 1.51 GB zip, 24,017,859 rows, 9,283,007 kept, 2,912 slots | download 41s, read 33s, stats 16s
+2026-11-18 00:43:55   187/599 done; about 5.2 hours left at this rate
+2026-11-18 00:45:26 2025-03-28: 1.39 GB zip, 22,152,335 rows, 7,382,661 kept, 2,516 slots | download 45s, read 31s, stats 14s
+2026-11-18 00:45:26   188/599 done; about 5.2 hours left at this rate
+2026-11-18 00:46:39 2025-03-29: 1.33 GB zip, 21,201,397 rows, 8,844,546 kept, 3,061 slots | download 26s, read 29s, stats 17s
+2026-11-18 00:46:39   189/599 done; about 5.2 hours left at this rate
+2026-11-18 00:48:33 2025-03-30: 1.31 GB zip, 20,951,643 rows, 9,144,889 kept, 3,202 slots | download 38s, read 55s, stats 22s
+2026-11-18 00:48:33   190/599 done; about 5.3 hours left at this rate
+2026-11-18 00:48:34   191/599 done; about 5.2 hours left at this rate
+2026-11-18 00:50:20 2025-04-01: 1.63 GB zip, 26,200,290 rows, 10,606,719 kept, 2,993 slots | download 49s, read 37s, stats 20s
+2026-11-18 00:50:20   192/599 done; about 5.2 hours left at this rate
+2026-11-18 00:52:03 2025-04-02: 1.61 GB zip, 25,684,714 rows, 10,898,137 kept, 3,119 slots | download 46s, read 36s, stats 21s
+2026-11-18 00:52:03   193/599 done; about 5.3 hours left at this rate
+2026-11-18 00:53:45 2025-04-03: 1.60 GB zip, 25,540,188 rows, 11,299,001 kept, 3,205 slots | download 46s, read 35s, stats 21s
+2026-11-18 00:53:45   194/599 done; about 5.3 hours left at this rate
+2026-11-18 00:55:31 2025-04-04: 1.66 GB zip, 26,554,078 rows, 11,559,577 kept, 3,217 slots | download 47s, read 37s, stats 23s
+2026-11-18 00:55:31   195/599 done; about 5.3 hours left at this rate
+2026-11-18 00:56:57 2025-04-05: 1.53 GB zip, 24,509,505 rows, 10,720,437 kept, 3,218 slots | download 31s, read 35s, stats 20s
+2026-11-18 00:56:57   196/599 done; about 5.3 hours left at this rate
+2026-11-18 00:58:39 2025-04-06: 1.56 GB zip, 24,977,704 rows, 10,873,441 kept, 3,225 slots | download 46s, read 35s, stats 21s
+2026-11-18 00:58:39   197/599 done; about 5.3 hours left at this rate
+2026-11-18 01:00:31 2025-04-07: 1.68 GB zip, 26,673,771 rows, 12,020,949 kept, 3,328 slots | download 50s, read 38s, stats 24s
+2026-11-18 01:00:31   198/599 done; about 5.4 hours left at this rate
+2026-11-18 01:02:28 2025-04-08: 1.73 GB zip, 27,506,829 rows, 12,204,626 kept, 3,264 slots | download 54s, read 39s, stats 24s
+2026-11-18 01:02:28   199/599 done; about 5.4 hours left at this rate
+2026-11-18 01:04:31 2025-04-09: 1.76 GB zip, 28,032,075 rows, 12,406,809 kept, 3,191 slots | download 61s, read 39s, stats 23s
+2026-11-18 01:04:31   200/599 done; about 5.4 hours left at this rate
+2026-11-18 01:04:31   201/599 done; about 5.4 hours left at this rate
+2026-11-18 01:06:24 2025-04-11: 1.72 GB zip, 27,394,438 rows, 11,830,633 kept, 3,163 slots | download 52s, read 39s, stats 22s
+2026-11-18 01:06:24   202/599 done; about 5.4 hours left at this rate
+2026-11-18 01:07:58 2025-04-12: 1.48 GB zip, 23,873,453 rows, 10,400,861 kept, 3,219 slots | download 41s, read 33s, stats 20s
+2026-11-18 01:07:58   203/599 done; about 5.4 hours left at this rate
+2026-11-18 01:09:30 2025-04-13: 1.38 GB zip, 22,195,204 rows, 9,762,958 kept, 3,289 slots | download 40s, read 31s, stats 22s
+2026-11-18 01:09:30   204/599 done; about 5.4 hours left at this rate
+2026-11-18 01:11:07 2025-04-14: 1.54 GB zip, 24,649,732 rows, 10,265,490 kept, 3,121 slots | download 40s, read 36s, stats 21s
+2026-11-18 01:11:07   205/599 done; about 5.4 hours left at this rate
+2026-11-18 01:12:34 2025-04-15: 1.56 GB zip, 24,643,873 rows, 10,353,135 kept, 3,083 slots | download 32s, read 34s, stats 21s
+2026-11-18 01:12:34   206/599 done; about 5.4 hours left at this rate
+2026-11-18 01:14:21 2025-04-16: 1.68 GB zip, 26,573,366 rows, 10,758,564 kept, 3,025 slots | download 48s, read 37s, stats 21s
+2026-11-18 01:14:21   207/599 done; about 5.4 hours left at this rate
+2026-11-18 01:16:08 2025-04-17: 1.63 GB zip, 25,802,451 rows, 10,687,441 kept, 3,076 slots | download 49s, read 37s, stats 21s
+2026-11-18 01:16:08   208/599 done; about 5.5 hours left at this rate
+2026-11-18 01:17:53 2025-04-18: 1.55 GB zip, 24,724,544 rows, 10,228,651 kept, 3,057 slots | download 49s, read 36s, stats 20s
+2026-11-18 01:17:53   209/599 done; about 5.5 hours left at this rate
+2026-11-18 01:19:25 2025-04-19: 1.43 GB zip, 22,841,197 rows, 9,719,690 kept, 3,120 slots | download 42s, read 31s, stats 19s
+2026-11-18 01:19:25   210/599 done; about 5.5 hours left at this rate
+2026-11-18 01:19:25   211/599 done; about 5.4 hours left at this rate
+2026-11-18 01:21:25 2025-04-21: 1.49 GB zip, 23,751,127 rows, 10,211,224 kept, 3,150 slots | download 46s, read 33s, stats 40s
+2026-11-18 01:21:25   212/599 done; about 5.5 hours left at this rate
+2026-11-18 01:23:13 2025-04-22: 1.58 GB zip, 25,092,610 rows, 10,576,585 kept, 3,109 slots | download 50s, read 36s, stats 22s
+2026-11-18 01:23:13   213/599 done; about 5.5 hours left at this rate
+2026-11-18 01:24:59 2025-04-23: 1.59 GB zip, 25,322,326 rows, 10,357,670 kept, 3,046 slots | download 50s, read 37s, stats 20s
+2026-11-18 01:24:59   214/599 done; about 5.5 hours left at this rate
+2026-11-18 01:26:39 2025-04-24: 1.53 GB zip, 24,280,451 rows, 10,057,619 kept, 3,073 slots | download 45s, read 35s, stats 20s
+2026-11-18 01:26:39   215/599 done; about 5.5 hours left at this rate
+2026-11-18 01:28:05 2025-04-25: 1.59 GB zip, 25,302,019 rows, 10,036,155 kept, 2,924 slots | download 30s, read 36s, stats 20s
+2026-11-18 01:28:05   216/599 done; about 5.5 hours left at this rate
+2026-11-18 01:29:26 2025-04-26: 1.54 GB zip, 24,560,111 rows, 9,753,783 kept, 2,893 slots | download 27s, read 34s, stats 20s
+2026-11-18 01:29:26   217/599 done; about 5.5 hours left at this rate
+2026-11-18 01:31:04 2025-04-27: 1.47 GB zip, 23,474,706 rows, 8,922,469 kept, 2,799 slots | download 45s, read 34s, stats 18s
+2026-11-18 01:31:04   218/599 done; about 5.5 hours left at this rate
+2026-11-18 01:32:44 2025-04-28: 1.53 GB zip, 24,272,409 rows, 9,608,166 kept, 2,898 slots | download 44s, read 36s, stats 21s
+2026-11-18 01:32:44   219/599 done; about 5.5 hours left at this rate
+2026-11-18 01:34:31 2025-04-29: 1.56 GB zip, 24,941,521 rows, 9,431,548 kept, 2,808 slots | download 49s, read 38s, stats 20s
+2026-11-18 01:34:31   220/599 done; about 5.5 hours left at this rate
+2026-11-18 01:34:31   221/599 done; about 5.5 hours left at this rate
+2026-11-18 01:36:06 2025-05-01: 1.50 GB zip, 23,968,889 rows, 7,225,795 kept, 2,210 slots | download 46s, read 34s, stats 15s
+2026-11-18 01:36:06   222/599 done; about 5.5 hours left at this rate
+2026-11-18 01:37:24 2025-05-02: 1.61 GB zip, 25,697,028 rows, 6,624,992 kept, 1,939 slots | download 31s, read 35s, stats 12s
+2026-11-18 01:37:24   223/599 done; about 5.5 hours left at this rate
+2026-11-18 01:38:56 2025-05-03: 1.56 GB zip, 25,131,576 rows, 5,861,213 kept, 1,759 slots | download 48s, read 34s, stats 10s
+2026-11-18 01:38:56   224/599 done; about 5.5 hours left at this rate
+2026-11-18 01:40:27 2025-05-04: 1.52 GB zip, 24,437,263 rows, 5,706,020 kept, 1,749 slots | download 48s, read 34s, stats 10s
+2026-11-18 01:40:27   225/599 done; about 5.5 hours left at this rate
+2026-11-18 01:42:01 2025-05-05: 1.60 GB zip, 25,684,815 rows, 5,523,231 kept, 1,641 slots | download 49s, read 35s, stats 10s
+2026-11-18 01:42:01   226/599 done; about 5.5 hours left at this rate
+2026-11-18 01:43:39 2025-05-06: 1.63 GB zip, 26,202,708 rows, 6,080,560 kept, 1,738 slots | download 50s, read 37s, stats 12s
+2026-11-18 01:43:39   227/599 done; about 5.5 hours left at this rate
+2026-11-18 01:45:06 2025-05-07: 1.48 GB zip, 24,070,482 rows, 4,897,577 kept, 1,489 slots | download 43s, read 34s, stats 9s
+2026-11-18 01:45:06   228/599 done; about 5.5 hours left at this rate
+2026-11-18 01:46:21 2025-05-09: 1.53 GB zip, 24,585,713 rows, 5,248,375 kept, 1,573 slots | download 31s, read 36s, stats 10s
+2026-11-18 01:46:21   229/599 done; about 5.5 hours left at this rate
+2026-11-18 01:47:34 2025-05-10: 1.55 GB zip, 25,048,288 rows, 5,195,624 kept, 1,556 slots | download 28s, read 35s, stats 9s
+2026-11-18 01:47:34   230/599 done; about 5.5 hours left at this rate
+2026-11-18 01:47:34   231/599 done; about 5.5 hours left at this rate
+2026-11-18 01:49:13 2025-05-12: 1.67 GB zip, 26,906,899 rows, 5,387,932 kept, 1,494 slots | download 49s, read 39s, stats 12s
+2026-11-18 01:49:13   232/599 done; about 5.5 hours left at this rate
+2026-11-18 01:50:41 2025-05-13: 1.76 GB zip, 28,448,605 rows, 5,549,979 kept, 1,466 slots | download 38s, read 40s, stats 10s
+2026-11-18 01:50:41   233/599 done; about 5.5 hours left at this rate
+2026-11-18 01:52:12 2025-05-14: 1.81 GB zip, 29,438,134 rows, 6,257,213 kept, 1,610 slots | download 38s, read 42s, stats 11s
+2026-11-18 01:52:12   234/599 done; about 5.5 hours left at this rate
+2026-11-18 01:53:56 2025-05-15: 1.76 GB zip, 28,494,593 rows, 5,235,329 kept, 1,385 slots | download 54s, read 40s, stats 9s
+2026-11-18 01:53:56   235/599 done; about 5.5 hours left at this rate
+2026-11-18 01:55:26 2025-05-16: 1.66 GB zip, 26,845,129 rows, 5,103,476 kept, 1,427 slots | download 35s, read 46s, stats 9s
+2026-11-18 01:55:26   236/599 done; about 5.5 hours left at this rate
+2026-11-18 01:56:57 2025-05-17: 1.58 GB zip, 25,621,406 rows, 5,004,367 kept, 1,486 slots | download 46s, read 36s, stats 9s
+2026-11-18 01:56:57   237/599 done; about 5.5 hours left at this rate
+2026-11-18 01:58:35 2025-05-18: 1.63 GB zip, 26,435,726 rows, 5,569,796 kept, 1,562 slots | download 51s, read 37s, stats 10s
+2026-11-18 01:58:35   238/599 done; about 5.5 hours left at this rate
+2026-11-18 02:00:17 2025-05-19: 1.78 GB zip, 28,904,170 rows, 5,938,322 kept, 1,511 slots | download 50s, read 41s, stats 10s
+2026-11-18 02:00:17   239/599 done; about 5.5 hours left at this rate
+2026-11-18 02:01:47 2025-05-20: 1.80 GB zip, 29,152,592 rows, 5,765,010 kept, 1,463 slots | download 40s, read 41s, stats 10s
+2026-11-18 02:01:47   240/599 done; about 5.5 hours left at this rate
+2026-11-18 02:01:47   241/599 done; about 5.4 hours left at this rate
+2026-11-18 02:03:29 2025-05-22: 1.65 GB zip, 26,696,029 rows, 5,210,256 kept, 1,439 slots | download 53s, read 39s, stats 9s
+2026-11-18 02:03:29   242/599 done; about 5.4 hours left at this rate
+2026-11-18 02:05:00 2025-05-23: 1.44 GB zip, 23,304,778 rows, 5,237,331 kept, 1,625 slots | download 48s, read 33s, stats 10s
+2026-11-18 02:05:00   243/599 done; about 5.4 hours left at this rate
+2026-11-18 02:06:18 2025-05-24: 1.35 GB zip, 21,944,100 rows, 4,872,658 kept, 1,630 slots | download 38s, read 31s, stats 9s
+2026-11-18 02:06:18   244/599 done; about 5.4 hours left at this rate
+2026-11-18 02:07:41 2025-05-25: 1.39 GB zip, 22,406,890 rows, 4,827,763 kept, 1,630 slots | download 40s, read 34s, stats 9s
+2026-11-18 02:07:41   245/599 done; about 5.4 hours left at this rate
+2026-11-18 02:09:02 2025-05-26: 1.38 GB zip, 22,322,359 rows, 4,781,728 kept, 1,580 slots | download 40s, read 33s, stats 9s
+2026-11-18 02:09:02   246/599 done; about 5.4 hours left at this rate
+2026-11-18 02:10:13 2025-05-27: 1.43 GB zip, 23,110,163 rows, 4,981,314 kept, 1,600 slots | download 29s, read 33s, stats 9s
+2026-11-18 02:10:13   247/599 done; about 5.4 hours left at this rate
+2026-11-18 02:11:36 2025-05-28: 1.51 GB zip, 24,302,293 rows, 5,302,073 kept, 1,628 slots | download 40s, read 33s, stats 10s
+2026-11-18 02:11:36   248/599 done; about 5.4 hours left at this rate
+2026-11-18 02:13:04 2025-05-29: 1.41 GB zip, 22,510,515 rows, 5,309,706 kept, 1,718 slots | download 47s, read 31s, stats 9s
+2026-11-18 02:13:04   249/599 done; about 5.4 hours left at this rate
+2026-11-18 02:14:26 2025-05-30: 1.38 GB zip, 22,077,566 rows, 5,095,753 kept, 1,690 slots | download 41s, read 32s, stats 10s
+2026-11-18 02:14:26   250/599 done; about 5.4 hours left at this rate
+2026-11-18 02:14:26   251/599 done; about 5.4 hours left at this rate
+2026-11-18 02:15:47 2025-06-01: 1.43 GB zip, 23,167,305 rows, 5,705,506 kept, 1,807 slots | download 38s, read 32s, stats 10s
+2026-11-18 02:15:47   252/599 done; about 5.4 hours left at this rate
+2026-11-18 02:17:12 2025-06-03: 1.52 GB zip, 24,695,073 rows, 5,933,819 kept, 1,797 slots | download 40s, read 35s, stats 11s
+2026-11-18 02:17:12   253/599 done; about 5.4 hours left at this rate
+2026-11-18 02:18:53 2025-06-04: 1.63 GB zip, 26,521,272 rows, 7,158,631 kept, 1,968 slots | download 46s, read 39s, stats 15s
+2026-11-18 02:18:53   254/599 done; about 5.4 hours left at this rate
+2026-11-18 02:20:42 2025-06-05: 1.76 GB zip, 28,526,554 rows, 7,874,180 kept, 2,016 slots | download 52s, read 41s, stats 16s
+2026-11-18 02:20:42   255/599 done; about 5.4 hours left at this rate
+2026-11-18 02:22:06 2025-06-06: 1.66 GB zip, 26,990,482 rows, 7,440,780 kept, 2,003 slots | download 32s, read 38s, stats 15s
+2026-11-18 02:22:06   256/599 done; about 5.4 hours left at this rate
+2026-11-18 02:23:50 2025-06-07: 1.61 GB zip, 26,230,191 rows, 7,052,481 kept, 2,000 slots | download 53s, read 37s, stats 14s
+2026-11-18 02:23:50   257/599 done; about 5.4 hours left at this rate
+2026-11-18 02:25:26 2025-06-08: 1.65 GB zip, 26,839,401 rows, 6,628,741 kept, 1,834 slots | download 47s, read 37s, stats 12s
+2026-11-18 02:25:26   258/599 done; about 5.4 hours left at this rate
+2026-11-18 02:27:02 2025-06-09: 1.69 GB zip, 27,620,927 rows, 7,431,417 kept, 1,982 slots | download 43s, read 38s, stats 14s
+2026-11-18 02:27:02   259/599 done; about 5.4 hours left at this rate
+2026-11-18 02:28:31 2025-06-10: 1.72 GB zip, 28,118,731 rows, 7,467,009 kept, 1,967 slots | download 34s, read 39s, stats 15s
+2026-11-18 02:28:31   260/599 done; about 5.4 hours left at this rate
+2026-11-18 02:28:31   261/599 done; about 5.3 hours left at this rate
+2026-11-18 02:30:17 2025-06-12: 1.76 GB zip, 29,203,904 rows, 7,503,944 kept, 1,940 slots | download 47s, read 41s, stats 18s
+2026-11-18 02:30:17   262/599 done; about 5.3 hours left at this rate
+2026-11-18 02:32:09 2025-06-13: 1.76 GB zip, 29,080,437 rows, 7,776,170 kept, 1,975 slots | download 55s, read 41s, stats 16s
+2026-11-18 02:32:09   263/599 done; about 5.3 hours left at this rate
+2026-11-18 02:33:56 2025-06-14: 1.65 GB zip, 27,472,042 rows, 7,540,324 kept, 2,039 slots | download 53s, read 38s, stats 16s
+2026-11-18 02:33:56   264/599 done; about 5.3 hours left at this rate
+2026-11-18 02:35:36 2025-06-15: 1.63 GB zip, 27,220,027 rows, 7,666,574 kept, 2,098 slots | download 48s, read 38s, stats 15s
+2026-11-18 02:35:36   265/599 done; about 5.3 hours left at this rate
+2026-11-18 02:37:24 2025-06-16: 1.78 GB zip, 29,556,966 rows, 7,329,155 kept, 1,860 slots | download 48s, read 44s, stats 16s
+2026-11-18 02:37:24   266/599 done; about 5.3 hours left at this rate
+2026-11-18 02:38:53 2025-06-17: 1.50 GB zip, 24,999,304 rows, 5,724,093 kept, 1,580 slots | download 41s, read 38s, stats 11s
+2026-11-18 02:38:53   267/599 done; about 5.3 hours left at this rate
+2026-11-18 02:40:51 2025-06-18: 1.80 GB zip, 30,239,502 rows, 8,214,777 kept, 1,999 slots | download 59s, read 42s, stats 17s
+2026-11-18 02:40:51   268/599 done; about 5.3 hours left at this rate
+2026-11-18 02:42:41 2025-06-19: 1.82 GB zip, 30,556,296 rows, 8,350,041 kept, 2,032 slots | download 49s, read 44s, stats 17s
+2026-11-18 02:42:41   269/599 done; about 5.3 hours left at this rate
+2026-11-18 02:44:33 2025-06-20: 1.82 GB zip, 30,349,742 rows, 7,919,604 kept, 1,930 slots | download 49s, read 45s, stats 18s
+2026-11-18 02:44:33   270/599 done; about 5.3 hours left at this rate
+2026-11-18 02:44:33   271/599 done; about 5.3 hours left at this rate
+2026-11-18 02:46:33 2025-06-22: 1.89 GB zip, 31,634,346 rows, 8,191,424 kept, 1,930 slots | download 58s, read 45s, stats 16s
+2026-11-18 02:46:33   272/599 done; about 5.3 hours left at this rate
+2026-11-18 02:48:33 2025-06-23: 1.85 GB zip, 30,809,501 rows, 8,227,161 kept, 1,968 slots | download 60s, read 44s, stats 16s
+2026-11-18 02:48:33   273/599 done; about 5.3 hours left at this rate
+2026-11-18 02:50:17 2025-06-24: 1.81 GB zip, 30,185,152 rows, 7,593,603 kept, 1,872 slots | download 47s, read 42s, stats 15s
+2026-11-18 02:50:17   274/599 done; about 5.3 hours left at this rate
+2026-11-18 02:52:41 2025-06-25: 1.90 GB zip, 31,920,636 rows, 7,769,058 kept, 1,830 slots | download 56s, read 71s, stats 17s
+2026-11-18 02:52:41   275/599 done; about 5.3 hours left at this rate
+2026-11-18 02:54:25 2025-06-26: 1.86 GB zip, 31,173,085 rows, 7,778,598 kept, 1,801 slots | download 46s, read 44s, stats 15s
+2026-11-18 02:54:25   276/599 done; about 5.3 hours left at this rate
+2026-11-18 02:56:09 2025-06-27: 1.79 GB zip, 29,917,375 rows, 8,246,282 kept, 1,985 slots | download 45s, read 42s, stats 16s
+2026-11-18 02:56:09   277/599 done; about 5.3 hours left at this rate
+2026-11-18 02:57:52 2025-06-28: 1.79 GB zip, 30,068,927 rows, 8,073,638 kept, 1,915 slots | download 46s, read 42s, stats 16s
+2026-11-18 02:57:52   278/599 done; about 5.3 hours left at this rate
+2026-11-18 02:59:33 2025-06-29: 1.71 GB zip, 28,544,538 rows, 7,984,881 kept, 2,009 slots | download 45s, read 41s, stats 16s
+2026-11-18 02:59:33   279/599 done; about 5.3 hours left at this rate
+2026-11-18 03:01:36 2025-06-30: 1.84 GB zip, 30,607,913 rows, 8,042,979 kept, 1,940 slots | download 61s, read 45s, stats 16s
+2026-11-18 03:01:36   280/599 done; about 5.3 hours left at this rate
+2026-11-18 03:01:36   281/599 done; about 5.3 hours left at this rate
+2026-11-18 03:03:35 2025-07-02: 2.00 GB zip, 33,291,488 rows, 6,911,690 kept, 1,680 slots | download 57s, read 47s, stats 15s
+2026-11-18 03:03:35   282/599 done; about 5.3 hours left at this rate
+2026-11-18 03:05:45 2025-07-03: 1.96 GB zip, 32,589,118 rows, 6,744,135 kept, 1,666 slots | download 62s, read 52s, stats 15s
+2026-11-18 03:05:45   283/599 done; about 5.3 hours left at this rate
+2026-11-18 03:07:46 2025-07-04: 1.89 GB zip, 31,319,504 rows, 7,096,108 kept, 1,828 slots | download 60s, read 46s, stats 15s
+2026-11-18 03:07:46   284/599 done; about 5.3 hours left at this rate
+2026-11-18 03:09:30 2025-07-05: 1.66 GB zip, 27,388,811 rows, 7,172,947 kept, 2,032 slots | download 51s, read 38s, stats 14s
+2026-11-18 03:09:30   285/599 done; about 5.3 hours left at this rate
+2026-11-18 03:11:11 2025-07-06: 1.60 GB zip, 26,483,518 rows, 6,713,259 kept, 1,956 slots | download 51s, read 37s, stats 13s
+2026-11-18 03:11:11   286/599 done; about 5.3 hours left at this rate
+2026-11-18 03:12:55 2025-07-07: 1.66 GB zip, 27,371,467 rows, 5,898,973 kept, 1,708 slots | download 55s, read 38s, stats 11s
+2026-11-18 03:12:55   287/599 done; about 5.3 hours left at this rate
+2026-11-18 03:15:09 2025-07-08: 1.64 GB zip, 27,192,096 rows, 6,364,401 kept, 1,782 slots | download 51s, read 51s, stats 32s
+2026-11-18 03:15:09   288/599 done; about 5.3 hours left at this rate
+2026-11-18 03:16:51 2025-07-09: 1.61 GB zip, 26,591,501 rows, 7,328,504 kept, 2,067 slots | download 49s, read 38s, stats 15s
+2026-11-18 03:16:51   289/599 done; about 5.3 hours left at this rate
+2026-11-18 03:18:42 2025-07-16: 1.72 GB zip, 28,155,553 rows, 7,531,208 kept, 2,029 slots | download 56s, read 39s, stats 15s
+2026-11-18 03:18:42   290/599 done; about 5.3 hours left at this rate
+2026-11-18 03:18:42   291/599 done; about 5.2 hours left at this rate
+2026-11-18 03:20:33 2025-07-18: 1.88 GB zip, 30,798,705 rows, 7,793,221 kept, 1,877 slots | download 55s, read 42s, stats 13s
+2026-11-18 03:20:33   292/599 done; about 5.2 hours left at this rate
+2026-11-18 03:22:02 2025-07-19: 1.84 GB zip, 30,341,100 rows, 8,056,513 kept, 1,943 slots | download 33s, read 43s, stats 14s
+2026-11-18 03:22:02   293/599 done; about 5.2 hours left at this rate
+2026-11-18 03:23:51 2025-07-20: 1.83 GB zip, 30,210,106 rows, 7,800,725 kept, 1,900 slots | download 55s, read 42s, stats 13s
+2026-11-18 03:23:51   294/599 done; about 5.2 hours left at this rate
+2026-11-18 03:25:43 2025-07-21: 1.84 GB zip, 30,342,009 rows, 7,657,322 kept, 1,849 slots | download 53s, read 42s, stats 17s
+2026-11-18 03:25:43   295/599 done; about 5.2 hours left at this rate
+2026-11-18 03:27:16 2025-07-22: 1.83 GB zip, 30,056,606 rows, 7,619,925 kept, 1,872 slots | download 36s, read 44s, stats 14s
+2026-11-18 03:27:16   296/599 done; about 5.2 hours left at this rate
+2026-11-18 03:29:04 2025-07-23: 1.85 GB zip, 30,528,774 rows, 7,529,386 kept, 1,827 slots | download 50s, read 44s, stats 13s
+2026-11-18 03:29:04   297/599 done; about 5.2 hours left at this rate
+2026-11-18 03:30:48 2025-07-24: 1.85 GB zip, 30,694,767 rows, 7,687,613 kept, 1,888 slots | download 48s, read 43s, stats 13s
+2026-11-18 03:30:48   298/599 done; about 5.2 hours left at this rate
+2026-11-18 03:32:28 2025-07-25: 1.78 GB zip, 29,419,785 rows, 7,275,750 kept, 1,869 slots | download 46s, read 41s, stats 13s
+2026-11-18 03:32:28   299/599 done; about 5.2 hours left at this rate
+2026-11-18 03:34:10 2025-07-26: 1.68 GB zip, 27,939,791 rows, 7,434,472 kept, 1,939 slots | download 50s, read 39s, stats 13s
+2026-11-18 03:34:10   300/599 done; about 5.2 hours left at this rate
+2026-11-18 03:34:10   301/599 done; about 5.2 hours left at this rate
+2026-11-18 03:36:04 2025-07-28: 1.93 GB zip, 31,725,637 rows, 7,770,107 kept, 1,871 slots | download 57s, read 44s, stats 14s
+2026-11-18 03:36:04   302/599 done; about 5.2 hours left at this rate
+2026-11-18 03:37:45 2025-07-29: 1.99 GB zip, 32,745,461 rows, 7,211,857 kept, 1,720 slots | download 40s, read 48s, stats 13s
+2026-11-18 03:37:45   303/599 done; about 5.1 hours left at this rate
+2026-11-18 03:39:48 2025-07-30: 1.98 GB zip, 32,659,929 rows, 7,899,870 kept, 1,840 slots | download 65s, read 45s, stats 13s
+2026-11-18 03:39:48   304/599 done; about 5.1 hours left at this rate
+2026-11-18 03:41:46 2025-07-31: 1.96 GB zip, 32,392,650 rows, 8,792,974 kept, 2,057 slots | download 58s, read 44s, stats 15s
+2026-11-18 03:41:46   305/599 done; about 5.1 hours left at this rate
+2026-11-18 03:43:46 2025-08-01: 2.02 GB zip, 33,025,399 rows, 9,264,972 kept, 2,112 slots | download 58s, read 46s, stats 16s
+2026-11-18 03:43:46   306/599 done; about 5.1 hours left at this rate
+2026-11-18 03:45:38 2025-08-02: 1.98 GB zip, 32,384,413 rows, 9,589,837 kept, 2,214 slots | download 51s, read 45s, stats 16s
+2026-11-18 03:45:38   307/599 done; about 5.1 hours left at this rate
+2026-11-18 03:47:38 2025-08-03: 1.97 GB zip, 32,567,602 rows, 9,029,950 kept, 2,096 slots | download 56s, read 45s, stats 19s
+2026-11-18 03:47:38   308/599 done; about 5.1 hours left at this rate
+2026-11-18 03:49:44 2025-08-04: 2.12 GB zip, 34,927,293 rows, 9,657,301 kept, 2,070 slots | download 61s, read 49s, stats 17s
+2026-11-18 03:49:44   309/599 done; about 5.1 hours left at this rate
+2026-11-18 03:51:53 2025-08-05: 2.14 GB zip, 35,390,807 rows, 9,879,152 kept, 2,074 slots | download 59s, read 50s, stats 20s
+2026-11-18 03:51:53   310/599 done; about 5.1 hours left at this rate
+2026-11-18 03:51:53   311/599 done; about 5.1 hours left at this rate
+2026-11-18 03:54:11 2025-08-07: 2.14 GB zip, 35,551,846 rows, 10,473,503 kept, 2,157 slots | download 67s, read 49s, stats 21s
+2026-11-18 03:54:11   312/599 done; about 5.1 hours left at this rate
+2026-11-18 03:56:28 2025-08-08: 2.15 GB zip, 35,550,835 rows, 10,259,042 kept, 2,093 slots | download 70s, read 48s, stats 20s
+2026-11-18 03:56:28   313/599 done; about 5.1 hours left at this rate
+2026-11-18 03:59:20 2025-08-09: 2.00 GB zip, 33,129,960 rows, 8,289,673 kept, 1,800 slots | download 74s, read 72s, stats 26s
+2026-11-18 03:59:20   314/599 done; about 5.1 hours left at this rate
+2026-11-18 04:01:34 2025-08-10: 1.92 GB zip, 31,817,680 rows, 7,582,221 kept, 1,681 slots | download 73s, read 46s, stats 15s
+2026-11-18 04:01:34   315/599 done; about 5.1 hours left at this rate
+2026-11-18 04:04:08 2025-08-11: 2.16 GB zip, 35,752,674 rows, 9,260,839 kept, 1,893 slots | download 84s, read 50s, stats 19s
+2026-11-18 04:04:08   316/599 done; about 5.1 hours left at this rate
+2026-11-18 04:06:44 2025-08-12: 2.16 GB zip, 35,659,508 rows, 9,189,387 kept, 1,933 slots | download 81s, read 55s, stats 19s
+2026-11-18 04:06:44   317/599 done; about 5.1 hours left at this rate
+2026-11-18 04:09:36 2025-08-13: 2.22 GB zip, 36,463,692 rows, 8,798,264 kept, 1,841 slots | download 79s, read 55s, stats 37s
+2026-11-18 04:09:36   318/599 done; about 5.1 hours left at this rate
+2026-11-18 04:12:09 2025-08-14: 2.19 GB zip, 36,106,474 rows, 8,334,869 kept, 1,782 slots | download 84s, read 51s, stats 17s
+2026-11-18 04:12:09   319/599 done; about 5.1 hours left at this rate
+2026-11-18 04:14:37 2025-08-15: 2.23 GB zip, 36,948,164 rows, 8,835,104 kept, 1,860 slots | download 78s, read 52s, stats 19s
+2026-11-18 04:14:37   320/599 done; about 5.1 hours left at this rate
+2026-11-18 04:14:37   321/599 done; about 5.1 hours left at this rate
+2026-11-18 04:17:08 2025-08-17: 2.20 GB zip, 36,492,432 rows, 9,248,511 kept, 1,930 slots | download 81s, read 51s, stats 19s
+2026-11-18 04:17:08   322/599 done; about 5.1 hours left at this rate
+2026-11-18 04:19:32 2025-08-18: 2.24 GB zip, 36,758,125 rows, 8,690,019 kept, 1,804 slots | download 74s, read 52s, stats 19s
+2026-11-18 04:19:32   323/599 done; about 5.1 hours left at this rate
+2026-11-18 04:21:56 2025-08-19: 2.26 GB zip, 37,405,520 rows, 8,814,162 kept, 1,783 slots | download 70s, read 54s, stats 19s
+2026-11-18 04:21:56   324/599 done; about 5.1 hours left at this rate
+2026-11-18 04:24:23 2025-08-20: 2.20 GB zip, 36,610,729 rows, 9,180,446 kept, 1,906 slots | download 76s, read 51s, stats 19s
+2026-11-18 04:24:23   325/599 done; about 5.1 hours left at this rate
+2026-11-18 04:26:45 2025-08-21: 2.24 GB zip, 37,566,635 rows, 9,003,032 kept, 1,843 slots | download 69s, read 54s, stats 19s
+2026-11-18 04:26:45   326/599 done; about 5.1 hours left at this rate
+2026-11-18 04:29:03 2025-08-22: 2.20 GB zip, 36,661,408 rows, 6,424,015 kept, 1,356 slots | download 65s, read 59s, stats 15s
+2026-11-18 04:29:03   327/599 done; about 5.1 hours left at this rate
+2026-11-18 04:32:03 2025-08-23: 2.04 GB zip, 34,038,695 rows, 9,372,342 kept, 2,103 slots | download 63s, read 87s, stats 30s
+2026-11-18 04:32:03   328/599 done; about 5.1 hours left at this rate
+2026-11-18 04:34:05 2025-08-24: 2.04 GB zip, 33,985,388 rows, 9,485,159 kept, 2,126 slots | download 53s, read 49s, stats 20s
+2026-11-18 04:34:05   329/599 done; about 5.1 hours left at this rate
+2026-11-18 04:36:20 2025-08-25: 2.08 GB zip, 34,544,642 rows, 9,321,632 kept, 2,042 slots | download 61s, read 53s, stats 21s
+2026-11-18 04:36:20   330/599 done; about 5.1 hours left at this rate
+2026-11-18 04:36:20   331/599 done; about 5.1 hours left at this rate
+2026-11-18 04:38:22 2025-08-27: 1.85 GB zip, 31,034,033 rows, 7,895,826 kept, 1,927 slots | download 60s, read 45s, stats 16s
+2026-11-18 04:38:22   332/599 done; about 5.0 hours left at this rate
+2026-11-18 04:40:19 2025-08-28: 1.87 GB zip, 31,454,548 rows, 7,857,749 kept, 1,904 slots | download 56s, read 45s, stats 16s
+2026-11-18 04:40:19   333/599 done; about 5.0 hours left at this rate
+2026-11-18 04:42:01 2025-08-29: 1.94 GB zip, 32,201,304 rows, 8,498,001 kept, 1,943 slots | download 33s, read 46s, stats 23s
+2026-11-18 04:42:01   334/599 done; about 5.0 hours left at this rate
+2026-11-18 04:43:53 2025-08-30: 1.73 GB zip, 29,068,072 rows, 8,310,763 kept, 2,080 slots | download 50s, read 43s, stats 19s
+2026-11-18 04:43:53   335/599 done; about 5.0 hours left at this rate
+2026-11-18 04:45:42 2025-08-31: 1.68 GB zip, 28,220,656 rows, 7,804,310 kept, 2,046 slots | download 52s, read 41s, stats 15s
+2026-11-18 04:45:42   336/599 done; about 5.0 hours left at this rate
+2026-11-18 04:47:40 2025-09-01: 1.88 GB zip, 31,429,333 rows, 8,058,602 kept, 1,891 slots | download 56s, read 45s, stats 17s
+2026-11-18 04:47:40   337/599 done; about 5.0 hours left at this rate
+2026-11-18 04:49:06 2025-09-02: 1.41 GB zip, 23,560,748 rows, 5,340,383 kept, 1,543 slots | download 43s, read 33s, stats 10s
+2026-11-18 04:49:06   338/599 done; about 5.0 hours left at this rate
+2026-11-18 04:51:02 2025-09-03: 1.94 GB zip, 32,606,511 rows, 8,184,726 kept, 1,867 slots | download 53s, read 46s, stats 17s
+2026-11-18 04:51:02   339/599 done; about 5.0 hours left at this rate
+2026-11-18 04:53:15 2025-09-04: 2.10 GB zip, 35,243,531 rows, 8,313,769 kept, 1,746 slots | download 61s, read 49s, stats 23s
+2026-11-18 04:53:15   340/599 done; about 5.0 hours left at this rate
+2026-11-18 04:54:54 2025-09-05: 2.11 GB zip, 35,432,034 rows, 8,299,614 kept, 1,744 slots | download 29s, read 51s, stats 19s
+2026-11-18 04:54:54   341/599 done; about 5.0 hours left at this rate
+2026-11-18 04:56:57 2025-09-06: 1.97 GB zip, 33,221,070 rows, 8,405,955 kept, 1,871 slots | download 59s, read 47s, stats 18s
+2026-11-18 04:56:57   342/599 done; about 5.0 hours left at this rate
+2026-11-18 04:58:41 2025-09-07: 1.77 GB zip, 29,774,693 rows, 7,453,252 kept, 1,841 slots | download 49s, read 41s, stats 14s
+2026-11-18 04:58:41   343/599 done; about 4.9 hours left at this rate
+2026-11-18 05:00:54 2025-09-08: 2.17 GB zip, 36,433,384 rows, 8,651,317 kept, 1,776 slots | download 62s, read 52s, stats 19s
+2026-11-18 05:00:54   344/599 done; about 4.9 hours left at this rate
+2026-11-18 05:03:02 2025-09-09: 2.19 GB zip, 36,693,756 rows, 8,636,991 kept, 1,747 slots | download 60s, read 51s, stats 17s
+2026-11-18 05:03:02   345/599 done; about 4.9 hours left at this rate
+2026-11-18 05:05:29 2025-09-10: 2.36 GB zip, 39,694,597 rows, 8,662,309 kept, 1,703 slots | download 69s, read 58s, stats 19s
+2026-11-18 05:05:29   346/599 done; about 4.9 hours left at this rate
+2026-11-18 05:07:46 2025-09-11: 2.09 GB zip, 35,211,935 rows, 8,846,134 kept, 1,850 slots | download 68s, read 51s, stats 19s
+2026-11-18 05:07:46   347/599 done; about 4.9 hours left at this rate
+2026-11-18 05:09:49 2025-09-12: 2.04 GB zip, 34,339,930 rows, 8,130,280 kept, 1,778 slots | download 58s, read 48s, stats 17s
+2026-11-18 05:09:49   348/599 done; about 4.9 hours left at this rate
+2026-11-18 05:12:01 2025-09-13: 1.92 GB zip, 32,350,959 rows, 7,938,599 kept, 1,851 slots | download 68s, read 46s, stats 17s
+2026-11-18 05:12:01   349/599 done; about 4.9 hours left at this rate
+2026-11-18 05:13:58 2025-09-14: 1.84 GB zip, 30,855,619 rows, 7,608,278 kept, 1,850 slots | download 61s, read 44s, stats 13s
+2026-11-18 05:13:58   350/599 done; about 4.9 hours left at this rate
+2026-11-18 05:13:58   351/599 done; about 4.9 hours left at this rate
+2026-11-18 05:15:41 2025-09-16: 1.60 GB zip, 26,957,309 rows, 4,849,993 kept, 1,349 slots | download 53s, read 40s, stats 10s
+2026-11-18 05:15:41   352/599 done; about 4.8 hours left at this rate
+2026-11-18 05:17:19 2025-09-17: 1.46 GB zip, 24,680,899 rows, 4,220,323 kept, 1,336 slots | download 53s, read 37s, stats 8s
+2026-11-18 05:17:19   353/599 done; about 4.8 hours left at this rate
+2026-11-18 05:19:01 2025-09-18: 1.54 GB zip, 25,904,116 rows, 4,740,238 kept, 1,330 slots | download 55s, read 37s, stats 10s
+2026-11-18 05:19:01   354/599 done; about 4.8 hours left at this rate
+2026-11-18 05:20:39 2025-09-19: 1.47 GB zip, 24,898,899 rows, 4,356,840 kept, 1,298 slots | download 55s, read 35s, stats 8s
+2026-11-18 05:20:39   355/599 done; about 4.8 hours left at this rate
+2026-11-18 05:22:02 2025-09-20: 1.29 GB zip, 21,765,775 rows, 3,948,211 kept, 1,310 slots | download 45s, read 31s, stats 7s
+2026-11-18 05:22:02   356/599 done; about 4.8 hours left at this rate
+2026-11-18 05:22:59 2025-09-21: 1.21 GB zip, 20,221,848 rows, 3,653,179 kept, 1,337 slots | download 21s, read 29s, stats 6s
+2026-11-18 05:22:59   357/599 done; about 4.8 hours left at this rate
+2026-11-18 05:24:31 2025-09-22: 1.43 GB zip, 23,912,685 rows, 4,360,103 kept, 1,358 slots | download 49s, read 34s, stats 10s
+2026-11-18 05:24:31   358/599 done; about 4.7 hours left at this rate
+2026-11-18 05:25:58 2025-09-23: 1.40 GB zip, 23,471,099 rows, 4,157,839 kept, 1,305 slots | download 46s, read 34s, stats 7s
+2026-11-18 05:25:58   359/599 done; about 4.7 hours left at this rate
+2026-11-18 05:27:27 2025-09-24: 1.36 GB zip, 22,605,386 rows, 4,497,911 kept, 1,540 slots | download 47s, read 33s, stats 9s
+2026-11-18 05:27:27   360/599 done; about 4.7 hours left at this rate
+2026-11-18 05:27:27   361/599 done; about 4.7 hours left at this rate
+2026-11-18 05:29:02 2025-09-26: 1.53 GB zip, 25,263,958 rows, 4,982,566 kept, 1,527 slots | download 50s, read 36s, stats 10s
+2026-11-18 05:29:02   362/599 done; about 4.7 hours left at this rate
+2026-11-18 05:30:24 2025-09-27: 1.36 GB zip, 22,006,112 rows, 4,469,882 kept, 1,575 slots | download 42s, read 32s, stats 8s
+2026-11-18 05:30:24   363/599 done; about 4.6 hours left at this rate
+2026-11-18 05:31:48 2025-09-28: 1.38 GB zip, 22,396,159 rows, 4,434,258 kept, 1,578 slots | download 43s, read 33s, stats 9s
+2026-11-18 05:31:48   364/599 done; about 4.6 hours left at this rate
+2026-11-18 05:33:15 2025-09-29: 1.42 GB zip, 22,877,782 rows, 3,939,571 kept, 1,378 slots | download 48s, read 32s, stats 7s
+2026-11-18 05:33:15   365/599 done; about 4.6 hours left at this rate
+2026-11-18 05:34:46 2025-09-30: 1.43 GB zip, 23,151,360 rows, 4,234,442 kept, 1,425 slots | download 49s, read 33s, stats 9s
+2026-11-18 05:34:46   366/599 done; about 4.6 hours left at this rate
+2026-11-18 05:36:13 2025-10-01: 1.40 GB zip, 22,462,744 rows, 4,342,832 kept, 1,453 slots | download 45s, read 34s, stats 9s
+2026-11-18 05:36:13   367/599 done; about 4.6 hours left at this rate
+2026-11-18 05:37:24 2025-10-02: 1.52 GB zip, 24,698,920 rows, 5,246,147 kept, 1,618 slots | download 25s, read 36s, stats 11s
+2026-11-18 05:37:24   368/599 done; about 4.6 hours left at this rate
+2026-11-18 05:38:50 2025-10-03: 1.40 GB zip, 22,734,507 rows, 5,353,574 kept, 1,783 slots | download 43s, read 32s, stats 10s
+2026-11-18 05:38:50   369/599 done; about 4.5 hours left at this rate
+2026-11-18 05:40:04 2025-10-04: 1.22 GB zip, 19,839,985 rows, 4,350,856 kept, 1,696 slots | download 38s, read 29s, stats 8s
+2026-11-18 05:40:04   370/599 done; about 4.5 hours left at this rate
+2026-11-18 05:40:04   371/599 done; about 4.5 hours left at this rate
+2026-11-18 05:41:15 2025-10-06: 1.25 GB zip, 20,355,970 rows, 4,146,699 kept, 1,605 slots | download 34s, read 29s, stats 8s
+2026-11-18 05:41:15   372/599 done; about 4.5 hours left at this rate
+2026-11-18 05:42:28 2025-10-07: 1.26 GB zip, 20,316,145 rows, 4,253,629 kept, 1,635 slots | download 36s, read 29s, stats 8s
+2026-11-18 05:42:28   373/599 done; about 4.5 hours left at this rate
+2026-11-18 05:43:42 2025-10-08: 1.27 GB zip, 20,483,920 rows, 4,040,505 kept, 1,581 slots | download 37s, read 29s, stats 7s
+2026-11-18 05:43:42   374/599 done; about 4.4 hours left at this rate
+2026-11-18 05:44:51 2025-10-09: 1.19 GB zip, 19,290,396 rows, 4,623,551 kept, 1,776 slots | download 31s, read 29s, stats 9s
+2026-11-18 05:44:51   375/599 done; about 4.4 hours left at this rate
+2026-11-18 05:46:06 2025-10-10: 1.26 GB zip, 20,730,004 rows, 5,218,480 kept, 1,821 slots | download 36s, read 29s, stats 11s
+2026-11-18 05:46:06   376/599 done; about 4.4 hours left at this rate
+2026-11-18 05:47:26 2025-10-11: 1.36 GB zip, 22,510,487 rows, 5,424,144 kept, 1,749 slots | download 38s, read 32s, stats 10s
+2026-11-18 05:47:26   377/599 done; about 4.4 hours left at this rate
+2026-11-18 05:48:38 2025-10-12: 1.24 GB zip, 20,361,887 rows, 5,163,007 kept, 1,819 slots | download 33s, read 28s, stats 10s
+2026-11-18 05:48:38   378/599 done; about 4.4 hours left at this rate
+2026-11-18 05:49:56 2025-10-13: 1.31 GB zip, 21,578,648 rows, 5,568,722 kept, 1,846 slots | download 38s, read 29s, stats 11s
+2026-11-18 05:49:56   379/599 done; about 4.3 hours left at this rate
+2026-11-18 05:51:10 2025-10-14: 1.22 GB zip, 20,017,008 rows, 5,049,999 kept, 1,839 slots | download 35s, read 30s, stats 10s
+2026-11-18 05:51:10   380/599 done; about 4.3 hours left at this rate
+2026-11-18 05:51:10   381/599 done; about 4.3 hours left at this rate
+2026-11-18 05:52:28 2025-10-16: 1.30 GB zip, 21,437,074 rows, 6,150,977 kept, 2,025 slots | download 36s, read 30s, stats 12s
+2026-11-18 05:52:28   382/599 done; about 4.3 hours left at this rate
+2026-11-18 05:53:54 2025-10-17: 1.38 GB zip, 22,723,337 rows, 6,314,099 kept, 1,974 slots | download 42s, read 32s, stats 12s
+2026-11-18 05:53:54   383/599 done; about 4.3 hours left at this rate
+2026-11-18 05:54:59 2025-10-18: 1.11 GB zip, 18,215,212 rows, 5,658,060 kept, 2,218 slots | download 29s, read 25s, stats 11s
+2026-11-18 05:54:59   384/599 done; about 4.2 hours left at this rate
+2026-11-18 05:56:12 2025-10-19: 1.25 GB zip, 20,658,842 rows, 5,716,431 kept, 2,042 slots | download 33s, read 28s, stats 11s
+2026-11-18 05:56:12   385/599 done; about 4.2 hours left at this rate
+2026-11-18 05:57:44 2025-10-20: 1.70 GB zip, 28,320,882 rows, 6,042,550 kept, 1,576 slots | download 41s, read 39s, stats 12s
+2026-11-18 05:57:44   386/599 done; about 4.2 hours left at this rate
+2026-11-18 05:59:24 2025-10-21: 1.72 GB zip, 28,441,919 rows, 5,922,088 kept, 1,586 slots | download 50s, read 39s, stats 11s
+2026-11-18 05:59:24   387/599 done; about 4.2 hours left at this rate
+2026-11-18 06:00:47 2025-10-22: 1.70 GB zip, 28,316,870 rows, 5,473,460 kept, 1,475 slots | download 31s, read 41s, stats 12s
+2026-11-18 06:00:47   388/599 done; about 4.2 hours left at this rate
+2026-11-18 06:02:22 2025-10-23: 1.61 GB zip, 27,043,759 rows, 4,838,332 kept, 1,414 slots | download 46s, read 39s, stats 9s
+2026-11-18 06:02:22   389/599 done; about 4.1 hours left at this rate
+2026-11-18 06:03:54 2025-10-24: 1.70 GB zip, 28,430,963 rows, 4,677,025 kept, 1,289 slots | download 43s, read 40s, stats 9s
+2026-11-18 06:03:54   390/599 done; about 4.1 hours left at this rate
+2026-11-18 06:03:54   391/599 done; about 4.1 hours left at this rate
+2026-11-18 06:05:13 2025-10-26: 1.50 GB zip, 25,037,909 rows, 4,400,255 kept, 1,353 slots | download 36s, read 35s, stats 8s
+2026-11-18 06:05:13   392/599 done; about 4.1 hours left at this rate
+2026-11-18 06:06:46 2025-10-27: 1.66 GB zip, 27,643,400 rows, 5,097,172 kept, 1,430 slots | download 45s, read 38s, stats 10s
+2026-11-18 06:06:46   393/599 done; about 4.1 hours left at this rate
+2026-11-18 06:08:20 2025-10-29: 1.76 GB zip, 29,442,133 rows, 5,184,890 kept, 1,348 slots | download 44s, read 41s, stats 10s
+2026-11-18 06:08:20   394/599 done; about 4.0 hours left at this rate
+2026-11-18 06:09:56 2025-10-30: 1.78 GB zip, 29,516,609 rows, 4,921,368 kept, 1,275 slots | download 46s, read 41s, stats 9s
+2026-11-18 06:09:56   395/599 done; about 4.0 hours left at this rate
+2026-11-18 06:11:30 2025-10-31: 1.76 GB zip, 29,257,626 rows, 5,221,266 kept, 1,405 slots | download 44s, read 40s, stats 9s
+2026-11-18 06:11:30   396/599 done; about 4.0 hours left at this rate
+2026-11-18 06:13:06 2025-11-01: 1.73 GB zip, 29,100,171 rows, 4,600,945 kept, 1,284 slots | download 47s, read 41s, stats 8s
+2026-11-18 06:13:06   397/599 done; about 4.0 hours left at this rate
+2026-11-18 06:14:43 2025-11-02: 1.72 GB zip, 28,991,690 rows, 5,058,726 kept, 1,371 slots | download 47s, read 40s, stats 9s
+2026-11-18 06:14:43   398/599 done; about 4.0 hours left at this rate
+2026-11-18 06:16:31 2025-11-03: 1.91 GB zip, 32,029,986 rows, 5,472,202 kept, 1,345 slots | download 54s, read 45s, stats 10s
+2026-11-18 06:16:31   399/599 done; about 4.0 hours left at this rate
+2026-11-18 06:18:29 2025-11-04: 2.11 GB zip, 35,265,549 rows, 6,050,256 kept, 1,382 slots | download 58s, read 49s, stats 11s
+2026-11-18 06:18:29   400/599 done; about 4.0 hours left at this rate
+2026-11-18 06:18:29   401/599 done; about 3.9 hours left at this rate
+2026-11-18 06:20:28 2025-11-06: 2.10 GB zip, 35,143,674 rows, 6,447,828 kept, 1,425 slots | download 57s, read 49s, stats 13s
+2026-11-18 06:20:28   402/599 done; about 3.9 hours left at this rate
+2026-11-18 06:22:28 2025-11-07: 2.14 GB zip, 35,746,857 rows, 5,984,799 kept, 1,332 slots | download 58s, read 51s, stats 11s
+2026-11-18 06:22:28   403/599 done; about 3.9 hours left at this rate
+2026-11-18 06:24:17 2025-11-08: 1.95 GB zip, 32,466,679 rows, 5,955,297 kept, 1,466 slots | download 52s, read 46s, stats 11s
+2026-11-18 06:24:17   404/599 done; about 3.9 hours left at this rate
+2026-11-18 06:26:09 2025-11-09: 1.94 GB zip, 32,294,404 rows, 6,531,091 kept, 1,582 slots | download 54s, read 45s, stats 13s
+2026-11-18 06:26:09   405/599 done; about 3.9 hours left at this rate
+2026-11-18 06:28:10 2025-11-10: 2.03 GB zip, 33,728,272 rows, 6,326,935 kept, 1,491 slots | download 62s, read 48s, stats 12s
+2026-11-18 06:28:10   406/599 done; about 3.9 hours left at this rate
+2026-11-18 06:30:13 2025-11-11: 2.02 GB zip, 33,431,989 rows, 6,502,414 kept, 1,531 slots | download 63s, read 47s, stats 13s
+2026-11-18 06:30:13   407/599 done; about 3.8 hours left at this rate
+2026-11-18 06:32:32 2025-11-12: 1.95 GB zip, 32,156,720 rows, 6,976,160 kept, 1,705 slots | download 64s, read 61s, stats 14s
+2026-11-18 06:32:32   408/599 done; about 3.8 hours left at this rate
+2026-11-18 06:34:39 2025-11-13: 2.05 GB zip, 33,700,085 rows, 7,406,665 kept, 1,725 slots | download 65s, read 48s, stats 15s
+2026-11-18 06:34:39   409/599 done; about 3.8 hours left at this rate
+2026-11-18 06:36:58 2025-11-14: 2.16 GB zip, 35,426,971 rows, 7,722,344 kept, 1,695 slots | download 74s, read 50s, stats 16s
+2026-11-18 06:36:58   410/599 done; about 3.8 hours left at this rate
+2026-11-18 06:36:58   411/599 done; about 3.8 hours left at this rate
+2026-11-18 06:39:10 2025-11-16: 2.13 GB zip, 35,384,732 rows, 8,739,602 kept, 1,847 slots | download 65s, read 49s, stats 17s
+2026-11-18 06:39:10   412/599 done; about 3.8 hours left at this rate
+2026-11-18 06:41:26 2025-11-17: 2.21 GB zip, 36,667,188 rows, 8,357,360 kept, 1,744 slots | download 68s, read 51s, stats 17s
+2026-11-18 06:41:26   413/599 done; about 3.8 hours left at this rate
+2026-11-18 06:43:53 2025-11-18: 2.27 GB zip, 37,764,786 rows, 9,520,851 kept, 1,928 slots | download 71s, read 56s, stats 20s
+2026-11-18 06:43:53   414/599 done; about 3.7 hours left at this rate
+2026-11-18 06:46:00 2025-11-19: 2.17 GB zip, 36,092,192 rows, 8,717,279 kept, 1,810 slots | download 61s, read 51s, stats 15s
+2026-11-18 06:46:00   415/599 done; about 3.7 hours left at this rate
+2026-11-18 06:48:13 2025-11-20: 2.16 GB zip, 35,748,572 rows, 8,641,086 kept, 1,822 slots | download 69s, read 50s, stats 15s
+2026-11-18 06:48:13   416/599 done; about 3.7 hours left at this rate
+2026-11-18 06:50:24 2025-11-21: 2.71 GB zip, 44,765,322 rows, 10,386,522 kept, 1,760 slots | download 51s, read 63s, stats 17s
+2026-11-18 06:50:24   417/599 done; about 3.7 hours left at this rate
+2026-11-18 06:53:52 2025-11-22: 2.71 GB zip, 44,868,215 rows, 11,603,344 kept, 1,929 slots | download 83s, read 100s, stats 24s
+2026-11-18 06:53:52   418/599 done; about 3.7 hours left at this rate
+2026-11-18 06:56:37 2025-11-23: 2.64 GB zip, 43,847,275 rows, 11,885,886 kept, 2,020 slots | download 82s, read 63s, stats 20s
+2026-11-18 06:56:37   419/599 done; about 3.7 hours left at this rate
+2026-11-18 06:59:21 2025-11-24: 2.67 GB zip, 44,067,056 rows, 11,507,426 kept, 1,935 slots | download 81s, read 64s, stats 19s
+2026-11-18 06:59:21   420/599 done; about 3.7 hours left at this rate
+2026-11-18 06:59:21   421/599 done; about 3.6 hours left at this rate
+2026-11-18 07:01:35 2025-11-26: 2.16 GB zip, 35,094,895 rows, 9,449,858 kept, 2,103 slots | download 64s, read 51s, stats 20s
+2026-11-18 07:01:35   422/599 done; about 3.6 hours left at this rate
+2026-11-18 07:04:29 2025-11-27: 2.11 GB zip, 34,386,379 rows, 8,786,311 kept, 1,993 slots | download 65s, read 54s, stats 55s
+2026-11-18 07:04:29   423/599 done; about 3.6 hours left at this rate
+2026-11-18 07:06:43 2025-11-28: 2.23 GB zip, 36,446,099 rows, 8,967,053 kept, 1,869 slots | download 63s, read 52s, stats 18s
+2026-11-18 07:06:43   424/599 done; about 3.6 hours left at this rate
+2026-11-18 07:06:44 2025-12-03: 0.00 GB zip, 43,329 rows, 9,967 kept, 136 slots | download 1s, read 0s, stats 0s
+2026-11-18 07:06:44   425/599 done; about 3.6 hours left at this rate
+2026-11-18 07:07:54 2025-12-04: 1.21 GB zip, 19,587,494 rows, 4,605,576 kept, 1,739 slots | download 35s, read 28s, stats 7s
+2026-11-18 07:07:54   426/599 done; about 3.6 hours left at this rate
+2026-11-18 07:09:18 2025-12-05: 1.45 GB zip, 23,334,143 rows, 5,294,887 kept, 1,778 slots | download 42s, read 33s, stats 8s
+2026-11-18 07:09:18   427/599 done; about 3.5 hours left at this rate
+2026-11-18 07:10:29 2025-12-07: 1.23 GB zip, 19,947,547 rows, 4,344,543 kept, 1,737 slots | download 34s, read 28s, stats 8s
+2026-11-18 07:10:29   428/599 done; about 3.5 hours left at this rate
+2026-11-18 07:11:32 2025-12-08: 1.31 GB zip, 21,254,968 rows, 4,731,097 kept, 1,792 slots | download 24s, read 31s, stats 9s
+2026-11-18 07:11:32   429/599 done; about 3.5 hours left at this rate
+2026-11-18 07:12:39 2025-12-09: 1.05 GB zip, 17,185,644 rows, 4,252,015 kept, 1,911 slots | download 34s, read 24s, stats 8s
+2026-11-18 07:12:39   430/599 done; about 3.5 hours left at this rate
+2026-11-18 07:12:39   431/599 done; about 3.5 hours left at this rate
+2026-11-18 07:14:01 2025-12-11: 1.38 GB zip, 22,404,319 rows, 5,345,218 kept, 1,873 slots | download 41s, read 31s, stats 10s
+2026-11-18 07:14:01   432/599 done; about 3.4 hours left at this rate
+2026-11-18 07:15:22 2025-12-12: 1.27 GB zip, 20,489,424 rows, 4,762,602 kept, 1,827 slots | download 42s, read 30s, stats 9s
+2026-11-18 07:15:22   433/599 done; about 3.4 hours left at this rate
+2026-11-18 07:16:29 2025-12-13: 1.12 GB zip, 18,216,664 rows, 4,573,263 kept, 2,000 slots | download 32s, read 26s, stats 9s
+2026-11-18 07:16:29   434/599 done; about 3.4 hours left at this rate
+2026-11-18 07:17:37 2025-12-14: 1.13 GB zip, 18,604,674 rows, 4,118,931 kept, 1,742 slots | download 34s, read 27s, stats 8s
+2026-11-18 07:17:37   435/599 done; about 3.4 hours left at this rate
+2026-11-18 07:18:47 2025-12-15: 1.26 GB zip, 20,556,148 rows, 4,174,656 kept, 1,565 slots | download 33s, read 29s, stats 8s
+2026-11-18 07:18:47   436/599 done; about 3.3 hours left at this rate
+2026-11-18 07:20:05 2025-12-16: 1.32 GB zip, 21,546,031 rows, 5,099,160 kept, 1,814 slots | download 26s, read 41s, stats 10s
+2026-11-18 07:20:05   437/599 done; about 3.3 hours left at this rate
+2026-11-18 07:21:26 2025-12-17: 1.31 GB zip, 21,342,414 rows, 4,602,550 kept, 1,635 slots | download 42s, read 30s, stats 9s
+2026-11-18 07:21:26   438/599 done; about 3.3 hours left at this rate
+2026-11-18 07:22:46 2025-12-18: 1.36 GB zip, 22,018,067 rows, 5,118,344 kept, 1,793 slots | download 40s, read 30s, stats 10s
+2026-11-18 07:22:46   439/599 done; about 3.3 hours left at this rate
+2026-11-18 07:24:09 2025-12-19: 1.38 GB zip, 22,556,264 rows, 6,510,791 kept, 2,308 slots | download 40s, read 31s, stats 13s
+2026-11-18 07:24:09   440/599 done; about 3.3 hours left at this rate
+2026-11-18 07:24:09   441/599 done; about 3.2 hours left at this rate
+2026-11-18 07:25:29 2025-12-21: 1.29 GB zip, 21,142,710 rows, 5,789,742 kept, 2,216 slots | download 40s, read 29s, stats 11s
+2026-11-18 07:25:29   442/599 done; about 3.2 hours left at this rate
+2026-11-18 07:27:01 2025-12-22: 1.50 GB zip, 24,482,556 rows, 6,990,999 kept, 2,243 slots | download 44s, read 33s, stats 15s
+2026-11-18 07:27:01   443/599 done; about 3.2 hours left at this rate
+2026-11-18 07:28:23 2025-12-23: 1.50 GB zip, 24,430,013 rows, 7,393,355 kept, 2,355 slots | download 34s, read 33s, stats 15s
+2026-11-18 07:28:23   444/599 done; about 3.2 hours left at this rate
+2026-11-18 07:29:22 2025-12-24: 1.21 GB zip, 19,634,860 rows, 5,891,155 kept, 2,304 slots | download 21s, read 26s, stats 11s
+2026-11-18 07:29:22   445/599 done; about 3.2 hours left at this rate
+2026-11-18 07:30:26 2025-12-25: 1.04 GB zip, 16,770,681 rows, 4,786,307 kept, 2,229 slots | download 34s, read 23s, stats 8s
+2026-11-18 07:30:26   446/599 done; about 3.1 hours left at this rate
+2026-11-18 07:31:33 2025-12-26: 1.08 GB zip, 17,441,239 rows, 4,824,643 kept, 2,200 slots | download 36s, read 23s, stats 8s
+2026-11-18 07:31:33   447/599 done; about 3.1 hours left at this rate
+2026-11-18 07:32:28 2025-12-27: 0.92 GB zip, 14,971,448 rows, 4,196,206 kept, 2,250 slots | download 27s, read 20s, stats 7s
+2026-11-18 07:32:28   448/599 done; about 3.1 hours left at this rate
+2026-11-18 07:33:26 2025-12-28: 0.97 GB zip, 15,546,453 rows, 4,015,458 kept, 2,064 slots | download 30s, read 21s, stats 7s
+2026-11-18 07:33:26   449/599 done; about 3.1 hours left at this rate
+2026-11-18 07:34:31 2025-12-29: 1.12 GB zip, 17,972,239 rows, 4,822,753 kept, 2,041 slots | download 32s, read 25s, stats 8s
+2026-11-18 07:34:31   450/599 done; about 3.1 hours left at this rate
+2026-11-18 07:34:31   451/599 done; about 3.0 hours left at this rate
+2026-11-18 07:35:36 2025-12-31: 1.07 GB zip, 17,268,276 rows, 5,221,753 kept, 2,337 slots | download 31s, read 23s, stats 10s
+2026-11-18 07:35:36   452/599 done; about 3.0 hours left at this rate
+2026-11-18 07:36:33 2026-01-01: 0.93 GB zip, 15,085,026 rows, 4,398,044 kept, 2,272 slots | download 29s, read 21s, stats 8s
+2026-11-18 07:36:33   453/599 done; about 3.0 hours left at this rate
+2026-11-18 07:37:43 2026-01-02: 1.04 GB zip, 16,654,933 rows, 4,789,396 kept, 2,217 slots | download 36s, read 24s, stats 10s
+2026-11-18 07:37:43   454/599 done; about 3.0 hours left at this rate
+2026-11-18 07:38:40 2026-01-03: 0.85 GB zip, 13,964,216 rows, 4,555,049 kept, 2,509 slots | download 26s, read 22s, stats 8s
+2026-11-18 07:38:40   455/599 done; about 2.9 hours left at this rate
+2026-11-18 07:39:28 2026-01-04: 0.91 GB zip, 14,779,470 rows, 4,682,172 kept, 2,442 slots | download 17s, read 22s, stats 8s
+2026-11-18 07:39:28   456/599 done; about 2.9 hours left at this rate
+2026-11-18 07:40:33 2026-01-05: 1.02 GB zip, 16,469,859 rows, 4,855,294 kept, 2,294 slots | download 33s, read 23s, stats 9s
+2026-11-18 07:40:33   457/599 done; about 2.9 hours left at this rate
+2026-11-18 07:41:51 2026-01-06: 1.20 GB zip, 19,313,261 rows, 5,907,009 kept, 2,351 slots | download 40s, read 27s, stats 11s
+2026-11-18 07:41:51   458/599 done; about 2.9 hours left at this rate
+2026-11-18 07:43:12 2026-01-07: 1.27 GB zip, 20,348,728 rows, 6,690,380 kept, 2,580 slots | download 41s, read 28s, stats 13s
+2026-11-18 07:43:12   459/599 done; about 2.9 hours left at this rate
+2026-11-18 07:44:35 2026-01-08: 1.26 GB zip, 20,215,435 rows, 6,633,069 kept, 2,601 slots | download 42s, read 28s, stats 13s
+2026-11-18 07:44:35   460/599 done; about 2.8 hours left at this rate
+2026-11-18 07:44:35   461/599 done; about 2.8 hours left at this rate
+2026-11-18 07:45:32 2026-01-10: 0.89 GB zip, 14,350,175 rows, 4,751,293 kept, 2,649 slots | download 28s, read 20s, stats 8s
+2026-11-18 07:45:32   462/599 done; about 2.8 hours left at this rate
+2026-11-18 07:46:29 2026-01-11: 0.86 GB zip, 13,838,241 rows, 4,682,413 kept, 2,703 slots | download 30s, read 19s, stats 8s
+2026-11-18 07:46:29   463/599 done; about 2.8 hours left at this rate
+2026-11-18 07:47:31 2026-01-12: 1.12 GB zip, 17,860,045 rows, 6,179,281 kept, 2,755 slots | download 24s, read 26s, stats 12s
+2026-11-18 07:47:31   464/599 done; about 2.7 hours left at this rate
+2026-11-18 07:48:48 2026-01-13: 1.20 GB zip, 19,070,817 rows, 5,959,032 kept, 2,537 slots | download 41s, read 26s, stats 11s
+2026-11-18 07:48:48   465/599 done; about 2.7 hours left at this rate
+2026-11-18 07:50:25 2026-01-14: 1.32 GB zip, 21,029,462 rows, 6,622,022 kept, 2,532 slots | download 47s, read 34s, stats 16s
+2026-11-18 07:50:25   466/599 done; about 2.7 hours left at this rate
+2026-11-18 07:52:13 2026-01-15: 1.34 GB zip, 21,465,880 rows, 6,679,444 kept, 2,466 slots | download 50s, read 40s, stats 18s
+2026-11-18 07:52:13   467/599 done; about 2.7 hours left at this rate
+2026-11-18 07:53:48 2026-01-16: 1.33 GB zip, 21,393,093 rows, 6,172,516 kept, 2,285 slots | download 46s, read 35s, stats 14s
+2026-11-18 07:53:48   468/599 done; about 2.7 hours left at this rate
+2026-11-18 07:55:09 2026-01-17: 1.16 GB zip, 18,724,832 rows, 5,563,865 kept, 2,376 slots | download 40s, read 29s, stats 11s
+2026-11-18 07:55:09   469/599 done; about 2.6 hours left at this rate
+2026-11-18 07:56:26 2026-01-18: 1.13 GB zip, 18,135,902 rows, 5,282,071 kept, 2,383 slots | download 40s, read 27s, stats 10s
+2026-11-18 07:56:26   470/599 done; about 2.6 hours left at this rate
+2026-11-18 07:56:26   471/599 done; about 2.6 hours left at this rate
+2026-11-18 07:58:26 2026-01-21: 1.81 GB zip, 29,522,953 rows, 7,174,437 kept, 2,042 slots | download 61s, read 44s, stats 16s
+2026-11-18 07:58:26   472/599 done; about 2.6 hours left at this rate
+2026-11-18 08:00:22 2026-01-22: 1.72 GB zip, 28,104,114 rows, 7,060,676 kept, 2,127 slots | download 60s, read 41s, stats 15s
+2026-11-18 08:00:22   473/599 done; about 2.6 hours left at this rate
+2026-11-18 08:02:14 2026-01-23: 1.73 GB zip, 28,330,388 rows, 6,828,179 kept, 2,128 slots | download 56s, read 43s, stats 14s
+2026-11-18 08:02:14   474/599 done; about 2.6 hours left at this rate
+2026-11-18 08:03:59 2026-01-24: 1.50 GB zip, 24,783,587 rows, 6,823,116 kept, 2,483 slots | download 52s, read 37s, stats 15s
+2026-11-18 08:03:59   475/599 done; about 2.5 hours left at this rate
+2026-11-18 08:05:58 2026-01-25: 1.72 GB zip, 28,242,466 rows, 7,411,110 kept, 2,351 slots | download 61s, read 42s, stats 16s
+2026-11-18 08:05:58   476/599 done; about 2.5 hours left at this rate
+2026-11-18 08:07:55 2026-01-26: 1.82 GB zip, 29,707,807 rows, 7,779,276 kept, 2,319 slots | download 54s, read 44s, stats 17s
+2026-11-18 08:07:55   477/599 done; about 2.5 hours left at this rate
+2026-11-18 08:09:44 2026-01-27: 1.70 GB zip, 27,838,910 rows, 7,602,753 kept, 2,372 slots | download 51s, read 41s, stats 16s
+2026-11-18 08:09:44   478/599 done; about 2.5 hours left at this rate
+2026-11-18 08:12:03 2026-01-28: 2.01 GB zip, 32,775,474 rows, 8,960,067 kept, 2,320 slots | download 66s, read 53s, stats 21s
+2026-11-18 08:12:03   479/599 done; about 2.5 hours left at this rate
+2026-11-18 08:14:28 2026-01-29: 2.15 GB zip, 34,971,132 rows, 8,946,809 kept, 2,196 slots | download 66s, read 55s, stats 24s
+2026-11-18 08:14:28   480/599 done; about 2.4 hours left at this rate
+2026-11-18 08:14:28   481/599 done; about 2.4 hours left at this rate
+2026-11-18 08:16:45 2026-01-31: 2.00 GB zip, 32,650,741 rows, 8,704,679 kept, 2,264 slots | download 65s, read 52s, stats 19s
+2026-11-18 08:16:45   482/599 done; about 2.4 hours left at this rate
+2026-11-18 08:19:03 2026-02-01: 2.12 GB zip, 34,470,990 rows, 8,845,918 kept, 2,213 slots | download 57s, read 58s, stats 23s
+2026-11-18 08:19:03   483/599 done; about 2.4 hours left at this rate
+2026-11-18 08:21:30 2026-02-02: 2.33 GB zip, 37,710,495 rows, 8,922,569 kept, 1,989 slots | download 63s, read 63s, stats 22s
+2026-11-18 08:21:30   484/599 done; about 2.4 hours left at this rate
+2026-11-18 08:23:59 2026-02-03: 2.30 GB zip, 37,322,284 rows, 8,489,382 kept, 1,921 slots | download 67s, read 61s, stats 21s
+2026-11-18 08:23:59   485/599 done; about 2.4 hours left at this rate
+2026-11-18 08:27:03 2026-02-04: 2.20 GB zip, 35,714,006 rows, 8,633,109 kept, 2,148 slots | download 45s, read 73s, stats 66s
+2026-11-18 08:27:03   486/599 done; about 2.3 hours left at this rate
+2026-11-18 08:29:49 2026-02-05: 2.49 GB zip, 40,244,206 rows, 8,461,259 kept, 1,817 slots | download 79s, read 66s, stats 20s
+2026-11-18 08:29:49   487/599 done; about 2.3 hours left at this rate
+2026-11-18 08:31:49 2026-02-06: 2.26 GB zip, 36,698,065 rows, 8,735,489 kept, 2,101 slots | download 38s, read 61s, stats 21s
+2026-11-18 08:31:49   488/599 done; about 2.3 hours left at this rate
+2026-11-18 08:33:53 2026-02-07: 1.88 GB zip, 30,611,237 rows, 8,389,362 kept, 2,407 slots | download 53s, read 50s, stats 21s
+2026-11-18 08:33:53   489/599 done; about 2.3 hours left at this rate
+2026-11-18 08:35:46 2026-02-08: 1.62 GB zip, 26,317,687 rows, 7,543,906 kept, 2,518 slots | download 52s, read 43s, stats 18s
+2026-11-18 08:35:46   490/599 done; about 2.3 hours left at this rate
+2026-11-18 08:35:47   491/599 done; about 2.3 hours left at this rate
+2026-11-18 08:38:33 2026-02-10: 1.79 GB zip, 29,164,065 rows, 6,981,895 kept, 2,055 slots | download 52s, read 62s, stats 53s
+2026-11-18 08:38:33   492/599 done; about 2.2 hours left at this rate
+2026-11-18 08:40:37 2026-02-11: 1.87 GB zip, 30,457,773 rows, 7,391,246 kept, 2,124 slots | download 52s, read 51s, stats 20s
+2026-11-18 08:40:37   493/599 done; about 2.2 hours left at this rate
+2026-11-18 08:42:16 2026-02-12: 1.81 GB zip, 29,646,385 rows, 6,815,762 kept, 2,105 slots | download 35s, read 48s, stats 16s
+2026-11-18 08:42:16   494/599 done; about 2.2 hours left at this rate
+2026-11-18 08:44:34 2026-02-13: 1.93 GB zip, 31,881,737 rows, 7,162,448 kept, 2,022 slots | download 68s, read 52s, stats 18s
+2026-11-18 08:44:34   495/599 done; about 2.2 hours left at this rate
+2026-11-18 08:46:32 2026-02-14: 1.76 GB zip, 29,486,750 rows, 6,550,624 kept, 2,111 slots | download 55s, read 48s, stats 15s
+2026-11-18 08:46:32   496/599 done; about 2.2 hours left at this rate
+2026-11-18 08:48:41 2026-02-15: 1.86 GB zip, 30,922,429 rows, 6,758,875 kept, 2,091 slots | download 63s, read 50s, stats 16s
+2026-11-18 08:48:41   497/599 done; about 2.1 hours left at this rate
+2026-11-18 08:50:48 2026-02-16: 1.85 GB zip, 30,681,736 rows, 7,070,518 kept, 2,132 slots | download 61s, read 50s, stats 17s
+2026-11-18 08:50:48   498/599 done; about 2.1 hours left at this rate
+2026-11-18 08:52:53 2026-02-17: 1.83 GB zip, 30,393,974 rows, 7,065,761 kept, 2,127 slots | download 60s, read 48s, stats 17s
+2026-11-18 08:52:53   499/599 done; about 2.1 hours left at this rate
+2026-11-18 08:54:39 2026-02-18: 1.71 GB zip, 28,344,736 rows, 6,448,555 kept, 2,048 slots | download 30s, read 59s, stats 16s
+2026-11-18 08:54:39   500/599 done; about 2.1 hours left at this rate
+2026-11-18 08:54:39   501/599 done; about 2.1 hours left at this rate
+2026-11-18 08:56:42 2026-02-20: 1.67 GB zip, 27,688,627 rows, 6,394,077 kept, 2,088 slots | download 65s, read 45s, stats 14s
+2026-11-18 08:56:42   502/599 done; about 2.0 hours left at this rate
+2026-11-18 08:58:18 2026-02-21: 1.40 GB zip, 23,411,575 rows, 5,639,881 kept, 2,221 slots | download 47s, read 37s, stats 12s
+2026-11-18 08:58:18   503/599 done; about 2.0 hours left at this rate
+2026-11-18 08:59:47 2026-02-22: 1.33 GB zip, 22,281,567 rows, 5,692,209 kept, 2,361 slots | download 42s, read 35s, stats 12s
+2026-11-18 08:59:47   504/599 done; about 2.0 hours left at this rate
+2026-11-18 09:01:45 2026-02-23: 1.67 GB zip, 27,640,273 rows, 6,671,448 kept, 2,113 slots | download 59s, read 44s, stats 15s
+2026-11-18 09:01:45   505/599 done; about 2.0 hours left at this rate
+2026-11-18 09:03:49 2026-02-24: 1.67 GB zip, 27,737,510 rows, 7,010,708 kept, 2,258 slots | download 60s, read 45s, stats 19s
+2026-11-18 09:03:49   506/599 done; about 2.0 hours left at this rate
+2026-11-18 09:05:41 2026-02-25: 1.72 GB zip, 28,207,488 rows, 6,687,462 kept, 2,059 slots | download 51s, read 45s, stats 16s
+2026-11-18 09:05:42   507/599 done; about 1.9 hours left at this rate
+2026-11-18 09:07:28 2026-02-26: 1.57 GB zip, 25,717,460 rows, 5,985,570 kept, 1,916 slots | download 52s, read 41s, stats 14s
+2026-11-18 09:07:28   508/599 done; about 1.9 hours left at this rate
+2026-11-18 09:09:19 2026-02-27: 1.57 GB zip, 25,694,884 rows, 6,443,722 kept, 2,015 slots | download 57s, read 41s, stats 14s
+2026-11-18 09:09:20   509/599 done; about 1.9 hours left at this rate
+2026-11-18 09:10:49 2026-02-28: 1.49 GB zip, 24,363,098 rows, 5,892,190 kept, 1,949 slots | download 36s, read 40s, stats 14s
+2026-11-18 09:10:49   510/599 done; about 1.9 hours left at this rate
+2026-11-18 09:10:49   511/599 done; about 1.9 hours left at this rate
+2026-11-18 09:12:28 2026-03-02: 1.49 GB zip, 24,404,995 rows, 6,211,286 kept, 1,975 slots | download 48s, read 39s, stats 12s
+2026-11-18 09:12:28   512/599 done; about 1.8 hours left at this rate
+2026-11-18 09:14:32 2026-03-03: 1.51 GB zip, 24,869,954 rows, 6,607,112 kept, 2,064 slots | download 70s, read 39s, stats 16s
+2026-11-18 09:14:32   513/599 done; about 1.8 hours left at this rate
+2026-11-18 09:15:52 2026-03-04: 1.47 GB zip, 24,055,231 rows, 6,361,037 kept, 2,029 slots | download 24s, read 40s, stats 15s
+2026-11-18 09:15:52   514/599 done; about 1.8 hours left at this rate
+2026-11-18 09:17:39 2026-03-05: 1.52 GB zip, 24,824,893 rows, 6,338,476 kept, 2,035 slots | download 52s, read 42s, stats 14s
+2026-11-18 09:17:39   515/599 done; about 1.8 hours left at this rate
+2026-11-18 09:19:27 2026-03-06: 1.54 GB zip, 25,266,363 rows, 6,427,384 kept, 1,997 slots | download 49s, read 44s, stats 15s
+2026-11-18 09:19:27   516/599 done; about 1.8 hours left at this rate
+2026-11-18 09:21:01 2026-03-07: 1.34 GB zip, 21,945,876 rows, 5,330,623 kept, 1,947 slots | download 44s, read 38s, stats 12s
+2026-11-18 09:21:01   517/599 done; about 1.7 hours left at this rate
+2026-11-18 09:22:28 2026-03-08: 1.38 GB zip, 22,624,627 rows, 5,524,152 kept, 1,980 slots | download 41s, read 34s, stats 11s
+2026-11-18 09:22:28   518/599 done; about 1.7 hours left at this rate
+2026-11-18 09:24:00 2026-03-09: 1.56 GB zip, 25,465,941 rows, 5,986,085 kept, 1,807 slots | download 44s, read 38s, stats 12s
+2026-11-18 09:24:00   519/599 done; about 1.7 hours left at this rate
+2026-11-18 09:25:30 2026-03-10: 1.48 GB zip, 24,025,163 rows, 5,487,587 kept, 1,774 slots | download 45s, read 35s, stats 11s
+2026-11-18 09:25:30   520/599 done; about 1.7 hours left at this rate
+2026-11-18 09:25:30   521/599 done; about 1.7 hours left at this rate
+2026-11-18 09:26:52 2026-03-12: 1.38 GB zip, 22,343,059 rows, 4,943,351 kept, 1,720 slots | download 40s, read 32s, stats 10s
+2026-11-18 09:26:52   522/599 done; about 1.6 hours left at this rate
+2026-11-18 09:28:02 2026-03-13: 1.46 GB zip, 23,794,220 rows, 5,674,771 kept, 1,893 slots | download 24s, read 34s, stats 12s
+2026-11-18 09:28:02   523/599 done; about 1.6 hours left at this rate
+2026-11-18 09:29:06 2026-03-14: 1.04 GB zip, 16,929,743 rows, 4,105,373 kept, 1,944 slots | download 31s, read 25s, stats 8s
+2026-11-18 09:29:06   524/599 done; about 1.6 hours left at this rate
+2026-11-18 09:30:13 2026-03-15: 1.10 GB zip, 18,067,947 rows, 4,213,944 kept, 1,865 slots | download 32s, read 26s, stats 8s
+2026-11-18 09:30:13   525/599 done; about 1.6 hours left at this rate
+2026-11-18 09:31:42 2026-03-16: 1.43 GB zip, 23,401,478 rows, 5,584,221 kept, 1,884 slots | download 45s, read 33s, stats 11s
+2026-11-18 09:31:42   526/599 done; about 1.6 hours left at this rate
+2026-11-18 09:33:11 2026-03-17: 1.45 GB zip, 23,621,165 rows, 6,096,961 kept, 2,025 slots | download 44s, read 33s, stats 12s
+2026-11-18 09:33:11   527/599 done; about 1.5 hours left at this rate
+2026-11-18 09:34:28 2026-03-18: 1.36 GB zip, 22,112,681 rows, 4,984,302 kept, 1,791 slots | download 30s, read 36s, stats 10s
+2026-11-18 09:34:28   528/599 done; about 1.5 hours left at this rate
+2026-11-18 09:35:51 2026-03-19: 1.34 GB zip, 21,800,024 rows, 4,485,800 kept, 1,579 slots | download 40s, read 33s, stats 9s
+2026-11-18 09:35:51   529/599 done; about 1.5 hours left at this rate
+2026-11-18 09:37:25 2026-03-20: 1.31 GB zip, 21,369,243 rows, 4,882,896 kept, 1,791 slots | download 54s, read 31s, stats 9s
+2026-11-18 09:37:25   530/599 done; about 1.5 hours left at this rate
+2026-11-18 09:37:25   531/599 done; about 1.4 hours left at this rate
+2026-11-18 09:38:26 2026-03-22: 1.32 GB zip, 21,417,025 rows, 4,646,884 kept, 1,707 slots | download 22s, read 31s, stats 9s
+2026-11-18 09:38:26   532/599 done; about 1.4 hours left at this rate
+2026-11-18 09:39:56 2026-03-23: 1.51 GB zip, 24,439,560 rows, 5,049,720 kept, 1,661 slots | download 45s, read 35s, stats 10s
+2026-11-18 09:39:56   533/599 done; about 1.4 hours left at this rate
+2026-11-18 09:41:24 2026-03-24: 1.44 GB zip, 23,487,833 rows, 5,024,252 kept, 1,714 slots | download 45s, read 33s, stats 10s
+2026-11-18 09:41:24   534/599 done; about 1.4 hours left at this rate
+2026-11-18 09:42:48 2026-03-25: 1.32 GB zip, 21,493,411 rows, 5,000,807 kept, 1,841 slots | download 44s, read 31s, stats 10s
+2026-11-18 09:42:48   535/599 done; about 1.4 hours left at this rate
+2026-11-18 09:44:13 2026-03-26: 1.33 GB zip, 21,585,790 rows, 4,938,690 kept, 1,767 slots | download 41s, read 33s, stats 11s
+2026-11-18 09:44:13   536/599 done; about 1.3 hours left at this rate
+2026-11-18 09:45:45 2026-03-27: 1.32 GB zip, 21,632,268 rows, 4,991,300 kept, 1,767 slots | download 45s, read 35s, stats 12s
+2026-11-18 09:45:45   537/599 done; about 1.3 hours left at this rate
+2026-11-18 09:47:12 2026-03-28: 1.14 GB zip, 18,759,995 rows, 4,067,078 kept, 1,683 slots | download 36s, read 42s, stats 10s
+2026-11-18 09:47:12   538/599 done; about 1.3 hours left at this rate
+2026-11-18 09:48:27 2026-03-29: 1.09 GB zip, 17,787,234 rows, 4,076,949 kept, 1,772 slots | download 34s, read 31s, stats 10s
+2026-11-18 09:48:27   539/599 done; about 1.3 hours left at this rate
+2026-11-18 09:50:00 2026-03-30: 1.38 GB zip, 22,498,100 rows, 4,890,958 kept, 1,722 slots | download 46s, read 36s, stats 11s
+2026-11-18 09:50:00   540/599 done; about 1.3 hours left at this rate
+2026-11-18 09:50:00   541/599 done; about 1.2 hours left at this rate
+2026-11-18 09:51:38 2026-04-01: 1.41 GB zip, 22,785,466 rows, 4,939,050 kept, 1,641 slots | download 50s, read 37s, stats 11s
+2026-11-18 09:51:38   542/599 done; about 1.2 hours left at this rate
+2026-11-18 09:53:10 2026-04-02: 1.37 GB zip, 22,019,479 rows, 4,731,650 kept, 1,597 slots | download 48s, read 34s, stats 10s
+2026-11-18 09:53:10   543/599 done; about 1.2 hours left at this rate
+2026-11-18 09:54:28 2026-04-03: 1.23 GB zip, 19,623,575 rows, 4,038,448 kept, 1,579 slots | download 38s, read 30s, stats 8s
+2026-11-18 09:54:28   544/599 done; about 1.2 hours left at this rate
+2026-11-18 09:55:28 2026-04-04: 0.99 GB zip, 15,698,951 rows, 3,429,331 kept, 1,682 slots | download 28s, read 25s, stats 8s
+2026-11-18 09:55:28   545/599 done; about 1.1 hours left at this rate
+2026-11-18 09:56:36 2026-04-05: 1.07 GB zip, 16,987,894 rows, 3,284,718 kept, 1,496 slots | download 35s, read 26s, stats 7s
+2026-11-18 09:56:36   546/599 done; about 1.1 hours left at this rate
+2026-11-18 09:58:04 2026-04-06: 1.33 GB zip, 21,264,987 rows, 4,404,742 kept, 1,601 slots | download 44s, read 34s, stats 10s
+2026-11-18 09:58:04   547/599 done; about 1.1 hours left at this rate
+2026-11-18 09:59:39 2026-04-07: 1.40 GB zip, 22,367,340 rows, 4,813,729 kept, 1,611 slots | download 48s, read 36s, stats 11s
+2026-11-18 09:59:39   548/599 done; about 1.1 hours left at this rate
+2026-11-18 10:01:03 2026-04-08: 1.33 GB zip, 21,361,041 rows, 4,587,907 kept, 1,638 slots | download 39s, read 35s, stats 10s
+2026-11-18 10:01:03   549/599 done; about 1.1 hours left at this rate
+2026-11-18 10:02:28 2026-04-09: 1.23 GB zip, 19,667,671 rows, 4,903,783 kept, 1,893 slots | download 43s, read 31s, stats 11s
+2026-11-18 10:02:28   550/599 done; about 1.0 hours left at this rate
+2026-11-18 10:02:28   551/599 done; about 1.0 hours left at this rate
+2026-11-18 10:03:32 2026-04-11: 0.99 GB zip, 15,743,811 rows, 3,585,350 kept, 1,757 slots | download 30s, read 26s, stats 8s
+2026-11-18 10:03:32   552/599 done; about 1.0 hours left at this rate
+2026-11-18 10:04:33 2026-04-12: 0.92 GB zip, 14,680,232 rows, 3,626,815 kept, 1,924 slots | download 29s, read 23s, stats 8s
+2026-11-18 10:04:33   553/599 done; about 1.0 hours left at this rate
+2026-11-18 10:05:37 2026-04-13: 1.00 GB zip, 15,869,436 rows, 4,305,037 kept, 2,095 slots | download 30s, read 25s, stats 9s
+2026-11-18 10:05:37   554/599 done; about 1.0 hours left at this rate
+2026-11-18 10:06:49 2026-04-14: 1.10 GB zip, 17,570,280 rows, 4,591,048 kept, 2,055 slots | download 35s, read 27s, stats 9s
+2026-11-18 10:06:49   555/599 done; about 0.9 hours left at this rate
+2026-11-18 10:08:07 2026-04-15: 1.18 GB zip, 18,896,535 rows, 4,709,560 kept, 1,910 slots | download 37s, read 30s, stats 11s
+2026-11-18 10:08:07   556/599 done; about 0.9 hours left at this rate
+2026-11-18 10:09:45 2026-04-16: 1.42 GB zip, 22,769,287 rows, 5,259,172 kept, 1,723 slots | download 48s, read 38s, stats 12s
+2026-11-18 10:09:45   557/599 done; about 0.9 hours left at this rate
+2026-11-18 10:11:21 2026-04-17: 1.47 GB zip, 23,488,115 rows, 5,738,059 kept, 1,795 slots | download 48s, read 37s, stats 12s
+2026-11-18 10:11:21   558/599 done; about 0.9 hours left at this rate
+2026-11-18 10:12:48 2026-04-18: 1.26 GB zip, 20,084,139 rows, 5,423,561 kept, 2,014 slots | download 45s, read 31s, stats 11s
+2026-11-18 10:12:48   559/599 done; about 0.8 hours left at this rate
+2026-11-18 10:14:23 2026-04-19: 1.43 GB zip, 22,648,398 rows, 5,595,258 kept, 1,802 slots | download 47s, read 36s, stats 12s
+2026-11-18 10:14:23   560/599 done; about 0.8 hours left at this rate
+2026-11-18 10:14:23   561/599 done; about 0.8 hours left at this rate
+2026-11-18 10:15:56 2026-04-21: 1.40 GB zip, 22,263,499 rows, 5,513,517 kept, 1,854 slots | download 46s, read 35s, stats 12s
+2026-11-18 10:15:56   562/599 done; about 0.8 hours left at this rate
+2026-11-18 10:17:31 2026-04-22: 1.42 GB zip, 22,633,192 rows, 5,096,525 kept, 1,668 slots | download 48s, read 36s, stats 11s
+2026-11-18 10:17:31   563/599 done; about 0.8 hours left at this rate
+2026-11-18 10:19:10 2026-04-23: 1.50 GB zip, 24,004,997 rows, 5,783,890 kept, 1,795 slots | download 48s, read 38s, stats 13s
+2026-11-18 10:19:10   564/599 done; about 0.7 hours left at this rate
+2026-11-18 10:20:36 2026-04-24: 1.24 GB zip, 19,606,615 rows, 4,730,574 kept, 1,797 slots | download 43s, read 33s, stats 11s
+2026-11-18 10:20:36   565/599 done; about 0.7 hours left at this rate
+2026-11-18 10:21:54 2026-04-25: 1.15 GB zip, 18,098,723 rows, 5,267,929 kept, 2,167 slots | download 39s, read 28s, stats 11s
+2026-11-18 10:21:54   566/599 done; about 0.7 hours left at this rate
+2026-11-18 10:23:15 2026-04-26: 1.22 GB zip, 19,218,976 rows, 5,302,120 kept, 2,064 slots | download 40s, read 30s, stats 11s
+2026-11-18 10:23:15   567/599 done; about 0.7 hours left at this rate
+2026-11-18 10:24:43 2026-04-27: 1.31 GB zip, 20,847,258 rows, 5,596,164 kept, 2,032 slots | download 43s, read 32s, stats 12s
+2026-11-18 10:24:43   568/599 done; about 0.7 hours left at this rate
+2026-11-18 10:26:15 2026-04-28: 1.30 GB zip, 20,564,118 rows, 5,719,619 kept, 2,073 slots | download 45s, read 33s, stats 14s
+2026-11-18 10:26:15   569/599 done; about 0.6 hours left at this rate
+2026-11-18 10:27:48 2026-04-29: 1.24 GB zip, 19,670,977 rows, 5,594,291 kept, 2,152 slots | download 44s, read 36s, stats 12s
+2026-11-18 10:27:48   570/599 done; about 0.6 hours left at this rate
+2026-11-18 10:27:48   571/599 done; about 0.6 hours left at this rate
+2026-11-18 10:29:08 2026-05-01: 1.23 GB zip, 19,395,353 rows, 5,737,723 kept, 2,168 slots | download 38s, read 30s, stats 13s
+2026-11-18 10:29:08   572/599 done; about 0.6 hours left at this rate
+2026-11-18 10:30:28 2026-05-02: 1.13 GB zip, 17,885,477 rows, 5,487,814 kept, 2,274 slots | download 39s, read 29s, stats 12s
+2026-11-18 10:30:28   573/599 done; about 0.6 hours left at this rate
+2026-11-18 10:31:42 2026-05-03: 1.12 GB zip, 17,656,683 rows, 5,205,064 kept, 2,181 slots | download 34s, read 29s, stats 12s
+2026-11-18 10:31:42   574/599 done; about 0.5 hours left at this rate
+2026-11-18 10:33:11 2026-05-04: 1.26 GB zip, 19,981,540 rows, 6,438,266 kept, 2,347 slots | download 43s, read 32s, stats 14s
+2026-11-18 10:33:11   575/599 done; about 0.5 hours left at this rate
+2026-11-18 10:34:40 2026-05-05: 1.31 GB zip, 20,831,344 rows, 6,443,586 kept, 2,338 slots | download 41s, read 34s, stats 14s
+2026-11-18 10:34:40   576/599 done; about 0.5 hours left at this rate
+2026-11-18 10:36:22 2026-05-06: 1.48 GB zip, 23,556,625 rows, 7,966,300 kept, 2,558 slots | download 46s, read 37s, stats 20s
+2026-11-18 10:36:22   577/599 done; about 0.5 hours left at this rate
+2026-11-18 10:38:23 2026-05-07: 1.47 GB zip, 23,394,299 rows, 14,933,314 kept, 4,689 slots | download 42s, read 37s, stats 42s
+2026-11-18 10:38:23   578/599 done; about 0.4 hours left at this rate
+2026-11-18 10:40:35 2026-05-08: 1.60 GB zip, 25,385,820 rows, 16,535,018 kept, 4,719 slots | download 53s, read 40s, stats 40s
+2026-11-18 10:40:35   579/599 done; about 0.4 hours left at this rate
+2026-11-18 10:41:35 2026-05-12: 0.71 GB zip, 11,286,938 rows, 7,662,096 kept, 2,032 slots | download 24s, read 18s, stats 18s
+2026-11-18 10:41:35   580/599 done; about 0.4 hours left at this rate
+2026-11-18 10:41:35   581/599 done; about 0.4 hours left at this rate
+2026-11-18 10:44:00 2026-05-14: 1.82 GB zip, 29,056,069 rows, 19,401,117 kept, 4,844 slots | download 51s, read 46s, stats 49s
+2026-11-18 10:44:00   582/599 done; about 0.4 hours left at this rate
+2026-11-18 10:46:27 2026-05-15: 1.83 GB zip, 29,212,643 rows, 19,518,430 kept, 4,843 slots | download 56s, read 47s, stats 44s
+2026-11-18 10:46:27   583/599 done; about 0.3 hours left at this rate
+2026-11-18 10:49:03 2026-05-16: 1.81 GB zip, 28,801,472 rows, 20,282,334 kept, 5,158 slots | download 60s, read 46s, stats 51s
+2026-11-18 10:49:03   584/599 done; about 0.3 hours left at this rate
+2026-11-18 10:51:23 2026-05-17: 1.64 GB zip, 26,102,014 rows, 18,048,055 kept, 5,073 slots | download 57s, read 41s, stats 42s
+2026-11-18 10:51:23   585/599 done; about 0.3 hours left at this rate
+2026-11-18 10:53:39 2026-05-18: 1.77 GB zip, 28,126,021 rows, 18,411,878 kept, 4,873 slots | download 54s, read 42s, stats 40s
+2026-11-18 10:53:39   586/599 done; about 0.3 hours left at this rate
+2026-11-18 10:55:50 2026-05-19: 1.64 GB zip, 26,122,493 rows, 16,041,348 kept, 4,524 slots | download 51s, read 41s, stats 39s
+2026-11-18 10:55:50   587/599 done; about 0.3 hours left at this rate
+2026-11-18 10:58:01 2026-05-20: 1.71 GB zip, 27,302,653 rows, 17,665,532 kept, 4,738 slots | download 47s, read 44s, stats 40s
+2026-11-18 10:58:01   588/599 done; about 0.2 hours left at this rate
+2026-11-18 11:00:34 2026-05-21: 1.74 GB zip, 27,988,110 rows, 18,649,746 kept, 4,802 slots | download 55s, read 44s, stats 54s
+2026-11-18 11:00:34   589/599 done; about 0.2 hours left at this rate
+2026-11-18 11:03:04 2026-05-22: 1.55 GB zip, 24,965,218 rows, 16,850,340 kept, 4,845 slots | download 64s, read 41s, stats 45s
+2026-11-18 11:03:04   590/599 done; about 0.2 hours left at this rate
+2026-11-18 11:03:04   591/599 done; about 0.2 hours left at this rate
+2026-11-18 11:05:13 2026-05-24: 1.55 GB zip, 25,035,861 rows, 16,514,280 kept, 4,703 slots | download 48s, read 41s, stats 40s
+2026-11-18 11:05:13   592/599 done; about 0.2 hours left at this rate
+2026-11-18 11:07:20 2026-05-25: 1.50 GB zip, 24,223,264 rows, 16,395,909 kept, 4,791 slots | download 48s, read 39s, stats 40s
+2026-11-18 11:07:20   593/599 done; about 0.1 hours left at this rate
+2026-11-18 11:09:28 2026-05-26: 1.51 GB zip, 24,430,356 rows, 16,960,092 kept, 4,995 slots | download 49s, read 38s, stats 42s
+2026-11-18 11:09:28   594/599 done; about 0.1 hours left at this rate
+2026-11-18 11:11:38 2026-05-27: 1.46 GB zip, 23,503,619 rows, 15,341,620 kept, 4,648 slots | download 49s, read 36s, stats 44s
+2026-11-18 11:11:38   595/599 done; about 0.1 hours left at this rate
+2026-11-18 11:13:36 2026-05-28: 1.42 GB zip, 22,635,936 rows, 15,606,930 kept, 4,878 slots | download 42s, read 36s, stats 40s
+2026-11-18 11:13:36   596/599 done; about 0.1 hours left at this rate
+2026-11-18 11:15:25 2026-05-29: 1.28 GB zip, 20,520,226 rows, 13,443,134 kept, 4,658 slots | download 40s, read 35s, stats 35s
+2026-11-18 11:15:25   597/599 done; about 0.0 hours left at this rate
+2026-11-18 11:17:06 2026-05-30: 1.21 GB zip, 19,226,253 rows, 13,391,236 kept, 4,939 slots | download 38s, read 31s, stats 32s
+2026-11-18 11:17:06   598/599 done; about 0.0 hours left at this rate
+2026-11-18 11:18:45 2026-05-31: 1.30 GB zip, 20,825,041 rows, 10,920,533 kept, 3,787 slots | download 40s, read 33s, stats 25s
+2026-11-18 11:18:45   599/599 done; about 0.0 hours left at this rate
+2026-11-18 11:18:45 TIMING: 598 day(s), average 1.3 minutes per day
+2026-11-18 11:19:10 days 598; slots 1,219,842; winning block found in the file: 97.9%; winning bid time: median 968 ms
+2026-11-18 11:19:10 bids per slot: median 2748; keys bidding: median 50; operators bidding: median 25; operators with a bid before the winning bid: median 24
+2026-11-18 11:19:10 BY OPERATOR
+2026-11-18 11:19:10   margin over best lower bid, any arrival time   : median 0.033%  p10 0.000%  p90 1.043%  (n=1,219,793)
+2026-11-18 11:19:10   margin over best lower bid, arrived earlier    : median 0.209%  p10 0.000%  p90 4.006%  (n=1,192,790)
+2026-11-18 11:19:10   margin over best STANDING bid at winning time  : median 0.142%  p10 -2.244%  p90 4.459%  (n=1,192,794)
+2026-11-18 11:19:10   same, just before the winning key bid again    : median 0.022%  p10 -3.801%  p90 3.736%  (n=1,139,420)
+2026-11-18 11:19:10   time from the winning bid to the same key's next bid: median 32 ms, p90 238 ms; the key never bid again in 4.5% of slots
+2026-11-18 11:19:10   another operator's standing bid was higher just before that next bid: 38.6% of slots
+2026-11-18 11:19:10   another operator had a higher standing bid when the winning bid arrived: 27.2% of slots; no other operator had bid yet: 0.1%
+2026-11-18 11:19:10   other operators with a standing bid within 1% of the winner: median 1, mean 1.44
+2026-11-18 11:19:10   another operator had bid above the winning value earlier (standing or not): 34.7% of slots
+2026-11-18 11:19:10 BY KEY (for comparison)
+2026-11-18 11:19:10   margin over best lower bid, any arrival time   : median 0.000%  p10 0.000%  p90 0.129%  (n=1,219,795)
+2026-11-18 11:19:10   margin over best lower bid, arrived earlier    : median 0.015%  p10 0.000%  p90 1.307%  (n=1,192,794)
+2026-11-18 11:19:10   margin over best STANDING bid at winning time  : median 0.000%  p10 -2.530%  p90 1.385%  (n=1,192,795)

@@ -1,0 +1,80 @@
+days cached: 90   total bid observations: 86,805,657   (paper: 86,805,657)
+
+=== Bid timing by relay, all builders pooled ===
+                           relay median_ms mean_ms          n share_pct
+                  titanrelay.xyz     2,497     580  1,512,420      1.74
+ bloxroute.regulated.blxrbdn.com     2,208   2,421    359,445      0.41
+bloxroute.max-profit.blxrbdn.com     2,104   2,303    237,888      0.27
+              agnostic-relay.net     1,890   1,748    125,789      0.14
+       boost-relay.flashbots.net      -454    -346    790,105      0.91
+          relay.ultrasound.money      -710  -1,946 83,630,070     96.34
+              relay.wenmerge.com      -791   1,610         63      0.00
+                     aestus.live    -4,258  -3,334    126,004      0.15
+            relay.edennetwork.io    -4,447  -3,548     15,169      0.02
+     mainnet-relay.securerpc.com    -4,913  -4,225      8,704      0.01
+spread of relay medians: 7,410 ms
+
+=== Builders in the apparent post-slot cluster: 23 builders, 4,166,414 bids ===
+                                  median    mean    count
+relay                                                    
+relay.ultrasound.money            1582.0  1657.0  3267710
+titanrelay.xyz                    2992.0  2987.0   499048
+bloxroute.regulated.blxrbdn.com   2218.0  2471.0   147855
+bloxroute.max-profit.blxrbdn.com  2117.0  2354.0   107705
+boost-relay.flashbots.net          282.0   655.0   102805
+aestus.live                       2346.0  2539.0    23467
+agnostic-relay.net                2177.0  2479.0    17035
+relay.edennetwork.io              3079.0  3070.0      789
+
+=== Same builder, bloxroute vs every other relay (builders with more than 10 bids on each side) ===
+   builder  bloxroute_median  n_blox  other_median  n_other
+0xb4a435cf            2135.0   86896        1586.0   628112
+0x946fcf34            2114.0   46774        1869.0   330603
+0xa412c4b8            2176.0   45907        2093.0    20802
+0xa0366397            2227.0   27452        2086.0    12385
+0xa0000179            2128.0   13086        1996.0    47029
+0xa0000232            2100.0    9868        1675.0    47762
+0x807a81a9            2254.0    5261        1664.0  1075658
+0x87683927            2905.5    4782        2917.0    78824
+0xa00003f7            2374.0    4662        2059.0    20121
+0x88857150            2348.0    2322        1338.0   949538
+0xb8435fa0            2805.0    2281        3089.0    71430
+0x8c344fee            2975.0    2060        2521.0    10258
+0x91afe263            2908.0    1602        2940.0   140448
+0x987dee19            2805.0    1573        2416.0    93906
+0x871d2837            2995.0     869        2569.0    52180
+0x94e8a339            2734.0     165        2653.0    23158
+bloxroute median minus other-relay median, per builder: 16 builders, later via bloxroute for 13, range -284 to +1,010 ms, median +280 ms
+within ultrasound alone: these builders median +1,582 ms (3,267,710 bids, 78.4% of their bids); all builders median -710 ms
+
+=== Corrected win rates ===
+            n_bid_slots  n_wins  win_rate_pct  avg_win_value_eth
+builder                                                         
+0xb4a435cf       247054   28495       11.5339             0.0412
+0x807a81a9       174388    6634        3.8042             0.0394
+0x88857150       166585    1976        1.1862             0.0607
+0x946fcf34       154570   20643       13.3551             0.0371
+0xa00005be        76787    2667        3.4732             0.1273
+0xa412c4b8        50464   16152       32.0070             0.1951
+0xa0000232        41711    7310       17.5254             0.1102
+0xa0000179        40446    9885       24.4400             0.0819
+0xb9ce2753        39912       0        0.0000                NaN
+0x8a850621        38415       0        0.0000                NaN
+0xa0366397        32102    7999       24.9175             0.1117
+0x87683927        26112      87        0.3332             0.8118
+0x91afe263        25104      35        0.1394             0.5386
+0x987dee19        19377      60        0.3096             0.4428
+0xa00003f7        18687    2056       11.0023             0.3209
+0xb8435fa0        18019     108        0.5994             0.5973
+0x871d2837        11415      16        0.1402             2.2721
+0x910f2017         6308       0        0.0000                NaN
+0x8c344fee         6302      37        0.5871             2.5593
+0x94e8a339         5220       4        0.0766             0.2357
+0xb0b0de6b         4273       0        0.0000                NaN
+0x8216e00e         4245       0        0.0000                NaN
+0x854a0084          677       0        0.0000                NaN
+
+median win rate (valid): 0.59%   (paper: 0.59%)
+pooled win rate: 8.62%   (paper: 8.62%)
+mean winning value, these builders: 0.0892 ETH   all builders: 0.0874 ETH
+done in 11s

@@ -1,0 +1,300 @@
+,value
+"MEV-Boost slots, all relays",4105750.0
+share of all slots in the period (%),91.82487442642302
+sample share of MEV-Boost slots (%),30.95850940753821
+sample slots found in the market set (%),99.93698267377559
+"builder keys with a delivered block, market",306.0
+blocks whose key is not in the operator map,150.0
+"operators with a delivered block, market (L)",110.0
+blocks whose key has no label (%),0.11447360409182245
+market HHI by key,344.18576588320775
+market HHI by operator (shared blocks only),2612.188460925886
+market HHI by operator (shared blocks and value ties),2910.3213543800825
+market HHI by operator (labels and shared blocks),3080.2840861128357
+market HHI by operator (BuilderNet partners merged),3883.3396810561276
+market top-5 key share (%),30.799634658710346
+"market top-1 share (L, %)",47.042234996102884
+"market top-2 share (L, %)",68.91893998441154
+"market top-3 share (L, %)",87.05083300857366
+"market top-5 share (L, %)",96.83924395947
+"market top-1 share (M, %)",47.042234996102884
+"market top-2 share (M, %)",87.17234996102884
+"market top-3 share (M, %)",94.31703039750585
+market share Titan (%),47.04051634902271
+sample share Titan (%),35.43233740782438
+market share BuilderNet (%),18.131230591243988
+sample share BuilderNet (%),23.462585724412094
+market share beaverbuild (%),21.875905741947268
+sample share beaverbuild (%),17.99597035274755
+market share Quasar (%),7.1444194118005235
+sample share Quasar (%),13.747532608122706
+market share rsync (%),2.6436339280277656
+sample share rsync (%),4.176215640412594
+sample HHI by operator (L),2340.9949778910154
+sample HHI by key,391.0883614855886
+weeks,89.0
+weekly market HHI by operator: min,2879.168382220766
+weekly market HHI by operator: median,3706.1876986229368
+weekly market HHI by operator: max,4745.639829576479
+"weeks with market operator HHI above 2,500 (%)",100.0
+weekly market HHI by key: min,433.1374649906184
+weekly market HHI by key: max,1302.7844134717698
+weekly market HHI by key: median,694.6192609748454
+"weeks with key-level HHI above 2,500 (%)",0.0
+"weeks with key-level HHI above 1,500 (%)",0.0
+quarter 2024Q3 slots,88706.0
+quarter 2024Q3 key,770.7094190478814
+quarter 2024Q3 B,3181.75814281534
+quarter 2024Q3 L,4627.363567393814
+quarter 2024Q3 M,4760.654514824449
+quarter 2024Q3 top3,97.76107612792562
+quarter 2024Q3 top2M,97.31419414539464
+quarter 2024Q3 sample_slots,9662.0
+quarter 2024Q3 sample_L,7385.442487221042
+market share Titan 2024Q3,45.259621671589294
+sample share Titan 2024Q3,85.65514386255434
+market share BuilderNet 2024Q3,0.0
+sample share BuilderNet 2024Q3,0.0
+market share beaverbuild 2024Q3,50.64031745315988
+sample share beaverbuild 2024Q3,5.3508590353963985
+market share Quasar 2024Q3,0.0
+sample share Quasar 2024Q3,0.0
+market share rsync 2024Q3,1.7597456767298718
+sample share rsync 2024Q3,2.6702546056717034
+market share Other 2024Q3,2.340315198520957
+sample share Other 2024Q3,6.3237424963775615
+quarter 2024Q4 slots,602897.0
+quarter 2024Q4 key,757.5680582219271
+quarter 2024Q4 B,3276.396594491121
+quarter 2024Q4 L,4593.741735496224
+quarter 2024Q4 M,4710.976840315125
+quarter 2024Q4 top3,97.98935707863752
+quarter 2024Q4 top2M,96.47320525112715
+quarter 2024Q4 sample_slots,61468.0
+quarter 2024Q4 sample_L,7298.749618501902
+market share Titan 2024Q4,43.21202460785176
+sample share Titan 2024Q4,85.1955489034945
+market share BuilderNet 2024Q4,0.48399643720237456
+sample share BuilderNet 2024Q4,2.397995705082319
+market share beaverbuild 2024Q4,52.134112460337334
+sample share beaverbuild 2024Q4,1.4902062861976964
+market share Quasar 2024Q4,0.0
+sample share Quasar 2024Q4,0.0
+market share rsync 2024Q4,2.634280814135748
+sample share rsync 2024Q4,4.8301555280796515
+market share Other 2024Q4,1.5355856804727839
+sample share Other 2024Q4,6.0860935771458315
+quarter 2025Q1 slots,585776.0
+quarter 2025Q1 key,708.3641494383864
+quarter 2025Q1 B,2978.102836760595
+quarter 2025Q1 L,3988.613705943905
+quarter 2025Q1 M,4126.386018017081
+quarter 2025Q1 top3,96.86518396110458
+quarter 2025Q1 top2M,89.97551965256343
+quarter 2025Q1 sample_slots,291070.0
+quarter 2025Q1 sample_L,3697.7054156494355
+market share Titan 2025Q1,43.08250935511185
+sample share Titan 2025Q1,42.6096815199093
+market share BuilderNet 2025Q1,1.518157111250717
+sample share BuilderNet 2025Q1,1.6295049300855464
+market share beaverbuild 2025Q1,45.374853186200866
+sample share beaverbuild 2025Q1,41.625382210464835
+market share Quasar 2025Q1,0.0
+sample share Quasar 2025Q1,0.0
+market share rsync 2025Q1,8.407821419791865
+sample share rsync 2025Q1,12.074071529185419
+market share Other 2025Q1,1.6166589276446968
+sample share Other 2025Q1,2.0613598103548973
+quarter 2025Q2 slots,600380.0
+quarter 2025Q2 key,572.8369690679074
+quarter 2025Q2 B,3093.049513459758
+quarter 2025Q2 L,3258.4710924406154
+quarter 2025Q2 M,4042.5067373605307
+quarter 2025Q2 top3,89.52530064292614
+quarter 2025Q2 top2M,89.52530064292614
+quarter 2025Q2 sample_slots,199768.0
+quarter 2025Q2 sample_L,3201.7846821410994
+market share Titan 2025Q2,43.75712049035611
+sample share Titan 2025Q2,35.13425573665452
+market share BuilderNet 2025Q2,11.409607248742464
+sample share BuilderNet 2025Q2,6.695266509150614
+market share beaverbuild 2025Q2,34.35857290382758
+sample share beaverbuild 2025Q2,43.0224059909495
+market share Quasar 2025Q2,3.9478330390752525
+sample share Quasar 2025Q2,6.33885306956069
+market share rsync 2025Q2,3.7489589926379963
+sample share rsync 2025Q2,5.089904288975211
+market share Other 2025Q2,2.777907325360605
+sample share Other 2025Q2,3.719314404709463
+quarter 2025Q3 slots,611179.0
+quarter 2025Q3 key,407.05104078559265
+quarter 2025Q3 B,3537.277200510596
+quarter 2025Q3 L,3736.6444169433353
+quarter 2025Q3 M,4217.597997281732
+quarter 2025Q3 top3,91.34541599105991
+quarter 2025Q3 top2M,91.3454159910599
+quarter 2025Q3 sample_slots,166128.0
+quarter 2025Q3 sample_L,3740.274156944937
+market share Titan 2025Q3,48.240695442742634
+sample share Titan 2025Q3,29.851680631801987
+market share BuilderNet 2025Q3,36.51990660673878
+sample share BuilderNet 2025Q3,52.37226716748531
+market share beaverbuild 2025Q3,6.58481394157849
+sample share beaverbuild 2025Q3,6.655711258788403
+market share Quasar 2025Q3,5.42983315853457
+sample share Quasar 2025Q3,7.6302610035635166
+market share rsync 2025Q3,1.0253951788264977
+sample share rsync 2025Q3,0.9889964364827121
+market share Other 2025Q3,2.19935567157903
+sample share Other 2025Q3,2.5010835018780697
+quarter 2025Q4 slots,606439.0
+quarter 2025Q4 key,587.2768259734361
+quarter 2025Q4 B,2975.5004172596896
+quarter 2025Q4 L,3524.512543845631
+quarter 2025Q4 M,3670.503726396042
+quarter 2025Q4 top3,91.94754269205654
+quarter 2025Q4 top2M,81.71117809628716
+quarter 2025Q4 sample_slots,163800.0
+quarter 2025Q4 sample_L,2894.666391376398
+market share Titan 2025Q4,49.82298302055112
+sample share Titan 2025Q4,25.73260073260073
+market share BuilderNet 2025Q4,29.40543071933039
+sample share BuilderNet 2025Q4,38.03846153846154
+market share beaverbuild 2025Q4,2.48236013844756
+sample share beaverbuild 2025Q4,2.9041514041514045
+market share Quasar 2025Q4,12.71867409582827
+sample share Quasar 2025Q4,27.6996336996337
+market share rsync 2025Q4,2.155534192227083
+sample share rsync 2025Q4,1.7710622710622712
+market share Other 2025Q4,3.415017833615582
+sample share Other 2025Q4,3.8540903540903537
+quarter 2026Q1 slots,601035.0
+quarter 2026Q1 key,674.8913456063202
+quarter 2026Q1 B,3011.5509783505327
+quarter 2026Q1 L,3617.207622388218
+quarter 2026Q1 M,3667.197663993065
+quarter 2026Q1 top3,94.24343008310665
+quarter 2026Q1 top2M,79.73096408695002
+quarter 2026Q1 sample_slots,190028.0
+quarter 2026Q1 sample_L,2785.4223042357858
+market share Titan 2026Q1,50.967414543246235
+sample share Titan 2026Q1,20.36278864167386
+market share BuilderNet 2026Q1,27.86659678720873
+sample share BuilderNet 2026Q1,35.970488559580694
+market share beaverbuild 2026Q1,0.8969527564950461
+sample share beaverbuild 2026Q1,0.9135495821668387
+market share Quasar 2026Q1,15.409418752651677
+sample share Quasar 2026Q1,32.44258740817143
+market share rsync 2026Q1,0.0
+sample share rsync 2026Q1,0.0
+market share Other 2026Q1,4.8596171603983125
+sample share Other 2026Q1,10.310585808407183
+quarter 2026Q2 slots,409338.0
+quarter 2026Q2 key,707.4108232763745
+quarter 2026Q2 B,2896.637599765667
+quarter 2026Q2 L,3510.409597560954
+quarter 2026Q2 M,3580.4095105635265
+quarter 2026Q2 top3,91.39024473662352
+quarter 2026Q2 top2M,76.60295403798328
+quarter 2026Q2 sample_slots,189155.0
+quarter 2026Q2 sample_L,2748.9717239899715
+market share Titan 2026Q2,51.86496245156814
+sample share Titan 2026Q2,34.40617483016574
+market share BuilderNet 2026Q2,23.231412671191045
+sample share BuilderNet 2026Q2,32.232824931934125
+market share beaverbuild 2026Q2,1.5065789152240934
+sample share beaverbuild 2026Q2,1.4041394623456953
+market share Quasar 2026Q2,16.293869613864338
+sample share Quasar 2026Q2,22.405434696412996
+market share rsync 2026Q2,0.0
+sample share rsync 2026Q2,0.0
+market share Other 2026Q2,7.103176348152383
+sample share Other 2026Q2,9.551426079141445
+"Quasar: first delivered block, days after sample start",198.0
+winner Titan slots,412337.0
+winner Titan median,0.33095479011535645
+winner Titan higher,19.677650451660156
+winner Titan none,33.31571020791246
+winner Titan sample_share,34.54262150196238
+winner Titan market_share,47.04051634902271
+winner BuilderNet slots,277970.0
+winner BuilderNet median,1.2671232223510742
+winner BuilderNet higher,29.527545928955078
+winner BuilderNet none,53.20106486311472
+winner BuilderNet sample_share,23.286322835206352
+winner BuilderNet market_share,18.131230591243988
+winner beaverbuild slots,224552.0
+winner beaverbuild median,3.9829583168029785
+winner beaverbuild higher,7.56239652633667
+winner beaverbuild none,82.0611706865225
+winner beaverbuild sample_share,18.811347862327796
+winner beaverbuild market_share,21.875905741947268
+winner Quasar slots,165284.0
+winner Quasar median,2.0905466079711914
+winner Quasar higher,11.776206970214844
+winner Quasar none,70.54826843493623
+winner Quasar sample_share,13.846302059554077
+winner Quasar market_share,7.1444194118005235
+winner rsync slots,51884.0
+winner rsync median,1.4585524797439575
+winner rsync higher,19.23551368713379
+winner rsync none,57.01372292036081
+winner rsync sample_share,4.3464675108171615
+winner rsync market_share,2.6436339280277656
+winner Other slots,61678.0
+winner Other median,1.743161678314209
+winner Other higher,18.310436248779297
+winner Other none,62.12263692078213
+winner Other sample_share,5.166938230132235
+winner Other market_share,3.1642939779577426
+winner Titan 2024Q3 median,1.122310757637024
+winner BuilderNet 2024Q3 median,
+winner Quasar 2024Q3 median,
+winner beaverbuild 2024Q3 median,3.8575470447540283
+winner Titan 2024Q4 median,0.7220536470413208
+winner BuilderNet 2024Q4 median,1.8111109733581543
+winner Quasar 2024Q4 median,
+winner beaverbuild 2024Q4 median,5.3252458572387695
+winner Titan 2025Q1 median,0.583493709564209
+winner BuilderNet 2025Q1 median,2.5633275508880615
+winner Quasar 2025Q1 median,
+winner beaverbuild 2025Q1 median,4.723012447357178
+winner Titan 2025Q2 median,0.9705543518066406
+winner BuilderNet 2025Q2 median,1.7818659543991089
+winner Quasar 2025Q2 median,7.123613357543945
+winner beaverbuild 2025Q2 median,3.7393033504486084
+winner Titan 2025Q3 median,0.09322762489318848
+winner BuilderNet 2025Q3 median,2.3003876209259033
+winner Quasar 2025Q3 median,3.703385591506958
+winner beaverbuild 2025Q3 median,0.9699493646621704
+winner Titan 2025Q4 median,0.027510523796081543
+winner BuilderNet 2025Q4 median,1.3981133699417114
+winner Quasar 2025Q4 median,2.298328399658203
+winner beaverbuild 2025Q4 median,0.004360079765319824
+winner Titan 2026Q1 median,0.05678534507751465
+winner BuilderNet 2026Q1 median,0.3024637699127197
+winner Quasar 2026Q1 median,1.3843238353729248
+winner beaverbuild 2026Q1 median,-0.5942881107330322
+winner Titan 2026Q2 median,0.02582073211669922
+winner BuilderNet 2026Q2 median,-0.007569789886474609
+winner Quasar 2026Q2 median,2.5034725666046143
+winner beaverbuild 2026Q2 median,0.2451777458190918
+"median standing margin, sample (%)",1.3327598571777344
+"median standing margin, re-weighted (%)",1.0822534561157227
+"rival live bid higher, re-weighted (%)",17.63620060901592
+"no rival within 1%, re-weighted (%)",51.125676552814284
+"median margin over any lower rival bid, re-weighted (%)",0.14914274215698242
+"median standing margin, re-weighted, partners merged (%)",1.2212693691253662
+quarter 2024Q3 margin reweighted,2.8501510620117188
+quarter 2024Q4 margin reweighted,3.4374475479125977
+quarter 2025Q1 margin reweighted,2.1539688110351562
+quarter 2025Q2 margin reweighted,2.0131349563598633
+quarter 2025Q3 margin reweighted,0.8643150329589844
+quarter 2025Q4 margin reweighted,0.2464592456817627
+quarter 2026Q1 margin reweighted,0.15593767166137695
+quarter 2026Q2 margin reweighted,0.06867051124572754
+weeks in the HHI-margin test,88.0
+lagged market operator HHI ~ weekly median margin: rho,-0.037529498784826185
+lagged market operator HHI ~ weekly median margin: p,0.7284813185444186
+same-week market operator HHI ~ weekly median margin: rho,-0.05691181477698332
+same-week: p,0.5962889724124366

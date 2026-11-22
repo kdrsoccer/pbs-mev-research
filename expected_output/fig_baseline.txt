@@ -1,0 +1,9 @@
+Loaded 1,270,779 observations
+Generating Figure 1: Volatility Regimes...
+  Saved fig_volatility_regimes.pdf/.png
+Generating Figure 3: HHI Over Time...
+  Saved fig_hhi_over_time.pdf/.png
+Generating Figure 4: Lorenz Curve...
+  Saved fig_lorenz_curve.pdf/.png
+
+Baseline figures saved to /home/claude/cleanroom/figures

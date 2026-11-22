@@ -1,0 +1,8 @@
+work/
+logs/
+__pycache__/
+*.aux
+*.log
+*.out
+*.toc
+data/bid_auction_stats.parquet

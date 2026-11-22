@@ -1,0 +1,100 @@
+unique delivered slots
+regime Low n
+regime Low mean
+regime Low median
+regime Low sd
+regime Low p25
+regime Low p75
+regime Low p95
+regime Mid n
+regime Mid mean
+regime Mid median
+regime Mid sd
+regime Mid p25
+regime Mid p75
+regime Mid p95
+regime High n
+regime High mean
+regime High median
+regime High sd
+regime High p25
+regime High p75
+regime High p95
+regime high/low mean ratio
+regime Kruskal-Wallis H
+Spearman rv-value
+Spearman rv-value n
+KW hour H
+KW weekday H
+Monday mean
+Saturday mean
+weeks
+matched slots
+match rate %
+ETH hourly bars
+matched slots with ETH price
+ETH regression intercept
+ETH regression slope
+ETH regression R2
+Spearman ETH price - value (ETH)
+Spearman ETH price - value (USD)
+GARCH Table 4: AR(5) resid GARCH(1,1) alpha
+GARCH Table 4: AR(5) resid GARCH(1,1) beta
+GARCH Table 4: AR(5) resid GARCH(1,1) alpha+beta
+GARCH Table 5: AR(1) resid alpha
+GARCH Table 5: AR(1) resid beta
+GARCH Table 5: AR(1) resid alpha+beta
+GARCH Table 5: AR(20) resid alpha+beta
+GARCH Table 5: AR(5) first half alpha
+GARCH Table 5: AR(5) first half beta
+GARCH Table 5: AR(5) first half alpha+beta
+GARCH Table 5: AR(5) second half alpha
+GARCH Table 5: AR(5) second half beta
+GARCH Table 5: AR(5) second half alpha+beta
+GARCH Table 5: differenced alpha
+GARCH Table 5: differenced beta
+GARCH Table 5: differenced alpha+beta
+Ljung-Box level resid^2 Q10
+Ljung-Box level resid^2 Q20
+Ljung-Box level resid^2 Q50
+Ljung-Box diff^2 Q10
+Ljung-Box diff^2 Q20
+Ljung-Box diff^2 Q50
+Table 4 omega
+Table 4 log-likelihood
+Table 4 robust SE omega
+Table 4 robust SE alpha
+Table 4 robust SE beta
+unique delivered slots
+window ending at t: Spearman
+window ending at t: ratio of means
+window ending at t: ratio of medians
+window ending at t-1: Spearman
+window ending at t-1: ratio of means
+window ending at t-1: ratio of medians
+window ending at t-300: Spearman
+window ending at t-300: ratio of means
+window ending at t-300: ratio of medians
+placebo (values permuted): Spearman
+placebo: ratio of means
+placebo: ratio of medians
+hours with >=20 blocks and an ETH price
+Spearman hourly median value vs 24h ETH realized vol
+Spearman hourly median value vs |hourly ETH return|
+ETH-vol tercile low: mean block value
+ETH-vol tercile low: median of hourly medians
+ETH-vol tercile mid: mean block value
+ETH-vol tercile mid: median of hourly medians
+ETH-vol tercile high: mean block value
+ETH-vol tercile high: median of hourly medians
+ETH-vol high/low ratio of means
+ETH-vol high/low ratio of medians
+R2: hourly change in log median value on hourly ETH return
+share of sample from Agnostic + BloXroute (%)
+slots matched to the bid archive
+slot maximum above the delivered value (% of slots)
+slot maximum / delivered value, median
+rows above the delivered value (% of all rows)
+winning block is a recorded row (% of slots)
+auction n_bids median
+auction n_builders median

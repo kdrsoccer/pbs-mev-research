@@ -1,0 +1,314 @@
+=== 1. concentration of delivered blocks: by key and by operator ===
+delivered slots                                                            1,271,079
+builder keys with a delivered block                                        227
+whole-sample HHI by key                                                    391
+operators with a delivered block (B)                                       120
+whole-sample HHI by operator (B)                                           2,151
+operators with a delivered block (D)                                       98
+whole-sample HHI by operator (D)                                           2,256
+operators with a delivered block (L)                                       84
+whole-sample HHI by operator (L)                                           2,341
+operators with a delivered block (M)                                       82
+whole-sample HHI by operator (M)                                           3,199
+largest operator share (L, %)                                              35.4
+top-3 operator share (L, %)                                                76.9
+top-5 operator share (L, %)                                                94.8
+top-5 KEY share (%)                                                        33.7
+keys of the largest operator (L)                                           29
+operator 1: share of delivered blocks (%)                                  35.4
+operator 1: keys                                                           29
+operator 2: share of delivered blocks (%)                                  23.5
+operator 2: keys                                                           20
+operator 3: share of delivered blocks (%)                                  18.0
+operator 3: keys                                                           38
+operator 4: share of delivered blocks (%)                                  13.7
+operator 4: keys                                                           11
+operator 5: share of delivered blocks (%)                                  4.2
+operator 5: keys                                                           12
+pooled avg weekly HHI by key, Sep-Dec 2024                                 1,573
+pooled avg weekly HHI by operator, Sep-Dec 2024                            7,348
+pooled avg weekly HHI by operator (B), Sep-Dec 2024                        6,972
+pooled avg weekly HHI by operator (M), Sep-Dec 2024                        7,368
+pooled avg weekly share of the largest operator, Sep-Dec 2024 (%)          85.3
+pooled avg weekly HHI by key, Jan-Apr 2025                                 991
+pooled avg weekly HHI by operator, Jan-Apr 2025                            3,809
+pooled avg weekly HHI by operator (B), Jan-Apr 2025                        3,080
+pooled avg weekly HHI by operator (M), Jan-Apr 2025                        3,964
+pooled avg weekly share of the largest operator, Jan-Apr 2025 (%)          47.9
+pooled avg weekly HHI by key, May-Dec 2025                                 886
+pooled avg weekly HHI by operator, May-Dec 2025                            3,386
+pooled avg weekly HHI by operator (B), May-Dec 2025                        3,341
+pooled avg weekly HHI by operator (M), May-Dec 2025                        3,873
+pooled avg weekly share of the largest operator, May-Dec 2025 (%)          45.7
+pooled avg weekly HHI by key, Jan-May 2026                                 897
+pooled avg weekly HHI by operator, Jan-May 2026                            2,841
+pooled avg weekly HHI by operator (B), Jan-May 2026                        2,744
+pooled avg weekly HHI by operator (M), Jan-May 2026                        2,926
+pooled avg weekly share of the largest operator, Jan-May 2026 (%)          38.1
+agnostic avg weekly HHI by key, Sep-Dec 2024                               1,573
+agnostic avg weekly HHI by operator, Sep-Dec 2024                          7,348
+agnostic avg weekly HHI by operator (B), Sep-Dec 2024                      6,972
+agnostic avg weekly HHI by operator (M), Sep-Dec 2024                      7,368
+agnostic avg weekly share of the largest operator, Sep-Dec 2024 (%)        85.3
+agnostic avg weekly HHI by key, Jan-Apr 2025                               1,163
+agnostic avg weekly HHI by operator, Jan-Apr 2025                          4,473
+agnostic avg weekly HHI by operator (B), Jan-Apr 2025                      4,218
+agnostic avg weekly HHI by operator (M), Jan-Apr 2025                      4,499
+agnostic avg weekly share of the largest operator, Jan-Apr 2025 (%)        58.8
+agnostic avg weekly HHI by key, May-Dec 2025                               1,675
+agnostic avg weekly HHI by operator, May-Dec 2025                          4,525
+agnostic avg weekly HHI by operator (B), May-Dec 2025                      4,525
+agnostic avg weekly HHI by operator (M), May-Dec 2025                      5,160
+agnostic avg weekly share of the largest operator, May-Dec 2025 (%)        58.5
+agnostic avg weekly HHI by key, Jan-May 2026                               2,357
+agnostic avg weekly HHI by operator, Jan-May 2026                          5,054
+agnostic avg weekly HHI by operator (B), Jan-May 2026                      5,050
+agnostic avg weekly HHI by operator (M), Jan-May 2026                      5,679
+agnostic avg weekly share of the largest operator, Jan-May 2026 (%)        65.2
+bloxroute avg weekly HHI by key, Jan-Apr 2025                              1,258
+bloxroute avg weekly HHI by operator, Jan-Apr 2025                         4,215
+bloxroute avg weekly HHI by operator (B), Jan-Apr 2025                     3,262
+bloxroute avg weekly HHI by operator (M), Jan-Apr 2025                     4,215
+bloxroute avg weekly share of the largest operator, Jan-Apr 2025 (%)       52.5
+bloxroute avg weekly HHI by key, May-Dec 2025                              1,124
+bloxroute avg weekly HHI by operator, May-Dec 2025                         3,450
+bloxroute avg weekly HHI by operator (B), May-Dec 2025                     3,377
+bloxroute avg weekly HHI by operator (M), May-Dec 2025                     3,892
+bloxroute avg weekly share of the largest operator, May-Dec 2025 (%)       44.7
+bloxroute avg weekly HHI by key, Jan-May 2026                              1,555
+bloxroute avg weekly HHI by operator, Jan-May 2026                         3,276
+bloxroute avg weekly HHI by operator (B), Jan-May 2026                     3,158
+bloxroute avg weekly HHI by operator (M), Jan-May 2026                     3,276
+bloxroute avg weekly share of the largest operator, Jan-May 2026 (%)       41.6
+pooled weekly operator HHI: min                                            2,475
+pooled weekly operator HHI: max                                            7,840
+pooled weekly operator HHI: median                                         3,393
+share of weeks with pooled operator HHI above 2,500 (%)                    98.9
+pooled operator HHI, week of 2024-12-30                                    7,731
+pooled operator HHI, week of 2025-01-06                                    4,805
+         hhi_key    hhi_op   top1   top3  ops  keys
+q                                                  
+2024Q3  1873.907  7385.442  0.857  0.945   22    55
+2024Q4  1418.914  7298.750  0.852  0.929   36    80
+2025Q1   845.883  3697.705  0.426  0.963   23    79
+2025Q2   860.522  3201.785  0.430  0.849   35    96
+2025Q3   606.454  3740.274  0.524  0.899   26    93
+2025Q4   723.921  2894.596  0.380  0.915   26    75
+2026Q1   898.055  2785.422  0.360  0.888   29    71
+2026Q2   617.031  2748.972  0.344  0.890   34    83
+
+=== 2. the auction from all bids ===
+matched slots                                                              1,219,842
+archive days read                                                          598
+winning block found among the recorded bids (%)                            97.9
+slots with the winning block found                                         1,193,705
+                     mean    median       p10       p90
+bids             3032.857  2748.000  1361.000  5094.000
+keys               51.814    50.000    39.000    68.000
+operators          25.400    25.000    20.000    33.000
+stand %             1.515     1.333    -1.265     8.367
+any %               1.411     0.200     0.008     3.436
+winning bid ms   1099.906   968.000   517.000  2069.000
+next bid gap ms    92.360    32.000     4.000   238.000
+median standing margin (B, %)                                              0.737
+no rival within 1% (B, % of slots)                                         45.4
+median margin over any lower rival bid (B, %)                              0.1173
+a rival operator had a higher standing bid (B, % of slots)                 21.1
+... higher by more than 1% (B, % of slots)                                 11.4
+median standing margin (D, %)                                              0.908
+no rival within 1% (D, % of slots)                                         48.5
+median margin over any lower rival bid (D, %)                              0.1487
+a rival operator had a higher standing bid (D, % of slots)                 20.0
+... higher by more than 1% (D, % of slots)                                 11.2
+median standing margin (L, %)                                              1.333
+no rival within 1% (L, % of slots)                                         54.8
+median margin over any lower rival bid (L, %)                              0.2002
+a rival operator had a higher standing bid (L, % of slots)                 18.5
+... higher by more than 1% (L, % of slots)                                 10.8
+median standing margin (M, %)                                              1.494
+no rival within 1% (M, % of slots)                                         56.4
+median margin over any lower rival bid (M, %)                              0.2268
+a rival operator had a higher standing bid (M, % of slots)                 17.8
+... higher by more than 1% (M, % of slots)                                 10.3
+median standing margin (KEY, %)                                            0.000
+median margin over any lower rival bid (KEY, %)                            0.0001
+a rival operator had a higher standing bid (KEY, % of slots)               36.5
+... higher by more than 1% (KEY, % of slots)                               14.7
+winner more than 1% ahead of every rival operator (% of slots)             54.7
+winner more than 5% ahead (% of slots)                                     20.6
+standing margin p25 (%)                                                    0.067
+standing margin p75 (%)                                                    4.329
+standing margin p5 (%)                                                     -5.662
+standing margin p95 (%)                                                    12.349
+no rival operator within 1% (% of slots)                                   54.8
+exactly one rival within 1% (% of slots)                                   37.1
+two or more rivals within 1% (% of slots)                                  8.1
+rival operators within 1%, mean                                            0.55
+no rival operator among the candidates (% of slots)                        0.11
+
+by quarter:
+         slots    bids  keys   ops  stand_L  stand_B  stand_M  any_L  rival_higher   riv1
+q                                                                                        
+2024Q3    9662  1978.5  71.0  30.0    1.352    0.638    1.391  0.341        22.011  0.480
+2024Q4   56999  1516.0  68.0  31.0    0.877    0.585    0.920  0.236        14.530  0.548
+2025Q1  291070  1942.0  64.0  30.0    2.027    0.539    2.106  0.255        12.314  0.419
+2025Q2  196559  3355.0  53.0  27.0    2.397    1.401    2.925  0.320        10.779  0.363
+2025Q3  155069  3994.0  54.0  23.0    1.560    1.408    2.350  0.195        13.830  0.505
+2025Q4  151086  3040.0  44.0  22.0    1.107    1.002    1.184  0.143        20.951  0.569
+2026Q1  187839  2608.0  43.0  23.0    0.819    0.710    0.845  0.151        25.213  0.642
+2026Q2  171558  2950.0  43.0  22.0    0.158    0.120    0.175  0.091        35.645  0.934
+
+by value tercile:
+       ops  keys    bids  stand_L  any_L  rival_higher   riv1     wt
+ter                                                                 
+Low   22.0  44.0  2687.0    1.219  0.194        21.220  0.587  951.0
+Mid   25.0  52.0  3008.0    1.495  0.196        17.446  0.523  979.0
+High  27.0  57.0  2542.0    1.324  0.210        16.920  0.532  973.0
+rho value ~ operators bidding                                              0.388
+rho value ~ operators bidding CI low                                       0.370
+rho value ~ operators bidding CI high                                      0.407
+rho value ~ keys bidding                                                   0.446
+rho value ~ keys bidding CI low                                            0.427
+rho value ~ keys bidding CI high                                           0.464
+rho value ~ standing margin                                                0.033
+rho value ~ standing margin CI low                                         0.011
+rho value ~ standing margin CI high                                        0.053
+rho value ~ bids                                                           -0.019
+rho value ~ bids CI low                                                    -0.041
+rho value ~ bids CI high                                                   0.001
+rho operators bidding ~ standing margin                                    0.153
+rho operators bidding ~ standing margin CI low                             0.130
+rho operators bidding ~ standing margin CI high                            0.173
+rho value ~ winning bid time                                               0.044
+rho value ~ winning bid time CI low                                        0.022
+rho value ~ winning bid time CI high                                       0.068
+
+=== 3. over time ===
+pooled operators bidding per slot, Sep-Dec 2024                            30.8
+pooled keys bidding per slot, Sep-Dec 2024                                 68.5
+pooled operators bidding per slot, Jan-Apr 2025                            30.6
+pooled keys bidding per slot, Jan-Apr 2025                                 62.5
+pooled operators bidding per slot, May-Dec 2025                            22.8
+pooled keys bidding per slot, May-Dec 2025                                 48.6
+pooled operators bidding per slot, Jan-May 2026                            22.7
+pooled keys bidding per slot, Jan-May 2026                                 43.3
+agnostic operators bidding per slot, Sep-Dec 2024                          30.8
+agnostic keys bidding per slot, Sep-Dec 2024                               68.5
+agnostic operators bidding per slot, Jan-Apr 2025                          30.8
+agnostic keys bidding per slot, Jan-Apr 2025                               63.7
+agnostic operators bidding per slot, May-Dec 2025                          23.3
+agnostic keys bidding per slot, May-Dec 2025                               49.6
+agnostic operators bidding per slot, Jan-May 2026                          22.9
+agnostic keys bidding per slot, Jan-May 2026                               43.5
+weekly median operators per slot: first 8 weeks, mean                      29.4
+weekly median operators per slot: last 8 weeks, mean                       22.5
+weekly median standing margin: min (%)                                     0.013
+weekly median standing margin: max (%)                                     3.362
+weekly median bids: min                                                    1,360
+weekly median bids: max                                                    5,129
+operators bidding per day, 2024Q3                                          35
+keys bidding per day, 2024Q3                                               118
+operators bidding per day, 2024Q4                                          32
+keys bidding per day, 2024Q4                                               109
+operators bidding per day, 2025Q1                                          29
+keys bidding per day, 2025Q1                                               97
+operators bidding per day, 2025Q2                                          26
+keys bidding per day, 2025Q2                                               73
+operators bidding per day, 2025Q3                                          23
+keys bidding per day, 2025Q3                                               74
+operators bidding per day, 2025Q4                                          22
+keys bidding per day, 2025Q4                                               63
+operators bidding per day, 2026Q1                                          25
+keys bidding per day, 2026Q1                                               66
+operators bidding per day, 2026Q2                                          29
+keys bidding per day, 2026Q2                                               68
+weeks in the HHI-margin test                                               88
+lagged operator HHI ~ weekly median standing margin: rho                   0.223
+lagged operator HHI ~ weekly median standing margin: p                     0.0367
+same-week operator HHI ~ weekly median standing margin: rho                0.192
+same-week: p                                                               0.0726
+
+=== 4. operators ===
+builder keys bidding                                                       803
+operators bidding (L)                                                      443
+operators bidding (B)                                                      497
+operators bidding (D)                                                      467
+operators bidding (M)                                                      441
+operators with more than one key (L)                                       24
+keys held by multi-key operators (L)                                       384
+operators with at least one win (matched slots)                            83
+bid share of the five largest winners (%)                                  77.4
+win share of the five largest winners (%)                                  94.9
+     keys        bids    wins  days  t_median  after_start  above_winner  bid_share  win_share  wins_per_1000             name
+o                                                                                                                             
+637    29  1453697538  431997   598   602.949        0.675         0.183     39.349     35.407          0.297            Titan
+140    20   632071129  282292   549   175.390        0.547         0.102     17.109     23.137          0.447       buildernet
+778    38   517594811  225133   597  -187.850        0.536         0.094     14.010     18.452          0.435  beaverbuild.org
+463    11   125260759  166003   405  -503.124        0.507         0.028      3.391     13.606          1.325           Quasar
+653    12   131295005   52105   423   768.953        0.769         0.065      3.554      4.271          0.397            rsync
+789    12   261546775   19566   598 -1691.182        0.397         0.007      7.080      1.604          0.075             BTCS
+205   163   118074409   12567   409 -1756.242        0.303         0.008      3.196      1.030          0.106   Eureka Builder
+376    25    56808749   10648   598  1825.224        0.967         0.406      1.538      0.873          0.187    bobthebuilder
+operator Titan median days a key is active                                 184
+operator buildernet median days a key is active                            128
+operator beaverbuild.org median days a key is active                       149
+operator Quasar median days a key is active                                352
+operator rsync median days a key is active                                 346
+operator BTCS median days a key is active                                  131
+operator Eureka Builder median days a key is active                        1
+operator bobthebuilder median days a key is active                         235
+Titan first bid 2024-09-17
+buildernet first bid 2024-11-11
+beaverbuild.org first bid 2024-09-17
+Quasar first bid 2025-04-04
+rsync first bid 2024-09-17
+BTCS first bid 2024-09-17
+Eureka Builder first bid 2025-03-30
+bobthebuilder first bid 2024-09-17
+nm      Titan  buildernet  beaverbuild.org  Quasar  rsync
+q                                                        
+2024Q3   85.7         0.0              5.4     0.0    2.7
+2024Q4   85.2         2.4              1.5     0.0    4.8
+2025Q1   42.6         1.6             41.6     0.0   12.1
+2025Q2   35.1         6.7             43.0     6.3    5.1
+2025Q3   29.9        52.4              6.7     7.6    1.0
+2025Q4   25.7        38.0              2.9    27.7    1.8
+2026Q1   20.4        36.0              0.9    32.4    0.0
+2026Q2   34.4        32.2              1.4    22.4    0.0
+top-3 share 2024Q3 (L, %)                                                  94.5
+top-2 share 2024Q3 (M, %)                                                  94.5
+HHI 2024Q3 (M)                                                             7,422
+HHI 2024Q3 (L)                                                             7,385
+top-3 share 2024Q4 (L, %)                                                  92.9
+top-2 share 2024Q4 (M, %)                                                  92.0
+HHI 2024Q4 (M)                                                             7,328
+HHI 2024Q4 (L)                                                             7,299
+top-3 share 2025Q1 (L, %)                                                  96.3
+top-2 share 2025Q1 (M, %)                                                  85.9
+HHI 2025Q1 (M)                                                             3,833
+HHI 2025Q1 (L)                                                             3,698
+top-3 share 2025Q2 (L, %)                                                  84.9
+top-2 share 2025Q2 (M, %)                                                  84.9
+HHI 2025Q2 (M)                                                             3,778
+HHI 2025Q2 (L)                                                             3,202
+top-3 share 2025Q3 (L, %)                                                  89.9
+top-2 share 2025Q3 (M, %)                                                  88.9
+HHI 2025Q3 (M)                                                             4,437
+HHI 2025Q3 (L)                                                             3,740
+top-3 share 2025Q4 (L, %)                                                  91.5
+top-2 share 2025Q4 (M, %)                                                  68.6
+HHI 2025Q4 (M)                                                             3,116
+HHI 2025Q4 (L)                                                             2,895
+top-3 share 2026Q1 (L, %)                                                  88.8
+top-2 share 2026Q1 (M, %)                                                  69.3
+HHI 2026Q1 (M)                                                             2,851
+HHI 2026Q1 (L)                                                             2,785
+top-3 share 2026Q2 (L, %)                                                  89.0
+top-2 share 2026Q2 (M, %)                                                  68.0
+HHI 2026Q2 (M)                                                             2,839
+HHI 2026Q2 (L)                                                             2,749
+top-2 share (M, %)                                                         77.1
+top-3 share (M, %)                                                         90.8
+largest operator share (M, %)                                              41.6
+
+figures written to /home/claude/cleanroom/figures/

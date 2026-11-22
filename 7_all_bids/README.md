@@ -1,0 +1,9 @@
+# 7_all_bids: every bid, grouped by operator
+
+1. `pbs_all_bids.ipynb` (with `core.py`) streams one all-bids file per day from `https://bidarchive.relayscan.io/ethereum/mainnet/YYYY-MM/YYYY-MM-DD_all.csv.zip`, keeps the bids of delivered slots (`data/delivered_slim.parquet`) and writes per-day tables: per-slot statistics, each slot's 40 highest-bidding keys at or below the winning value, shared-block links between keys, per-key daily statistics. Run on Google Colab, about 2.3 minutes per day, 598 of 599 days (the file for 2024-10-12 is not available). Resumable.
+2. `drive_extract_1.py`, `drive_extract_2.py` are the notebook cells that condensed the per-day tables into `data/all_bids_intermediate/` (candidate rival bids per slot, exact value ties between keys).
+3. `relink.py R1 R2 OUT delivered_slim.parquet` builds behavioural operators across the whole sample (union-find over shared-block links and value-tie links) and each slot's margins against rivals defined by them. With `data/all_bids_intermediate/` as both R1 and R2 it reproduces the B, D and KEY columns of `data/all_bids_by_slot.parquet`.
+4. `label_operators.py` reads `data/builder_labels.csv`, scores the behavioural rules against the labels, builds the label-based operators (`L`, and `M` with the BuilderNet partners merged) and adds their margins to `data/all_bids_by_slot.parquet`. Given the path of a clone of `dataalways/mevboost-data` as an argument it first rebuilds `builder_labels.csv`.
+5. `pbs_relay_traces.ipynb` (Colab, about 4 minutes per day) downloads 24 daily `mev_relay_bid_trace` files from `https://data.ethpandaops.io/xatu/mainnet/databases/default/mev_relay_bid_trace/YYYY/M/D.parquet` and reduces them to `data/relay_trace_keys.parquet` and `data/relay_trace_relays.parquet`.
+
+Linking inside the notebook is per day and incomplete; only the per-slot operator count `nop_all` still uses it. All margins and concentration figures use whole-sample links and labels.

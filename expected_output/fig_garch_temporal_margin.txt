@@ -1,0 +1,12 @@
+fig_garch_clustering: n=1,271,074 params from work/garch_level.json: omega=0.648 alpha=0.044 beta=0.965
+fig_temporal_patterns: KW hour H=65,875  KW dow H=33,590
+fig_margin_vs_value_fixed: tercile medians [0.197, 0.144, 0.11]  n = 1219628
+fig_margin_regression: OLS coefficients
+const         3.8003
+log_value    -0.7574
+n_builders   -0.1567
+n_relays     -0.7192
+hour          0.0081
+dow           0.0119
+R2 0.0203 n 1219628
+done

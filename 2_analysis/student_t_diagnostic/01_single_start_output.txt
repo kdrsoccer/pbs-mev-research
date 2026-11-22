@@ -1,0 +1,72 @@
+default fit: iters 5
+     message: Optimization terminated successfully
+     success: True
+      status: 0
+         fun: 3533699.326196692
+           x: [-6.426e-06  2.579e+00  1.000e-01  8.800e-01  4.005e+00]
+         nit: 5
+         jac: [ 1.932e+03  1.185e+05  1.001e+06  4.114e+06  9.725e+04]
+        nfev: 6
+        njev: 1
+ multipliers: [ 0.000e+00  1.003e+06  4.121e+06  0.000e+00  9.742e+04
+                0.000e+00]
+default params {'mu': -1e-05, 'omega': 2.57888, 'alpha[1]': 0.1, 'beta[1]': 0.88, 'nu': 4.00541} ll -3533699.326196692
+arch starting values: [-6.42617574e-06]
+ll at default-fit params: -3533699.326196692
+ll at alpha=0.05 beta=0.93 (omega,nu re-fit by default ones): -3734584.1857925397
+ll at alpha=0.2 beta=0.78 (omega,nu re-fit by default ones): -3308996.9558758168
+ll at alpha=0.15 beta=0.84 (omega,nu re-fit by default ones): -3433281.252893191
+ll at alpha=0.3 beta=0.69 (omega,nu re-fit by default ones): -3187904.333954051
+ll at alpha=0.5 beta=0.49 (omega,nu re-fit by default ones): -3016797.592054778
+ll at alpha=0.08 beta=0.91 (omega,nu re-fit by default ones): -3655260.6996760326
+ll at alpha=0.12 beta=0.86 (omega,nu re-fit by default ones): -3476172.9822568535
+ll at alpha=0.1 beta=0.85 (omega,nu re-fit by default ones): -3427597.122892407
+ll at alpha=0.1 beta=0.89 (omega,nu re-fit by default ones): -3577236.575423611
+start [0, 1.0, 0.05, 0.93, 4]: conv=0 params={'mu': 0.01628, 'omega': 1.00617, 'alpha[1]': 0.04991, 'beta[1]': 0.92827, 'nu': 3.99947} ll=-3440351.5 nit=11 msg=Optimization terminated successfully t=5s
+start [0, 5.0, 0.3, 0.6, 4]: conv=0 params={'mu': -0.00891, 'omega': 5.00003, 'alpha[1]': 0.3, 'beta[1]': 0.6, 'nu': 4.00007} ll=-3253736.5 nit=6 msg=Optimization terminated successfully t=3s
+start [0, 1.0, 0.2, 0.78, 5]: conv=0 params={'mu': -0.00612, 'omega': 1.00004, 'alpha[1]': 0.2, 'beta[1]': 0.78, 'nu': 5.00001} ll=-3159115.1 nit=6 msg=Optimization terminated successfully t=3s
+start [0, 0.5, 0.02, 0.97, 4]: conv=8 params={'mu': -1893.00833, 'omega': 0.71421, 'alpha[1]': 0.03358, 'beta[1]': 0.96995, 'nu': 4.21879} ll=-12057640.1 nit=12 msg=Positive directional derivative for linesearch t=7s
+profile: optimise (mu,omega,nu) with alpha,beta fixed via grid search over loglik (coarse)
+a=0.02 b=0.880 om=12.894 ll=-4088471.8
+a=0.02 b=0.930 om=6.447 ll=-4040392.9
+a=0.02 b=0.960 om=2.579 ll=-3937324.4
+a=0.02 b=0.970 om=1.289 ll=-3830644.0
+a=0.02 b=0.975 om=0.645 ll=-3712173.5
+a=0.02 b=0.979 om=0.129 ll=-3477245.4
+a=0.05 b=0.850 om=12.894 ll=-3995550.2
+a=0.05 b=0.900 om=6.447 ll=-3901126.8
+a=0.05 b=0.930 om=2.579 ll=-3734019.7
+a=0.05 b=0.940 om=1.289 ll=-3594290.9
+a=0.05 b=0.945 om=0.645 ll=-3463228.3
+a=0.05 b=0.949 om=0.129 ll=-3249627.2
+a=0.1 b=0.800 om=12.894 ll=-3872652.8
+a=0.1 b=0.850 om=6.447 ll=-3737190.4
+a=0.1 b=0.880 om=2.579 ll=-3533172.7
+a=0.1 b=0.890 om=1.289 ll=-3385209.4
+a=0.1 b=0.895 om=0.645 ll=-3259423.4
+a=0.1 b=0.899 om=0.129 ll=-3077969.0
+a=0.15 b=0.750 om=12.894 ll=-3775900.0
+a=0.15 b=0.800 om=6.447 ll=-3619425.1
+a=0.15 b=0.830 om=2.579 ll=-3403486.9
+a=0.15 b=0.840 om=1.289 ll=-3257657.5
+a=0.15 b=0.845 om=0.645 ll=-3139767.6
+a=0.15 b=0.849 om=0.129 ll=-2982205.0
+a=0.2 b=0.700 om=12.894 ll=-3696466.0
+a=0.2 b=0.750 om=6.447 ll=-3528066.2
+a=0.2 b=0.780 om=2.579 ll=-3308520.6
+a=0.2 b=0.790 om=1.289 ll=-3166991.8
+a=0.2 b=0.795 om=0.645 ll=-3056574.4
+a=0.2 b=0.799 om=0.129 ll=-2918393.9
+a=0.3 b=0.600 om=12.894 ll=-3571298.3
+a=0.3 b=0.650 om=6.447 ll=-3391492.0
+a=0.3 b=0.680 om=2.579 ll=-3173645.3
+a=0.3 b=0.690 om=1.289 ll=-3041883.3
+a=0.3 b=0.695 om=0.645 ll=-2944702.4
+a=0.3 b=0.699 om=0.129 ll=-2838321.0
+a=0.4 b=0.500 om=12.894 ll=-3475062.1
+a=0.4 b=0.550 om=6.447 ll=-3291423.9
+a=0.4 b=0.580 om=2.579 ll=-3079574.9
+a=0.4 b=0.590 om=1.289 ll=-2957470.6
+a=0.4 b=0.595 om=0.645 ll=-2871964.0
+a=0.4 b=0.599 om=0.129 ll=-2792920.7
+best (-2792920.65388403, 0.4, 0.599, np.float64(0.12894404732379322))

@@ -1,0 +1,119 @@
+=== market: every MEV-Boost block ===
+MEV-Boost slots, all relays                                                          4,105,750
+share of all slots in the period (%)                                                 91.8
+sample share of MEV-Boost slots (%)                                                  31.0
+sample slots found in the market set (%)                                             99.94
+builder keys with a delivered block, market                                          306
+blocks whose key is not in the operator map                                          150
+operators with a delivered block, market (L)                                         110
+blocks whose key has no label (%)                                                    0.11
+market HHI by key                                                                    344
+market HHI by operator (shared blocks only)                                          2,612
+market HHI by operator (shared blocks and value ties)                                2,910
+market HHI by operator (labels and shared blocks)                                    3,080
+market HHI by operator (BuilderNet partners merged)                                  3,883
+market top-5 key share (%)                                                           30.8
+market top-1 share (L, %)                                                            47.0
+market top-2 share (L, %)                                                            68.9
+market top-3 share (L, %)                                                            87.1
+market top-5 share (L, %)                                                            96.8
+market top-1 share (M, %)                                                            47.0
+market top-2 share (M, %)                                                            87.2
+market top-3 share (M, %)                                                            94.3
+market share Titan (%)                                                               47.0
+sample share Titan (%)                                                               35.4
+market share BuilderNet (%)                                                          18.1
+sample share BuilderNet (%)                                                          23.5
+market share beaverbuild (%)                                                         21.9
+sample share beaverbuild (%)                                                         18.0
+market share Quasar (%)                                                              7.1
+sample share Quasar (%)                                                              13.7
+market share rsync (%)                                                               2.6
+sample share rsync (%)                                                               4.2
+sample HHI by operator (L)                                                           2,341
+sample HHI by key                                                                    391
+weeks                                                                                89
+weekly market HHI by operator: min                                                   2,879
+weekly market HHI by operator: median                                                3,706
+weekly market HHI by operator: max                                                   4,746
+weeks with market operator HHI above 2,500 (%)                                       100.0
+weekly market HHI by key: min                                                        433
+weekly market HHI by key: max                                                        1,303
+weekly market HHI by key: median                                                     695
+weeks with key-level HHI above 2,500 (%)                                             0.0
+weeks with key-level HHI above 1,500 (%)                                             0.0
+         slots    key       B       L       M  top3  top2M  sample_slots  sample_L
+q                                                                                 
+2024Q3   88706  770.7  3181.8  4627.4  4760.7  97.8   97.3          9662    7385.4
+2024Q4  602897  757.6  3276.4  4593.7  4711.0  98.0   96.5         61468    7298.7
+2025Q1  585776  708.4  2978.1  3988.6  4126.4  96.9   90.0        291070    3697.7
+2025Q2  600380  572.8  3093.0  3258.5  4042.5  89.5   89.5        199768    3201.8
+2025Q3  611179  407.1  3537.3  3736.6  4217.6  91.3   91.3        166128    3740.3
+2025Q4  606439  587.3  2975.5  3524.5  3670.5  91.9   81.7        163800    2894.7
+2026Q1  601035  674.9  3011.6  3617.2  3667.2  94.2   79.7        190028    2785.4
+2026Q2  409338  707.4  2896.6  3510.4  3580.4  91.4   76.6        189155    2749.0
+market shares by quarter
+g       Titan  BuilderNet  beaverbuild  Quasar  rsync  Other
+q                                                           
+2024Q3   45.3         0.0         50.6     0.0    1.8    2.3
+2024Q4   43.2         0.5         52.1     0.0    2.6    1.5
+2025Q1   43.1         1.5         45.4     0.0    8.4    1.6
+2025Q2   43.8        11.4         34.4     3.9    3.7    2.8
+2025Q3   48.2        36.5          6.6     5.4    1.0    2.2
+2025Q4   49.8        29.4          2.5    12.7    2.2    3.4
+2026Q1   51.0        27.9          0.9    15.4    0.0    4.9
+2026Q2   51.9        23.2          1.5    16.3    0.0    7.1
+sample shares by quarter
+g       Titan  BuilderNet  beaverbuild  Quasar  rsync  Other
+q                                                           
+2024Q3   85.7         0.0          5.4     0.0    2.7    6.3
+2024Q4   85.2         2.4          1.5     0.0    4.8    6.1
+2025Q1   42.6         1.6         41.6     0.0   12.1    2.1
+2025Q2   35.1         6.7         43.0     6.3    5.1    3.7
+2025Q3   29.9        52.4          6.7     7.6    1.0    2.5
+2025Q4   25.7        38.0          2.9    27.7    1.8    3.9
+2026Q1   20.4        36.0          0.9    32.4    0.0   10.3
+2026Q2   34.4        32.2          1.4    22.4    0.0    9.6
+Quasar: first delivered block, days after sample start                               198
+Quasar first delivered block 2025-04-04 00:33:23
+
+=== the auction sample re-weighted to market winner shares (quarter x winner) ===
+              slots  median     higher   none  sample_share  market_share
+g                                                                        
+Titan        412337    0.33  19.680000  33.32         34.54         47.04
+BuilderNet   277970    1.27  29.530001  53.20         23.29         18.13
+beaverbuild  224552    3.98   7.560000  82.06         18.81         21.88
+Quasar       165284    2.09  11.780000  70.55         13.85          7.14
+rsync         51884    1.46  19.240000  57.01          4.35          2.64
+Other         61678    1.74  18.309999  62.12          5.17          3.16
+g       BuilderNet  Other  Quasar  Titan  beaverbuild  rsync
+q                                                           
+2024Q3         NaN   5.05     NaN   1.12         3.86   1.23
+2024Q4        1.81   1.98     NaN   0.72         5.33   2.89
+2025Q1        2.56   3.15     NaN   0.58         4.72   1.32
+2025Q2        1.78   2.68    7.12   0.97         3.74   1.65
+2025Q3        2.30   3.04    3.70   0.09         0.97   1.90
+2025Q4        1.40   3.00    2.30   0.03         0.00   1.61
+2026Q1        0.30   1.81    1.38   0.06        -0.59    NaN
+2026Q2       -0.01   0.72    2.50   0.03         0.25    NaN
+median standing margin, sample (%)                                                   1.333
+median standing margin, re-weighted (%)                                              1.082
+rival live bid higher, re-weighted (%)                                               17.6
+no rival within 1%, re-weighted (%)                                                  51.1
+median margin over any lower rival bid, re-weighted (%)                              0.149
+median standing margin, re-weighted, partners merged (%)                             1.221
+        sample  reweighted
+q                         
+2024Q3   1.352       2.850
+2024Q4   0.877       3.437
+2025Q1   2.027       2.154
+2025Q2   2.397       2.013
+2025Q3   1.560       0.864
+2025Q4   1.107       0.246
+2026Q1   0.819       0.156
+2026Q2   0.158       0.069
+weeks in the HHI-margin test                                                         88
+lagged market operator HHI ~ weekly median margin: rho                               -0.038
+lagged market operator HHI ~ weekly median margin: p                                 0.728
+same-week market operator HHI ~ weekly median margin: rho                            -0.057
+same-week: p                                                                         0.596

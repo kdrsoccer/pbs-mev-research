@@ -1,0 +1,34 @@
+                                                 statistic        paper   recomputed result
+                                    unique delivered slots 1271079.0000 1.271079e+06   PASS
+                              window ending at t: Spearman       0.4940 4.935200e-01   PASS
+                        window ending at t: ratio of means       7.0000 7.026000e+00   PASS
+                      window ending at t: ratio of medians       2.7000 2.713000e+00   PASS
+                            window ending at t-1: Spearman       0.4900 4.902900e-01   PASS
+                      window ending at t-1: ratio of means       5.1000 5.073000e+00   PASS
+                    window ending at t-1: ratio of medians       2.7000 2.703000e+00   PASS
+                          window ending at t-300: Spearman       0.4140 4.144600e-01   PASS
+                    window ending at t-300: ratio of means       3.5000 3.455000e+00   PASS
+                  window ending at t-300: ratio of medians       2.3000 2.348000e+00   PASS
+                       placebo (values permuted): Spearman       0.0050 4.540000e-03   PASS
+                                   placebo: ratio of means       2.5000 2.487000e+00   PASS
+                                 placebo: ratio of medians       1.0000 1.007000e+00   PASS
+                   hours with >=20 blocks and an ETH price   14621.0000 1.462100e+04   PASS
+      Spearman hourly median value vs 24h ETH realized vol       0.2450 2.451600e-01   PASS
+       Spearman hourly median value vs |hourly ETH return|       0.2340 2.337400e-01   PASS
+                     ETH-vol tercile low: mean block value       0.0350 3.467000e-02   PASS
+             ETH-vol tercile low: median of hourly medians       0.0137 1.366200e-02   PASS
+                     ETH-vol tercile mid: mean block value       0.0490 4.887000e-02   PASS
+             ETH-vol tercile mid: median of hourly medians       0.0172 1.720500e-02   PASS
+                    ETH-vol tercile high: mean block value       0.0850 8.480000e-02   PASS
+            ETH-vol tercile high: median of hourly medians       0.0210 2.095300e-02   PASS
+                           ETH-vol high/low ratio of means       2.4000 2.446000e+00   PASS
+                         ETH-vol high/low ratio of medians       1.5000 1.534000e+00   PASS
+R2: hourly change in log median value on hourly ETH return       0.0050 5.420000e-03   PASS
+             share of sample from Agnostic + BloXroute (%)      87.0000 8.735000e+01   PASS
+                          slots matched to the bid archive 1219842.0000 1.219842e+06   PASS
+       slot maximum above the delivered value (% of slots)      96.2000 9.616100e+01   PASS
+                    slot maximum / delivered value, median       1.0830 1.083420e+00   PASS
+            rows above the delivered value (% of all rows)      15.4000 1.540400e+01   PASS
+              winning block is a recorded row (% of slots)      28.8000 2.881900e+01   PASS
+
+31 of 31 match the paper.

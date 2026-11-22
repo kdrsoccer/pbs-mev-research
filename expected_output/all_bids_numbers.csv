@@ -1,0 +1,495 @@
+,value
+delivered slots,1271079.0
+builder keys with a delivered block,227.0
+whole-sample HHI by key,391.0883614855886
+operators with a delivered block (B),120.0
+whole-sample HHI by operator (B),2151.1400787378825
+operators with a delivered block (D),98.0
+whole-sample HHI by operator (D),2255.620530659397
+operators with a delivered block (L),84.0
+whole-sample HHI by operator (L),2340.9876109680495
+operators with a delivered block (M),82.0
+whole-sample HHI by operator (M),3199.209380209132
+"largest operator share (L, %)",35.43233740782438
+"top-3 operator share (L, %)",76.89089348498402
+"top-5 operator share (L, %)",94.81464173351932
+top-5 KEY share (%),33.72646389406166
+keys of the largest operator (L),29.0
+operator 1: share of delivered blocks (%),35.43233740782438
+operator 1: keys,29.0
+operator 2: share of delivered blocks (%),23.462585724412094
+operator 2: keys,20.0
+operator 3: share of delivered blocks (%),17.99597035274755
+operator 3: keys,38.0
+operator 4: share of delivered blocks (%),13.747532608122706
+operator 4: keys,11.0
+operator 5: share of delivered blocks (%),4.176215640412594
+operator 5: keys,12.0
+"pooled avg weekly HHI by key, Sep-Dec 2024",1573.4338155861035
+"pooled avg weekly HHI by operator, Sep-Dec 2024",7347.630745169409
+"pooled avg weekly HHI by operator (B), Sep-Dec 2024",6972.353200404945
+"pooled avg weekly HHI by operator (M), Sep-Dec 2024",7368.447999496935
+"pooled avg weekly share of the largest operator, Sep-Dec 2024 (%)",85.34167633512945
+"pooled avg weekly HHI by key, Jan-Apr 2025",991.0725451398129
+"pooled avg weekly HHI by operator, Jan-Apr 2025",3809.098329431198
+"pooled avg weekly HHI by operator (B), Jan-Apr 2025",3079.6482365338384
+"pooled avg weekly HHI by operator (M), Jan-Apr 2025",3964.2544467061903
+"pooled avg weekly share of the largest operator, Jan-Apr 2025 (%)",47.92842058495712
+"pooled avg weekly HHI by key, May-Dec 2025",886.0081002177155
+"pooled avg weekly HHI by operator, May-Dec 2025",3385.6706963557494
+"pooled avg weekly HHI by operator (B), May-Dec 2025",3340.83503648017
+"pooled avg weekly HHI by operator (M), May-Dec 2025",3872.5597751833225
+"pooled avg weekly share of the largest operator, May-Dec 2025 (%)",45.73637752161691
+"pooled avg weekly HHI by key, Jan-May 2026",896.5031179399888
+"pooled avg weekly HHI by operator, Jan-May 2026",2840.6471676546166
+"pooled avg weekly HHI by operator (B), Jan-May 2026",2743.848183856572
+"pooled avg weekly HHI by operator (M), Jan-May 2026",2925.9697791967023
+"pooled avg weekly share of the largest operator, Jan-May 2026 (%)",38.09234303674622
+"agnostic avg weekly HHI by key, Sep-Dec 2024",1573.4338155861035
+"agnostic avg weekly HHI by operator, Sep-Dec 2024",7347.630745169409
+"agnostic avg weekly HHI by operator (B), Sep-Dec 2024",6972.353200404945
+"agnostic avg weekly HHI by operator (M), Sep-Dec 2024",7368.447999496935
+"agnostic avg weekly share of the largest operator, Sep-Dec 2024 (%)",85.34167633512945
+"agnostic avg weekly HHI by key, Jan-Apr 2025",1162.6076601177888
+"agnostic avg weekly HHI by operator, Jan-Apr 2025",4473.017488602517
+"agnostic avg weekly HHI by operator (B), Jan-Apr 2025",4218.296023082582
+"agnostic avg weekly HHI by operator (M), Jan-Apr 2025",4498.716983908691
+"agnostic avg weekly share of the largest operator, Jan-Apr 2025 (%)",58.76753876820908
+"agnostic avg weekly HHI by key, May-Dec 2025",1674.6387197348674
+"agnostic avg weekly HHI by operator, May-Dec 2025",4525.043228233934
+"agnostic avg weekly HHI by operator (B), May-Dec 2025",4524.996662212372
+"agnostic avg weekly HHI by operator (M), May-Dec 2025",5159.549980801555
+"agnostic avg weekly share of the largest operator, May-Dec 2025 (%)",58.51561086409488
+"agnostic avg weekly HHI by key, Jan-May 2026",2357.0909807185312
+"agnostic avg weekly HHI by operator, Jan-May 2026",5053.571809186001
+"agnostic avg weekly HHI by operator (B), Jan-May 2026",5049.652851951085
+"agnostic avg weekly HHI by operator (M), Jan-May 2026",5679.011269263973
+"agnostic avg weekly share of the largest operator, Jan-May 2026 (%)",65.24510193869558
+"bloxroute avg weekly HHI by key, Jan-Apr 2025",1257.800549602833
+"bloxroute avg weekly HHI by operator, Jan-Apr 2025",4214.71615443815
+"bloxroute avg weekly HHI by operator (B), Jan-Apr 2025",3262.3851358621832
+"bloxroute avg weekly HHI by operator (M), Jan-Apr 2025",4214.71615443815
+"bloxroute avg weekly share of the largest operator, Jan-Apr 2025 (%)",52.53037863193484
+"bloxroute avg weekly HHI by key, May-Dec 2025",1123.8988747192416
+"bloxroute avg weekly HHI by operator, May-Dec 2025",3450.0243553923046
+"bloxroute avg weekly HHI by operator (B), May-Dec 2025",3376.880293437856
+"bloxroute avg weekly HHI by operator (M), May-Dec 2025",3892.4684458991082
+"bloxroute avg weekly share of the largest operator, May-Dec 2025 (%)",44.70912941906638
+"bloxroute avg weekly HHI by key, Jan-May 2026",1554.819590795832
+"bloxroute avg weekly HHI by operator, Jan-May 2026",3275.5270102639174
+"bloxroute avg weekly HHI by operator (B), Jan-May 2026",3157.6535423777727
+"bloxroute avg weekly HHI by operator (M), Jan-May 2026",3275.5270102639174
+"bloxroute avg weekly share of the largest operator, Jan-May 2026 (%)",41.613292348559085
+pooled weekly operator HHI: min,2474.995187899824
+pooled weekly operator HHI: max,7840.352480747381
+pooled weekly operator HHI: median,3393.1337845858015
+"share of weeks with pooled operator HHI above 2,500 (%)",98.87640449438202
+"pooled operator HHI, week of 2024-12-30",7730.837935675002
+"pooled operator HHI, week of 2025-01-06",4804.8931692405195
+matched slots,1219842.0
+archive days read,598.0
+winning block found among the recorded bids (%),97.85734545949394
+slots with the winning block found,1193705.0
+summary bids mean,3032.8572044576263
+summary bids median,2748.0
+summary bids p10,1361.0
+summary bids p90,5094.0
+summary keys mean,51.814042310397575
+summary keys median,50.0
+summary keys p10,39.0
+summary keys p90,68.0
+summary operators mean,25.400169858063585
+summary operators median,25.0
+summary operators p10,20.0
+summary operators p90,33.0
+summary stand % mean,1.5149736142105201
+summary stand % median,1.3327598571777344
+summary stand % p10,-1.265268325805664
+summary stand % p90,8.366702795028685
+summary any % mean,1.4107818885903218
+summary any % median,0.20023584365844727
+summary any % p10,0.00762939453125
+summary any % p90,3.4364485740661643
+summary winning bid ms mean,1099.906005859375
+summary winning bid ms median,968.0
+summary winning bid ms p10,517.0
+summary winning bid ms p90,2069.0
+summary next bid gap ms mean,92.35958862304688
+summary next bid gap ms median,32.0
+summary next bid gap ms p10,4.0
+summary next bid gap ms p90,238.0
+"median standing margin (B, %)",0.7372796535491943
+"no rival within 1% (B, % of slots)",45.422026380052024
+"median margin over any lower rival bid (B, %)",0.11733770370483398
+"a rival operator had a higher standing bid (B, % of slots)",21.06751490440134
+"... higher by more than 1% (B, % of slots)",11.425463736746636
+"median standing margin (D, %)",0.908440351486206
+"no rival within 1% (D, % of slots)",48.50972392676582
+"median margin over any lower rival bid (D, %)",0.14871954917907715
+"a rival operator had a higher standing bid (D, % of slots)",20.031986903317193
+"... higher by more than 1% (D, % of slots)",11.245652540375707
+"median standing margin (L, %)",1.3327598571777344
+"no rival within 1% (L, % of slots)",54.789751236695835
+"median margin over any lower rival bid (L, %)",0.20023584365844727
+"a rival operator had a higher standing bid (L, % of slots)",18.507221606281146
+"... higher by more than 1% (L, % of slots)",10.787877161408058
+"median standing margin (M, %)",1.4941096305847168
+"no rival within 1% (M, % of slots)",56.37665922485036
+"median margin over any lower rival bid (M, %)",0.22681653499603271
+"a rival operator had a higher standing bid (M, % of slots)",17.795239796628707
+"... higher by more than 1% (M, % of slots)",10.324649291874039
+"median standing margin (KEY, %)",0.0
+"median margin over any lower rival bid (KEY, %)",0.00010621001251820417
+"a rival operator had a higher standing bid (KEY, % of slots)",36.48489472206037
+"... higher by more than 1% (KEY, % of slots)",14.7011011950922
+winner more than 1% ahead of every rival operator (% of slots),54.740043978751984
+winner more than 5% ahead (% of slots),20.586567862636006
+standing margin p25 (%),0.06735920906066895
+standing margin p75 (%),4.329399764537811
+standing margin p5 (%),-5.661802291870117
+standing margin p95 (%),12.349048554897282
+no rival operator within 1% (% of slots),54.789751236695835
+exactly one rival within 1% (% of slots),37.06895757326978
+two or more rivals within 1% (% of slots),8.141291190034389
+"rival operators within 1%, mean",0.5470815653783807
+no rival operator among the candidates (% of slots),0.10982612957137652
+quarter 2024Q3 slots,9662.0
+quarter 2024Q3 bids,1978.5
+quarter 2024Q3 keys,71.0
+quarter 2024Q3 ops,30.0
+quarter 2024Q3 stand_L,1.3516783714294434
+quarter 2024Q3 stand_B,0.6376385688781738
+quarter 2024Q3 stand_M,1.3912200927734375
+quarter 2024Q3 any_L,0.34052133560180664
+quarter 2024Q3 rival_higher,22.010615048392133
+quarter 2024Q3 riv1,0.47961084661560754
+quarter 2024Q4 slots,56999.0
+quarter 2024Q4 bids,1516.0
+quarter 2024Q4 keys,68.0
+quarter 2024Q4 ops,31.0
+quarter 2024Q4 stand_L,0.8771628141403198
+quarter 2024Q4 stand_B,0.5852341651916504
+quarter 2024Q4 stand_M,0.9196341037750244
+quarter 2024Q4 any_L,0.2355724573135376
+quarter 2024Q4 rival_higher,14.530365369061435
+quarter 2024Q4 riv1,0.5479507333847989
+quarter 2025Q1 slots,291070.0
+quarter 2025Q1 bids,1942.0
+quarter 2025Q1 keys,64.0
+quarter 2025Q1 ops,30.0
+quarter 2025Q1 stand_L,2.026653289794922
+quarter 2025Q1 stand_B,0.5388617515563965
+quarter 2025Q1 stand_M,2.1062283515930176
+quarter 2025Q1 any_L,0.2545565366744995
+quarter 2025Q1 rival_higher,12.314278346084414
+quarter 2025Q1 riv1,0.41872258206471663
+quarter 2025Q2 slots,196559.0
+quarter 2025Q2 bids,3355.0
+quarter 2025Q2 keys,53.0
+quarter 2025Q2 ops,27.0
+quarter 2025Q2 stand_L,2.3966879844665527
+quarter 2025Q2 stand_B,1.4007121324539185
+quarter 2025Q2 stand_M,2.924644947052002
+quarter 2025Q2 any_L,0.31990110874176025
+quarter 2025Q2 rival_higher,10.779301618400376
+quarter 2025Q2 riv1,0.3627717460592678
+quarter 2025Q3 slots,155069.0
+quarter 2025Q3 bids,3994.0
+quarter 2025Q3 keys,54.0
+quarter 2025Q3 ops,23.0
+quarter 2025Q3 stand_L,1.5602290630340576
+quarter 2025Q3 stand_B,1.4077246189117432
+quarter 2025Q3 stand_M,2.350306510925293
+quarter 2025Q3 any_L,0.19530057907104492
+quarter 2025Q3 rival_higher,13.829519576282667
+quarter 2025Q3 riv1,0.5046731986093284
+quarter 2025Q4 slots,151086.0
+quarter 2025Q4 bids,3040.0
+quarter 2025Q4 keys,44.0
+quarter 2025Q4 ops,22.0
+quarter 2025Q4 stand_L,1.1068761348724365
+quarter 2025Q4 stand_B,1.0017156600952148
+quarter 2025Q4 stand_M,1.1844635009765625
+quarter 2025Q4 any_L,0.1428365707397461
+quarter 2025Q4 rival_higher,20.950628269427813
+quarter 2025Q4 riv1,0.5687067868611861
+quarter 2026Q1 slots,187839.0
+quarter 2026Q1 bids,2608.0
+quarter 2026Q1 keys,43.0
+quarter 2026Q1 ops,23.0
+quarter 2026Q1 stand_L,0.8192509412765503
+quarter 2026Q1 stand_B,0.7103025913238525
+quarter 2026Q1 stand_M,0.8447527885437012
+quarter 2026Q1 any_L,0.1506209373474121
+quarter 2026Q1 rival_higher,25.21328694573094
+quarter 2026Q1 riv1,0.6423111759118121
+quarter 2026Q2 slots,171558.0
+quarter 2026Q2 bids,2950.0
+quarter 2026Q2 keys,43.0
+quarter 2026Q2 ops,22.0
+quarter 2026Q2 stand_L,0.15840530395507812
+quarter 2026Q2 stand_B,0.12042820453643799
+quarter 2026Q2 stand_M,0.17510652542114258
+quarter 2026Q2 any_L,0.09112656116485596
+quarter 2026Q2 rival_higher,35.645401310322164
+quarter 2026Q2 riv1,0.9343446039833256
+tercile Low ops,22.0
+tercile Low keys,44.0
+tercile Low bids,2687.0
+tercile Low stand_L,1.219332218170166
+tercile Low any_L,0.19406676292419434
+tercile Low rival_higher,21.219920512197927
+tercile Low riv1,0.5872652219835394
+tercile Low wt,951.0
+tercile Mid ops,25.0
+tercile Mid keys,52.0
+tercile Mid bids,3008.0
+tercile Mid stand_L,1.4953911304473877
+tercile Mid any_L,0.19562244415283203
+tercile Mid rival_higher,17.44634811551591
+tercile Mid riv1,0.5225480920845159
+tercile Mid wt,979.0
+tercile High ops,27.0
+tercile High keys,57.0
+tercile High bids,2542.0
+tercile High stand_L,1.3239622116088867
+tercile High any_L,0.21016597747802734
+tercile High rival_higher,16.920159660770633
+tercile High riv1,0.5322917106961086
+tercile High wt,973.0
+rho value ~ operators bidding,0.38848107712963126
+rho value ~ operators bidding CI low,0.370117774949916
+rho value ~ operators bidding CI high,0.4071092198548845
+rho value ~ keys bidding,0.44605670385906515
+rho value ~ keys bidding CI low,0.4271922319726626
+rho value ~ keys bidding CI high,0.4638577317999163
+rho value ~ standing margin,0.032737489730206244
+rho value ~ standing margin CI low,0.011453763839488379
+rho value ~ standing margin CI high,0.05331119938533084
+rho value ~ bids,-0.018749804657272946
+rho value ~ bids CI low,-0.04070972407776589
+rho value ~ bids CI high,0.0012528912559457434
+rho operators bidding ~ standing margin,0.15334914859341345
+rho operators bidding ~ standing margin CI low,0.13022235962365672
+rho operators bidding ~ standing margin CI high,0.1731603290537278
+rho value ~ winning bid time,0.043927974890844636
+rho value ~ winning bid time CI low,0.0220324820201982
+rho value ~ winning bid time CI high,0.06816152229970067
+"pooled operators bidding per slot, Sep-Dec 2024",30.8125
+"pooled keys bidding per slot, Sep-Dec 2024",68.5
+"pooled operators bidding per slot, Jan-Apr 2025",30.58823529411765
+"pooled keys bidding per slot, Jan-Apr 2025",62.470588235294116
+"pooled operators bidding per slot, May-Dec 2025",22.82857142857143
+"pooled keys bidding per slot, May-Dec 2025",48.628571428571426
+"pooled operators bidding per slot, Jan-May 2026",22.666666666666668
+"pooled keys bidding per slot, Jan-May 2026",43.333333333333336
+"agnostic operators bidding per slot, Sep-Dec 2024",30.8125
+"agnostic keys bidding per slot, Sep-Dec 2024",68.5
+"agnostic operators bidding per slot, Jan-Apr 2025",30.764705882352942
+"agnostic keys bidding per slot, Jan-Apr 2025",63.705882352941174
+"agnostic operators bidding per slot, May-Dec 2025",23.257142857142856
+"agnostic keys bidding per slot, May-Dec 2025",49.614285714285714
+"agnostic operators bidding per slot, Jan-May 2026",22.88888888888889
+"agnostic keys bidding per slot, Jan-May 2026",43.5
+"weekly median operators per slot: first 8 weeks, mean",29.375
+"weekly median operators per slot: last 8 weeks, mean",22.5
+weekly median standing margin: min (%),0.012603402137756348
+weekly median standing margin: max (%),3.362441062927246
+weekly median bids: min,1360.0
+weekly median bids: max,5129.0
+"operators bidding per day, 2024Q3",35.0
+"keys bidding per day, 2024Q3",118.0
+"operators bidding per day, 2024Q4",32.0
+"keys bidding per day, 2024Q4",109.0
+"operators bidding per day, 2025Q1",29.0
+"keys bidding per day, 2025Q1",97.0
+"operators bidding per day, 2025Q2",26.0
+"keys bidding per day, 2025Q2",73.0
+"operators bidding per day, 2025Q3",23.0
+"keys bidding per day, 2025Q3",74.0
+"operators bidding per day, 2025Q4",22.0
+"keys bidding per day, 2025Q4",63.0
+"operators bidding per day, 2026Q1",25.0
+"keys bidding per day, 2026Q1",66.0
+"operators bidding per day, 2026Q2",29.0
+"keys bidding per day, 2026Q2",68.0
+weeks in the HHI-margin test,88.0
+lagged operator HHI ~ weekly median standing margin: rho,0.2230636469303653
+lagged operator HHI ~ weekly median standing margin: p,0.036707577846444475
+same-week operator HHI ~ weekly median standing margin: rho,0.1923496882814977
+same-week: p,0.07258906199585144
+builder keys bidding,803.0
+operators bidding (L),443.0
+operators bidding (B),497.0
+operators bidding (D),467.0
+operators bidding (M),441.0
+operators with more than one key (L),24.0
+keys held by multi-key operators (L),384.0
+operators with at least one win (matched slots),83.0
+bid share of the five largest winners (%),77.41356772209829
+win share of the five largest winners (%),94.87157631083303
+operator Titan keys,29.0
+operator Titan bid_share,39.34933237020773
+operator Titan win_share,35.40662993749703
+operator Titan wins_per_1000,0.29717117124263853
+operator Titan t_median,602.9485025419366
+operator Titan after_start,0.6745006876389166
+operator Titan above_winner,0.1825451038220029
+operator Titan days,598.0
+operator buildernet keys,20.0
+operator buildernet bid_share,17.109182815877787
+operator buildernet win_share,23.13675414022762
+operator buildernet wins_per_1000,0.4466142923607574
+operator buildernet t_median,175.38954196403424
+operator buildernet after_start,0.5466035816991097
+operator buildernet above_winner,0.10199793827317812
+operator buildernet days,549.0
+operator beaverbuild.org keys,38.0
+operator beaverbuild.org bid_share,14.010486857640844
+operator beaverbuild.org win_share,18.451981883481874
+operator beaverbuild.org wins_per_1000,0.4349599246658599
+operator beaverbuild.org t_median,-187.85007654761824
+operator beaverbuild.org after_start,0.5357579908195795
+operator beaverbuild.org above_winner,0.09420632503211088
+operator beaverbuild.org days,597.0
+operator Quasar keys,11.0
+operator Quasar bid_share,3.390614010130826
+operator Quasar win_share,13.605665755813858
+operator Quasar wins_per_1000,1.3252594134448763
+operator Quasar t_median,-503.1242445848504
+operator Quasar after_start,0.5073972128813302
+operator Quasar above_winner,0.028424097286525302
+operator Quasar days,405.0
+operator rsync keys,12.0
+operator rsync bid_share,3.5539516682411043
+operator rsync win_share,4.270544593812648
+operator rsync wins_per_1000,0.396854396707628
+operator rsync t_median,768.9533971913097
+operator rsync after_start,0.7685111173879007
+operator rsync above_winner,0.06450396189862669
+operator rsync days,423.0
+operator BTCS keys,12.0
+operator BTCS bid_share,7.079664586892172
+operator BTCS win_share,1.6036364172831452
+operator BTCS wins_per_1000,0.07480879854091109
+operator BTCS t_median,-1691.181675419244
+operator BTCS after_start,0.3965042620005542
+operator BTCS above_winner,0.006742461267205455
+operator BTCS days,598.0
+operator Eureka Builder keys,163.0
+operator Eureka Builder bid_share,3.1960906878531476
+operator Eureka Builder win_share,1.0299958528057491
+operator Eureka Builder wins_per_1000,0.10643288504624232
+operator Eureka Builder t_median,-1756.242071311151
+operator Eureka Builder after_start,0.3028507896236855
+operator Eureka Builder above_winner,0.0077875384495890215
+operator Eureka Builder days,409.0
+operator bobthebuilder keys,25.0
+operator bobthebuilder bid_share,1.5377245179985344
+operator bobthebuilder win_share,0.872713920639422
+operator bobthebuilder wins_per_1000,0.1874359176612039
+operator bobthebuilder t_median,1825.224134736711
+operator bobthebuilder after_start,0.9668804711753114
+operator bobthebuilder above_winner,0.4062963787496887
+operator bobthebuilder days,598.0
+operator Titan median days a key is active,184.0
+operator buildernet median days a key is active,127.5
+operator beaverbuild.org median days a key is active,149.0
+operator Quasar median days a key is active,352.0
+operator rsync median days a key is active,346.0
+operator BTCS median days a key is active,131.0
+operator Eureka Builder median days a key is active,1.0
+operator bobthebuilder median days a key is active,235.0
+share Titan 2024Q3,85.65514386255434
+share buildernet 2024Q3,0.0
+share beaverbuild.org 2024Q3,5.3508590353963985
+share Quasar 2024Q3,0.0
+share rsync 2024Q3,2.6702546056717034
+share Titan 2024Q4,85.1955489034945
+share buildernet 2024Q4,2.397995705082319
+share beaverbuild.org 2024Q4,1.4902062861976964
+share Quasar 2024Q4,0.0
+share rsync 2024Q4,4.8301555280796515
+share Titan 2025Q1,42.6096815199093
+share buildernet 2025Q1,1.6295049300855464
+share beaverbuild.org 2025Q1,41.625382210464835
+share Quasar 2025Q1,0.0
+share rsync 2025Q1,12.074071529185419
+share Titan 2025Q2,35.13425573665452
+share buildernet 2025Q2,6.695266509150614
+share beaverbuild.org 2025Q2,43.0224059909495
+share Quasar 2025Q2,6.33885306956069
+share rsync 2025Q2,5.089904288975211
+share Titan 2025Q3,29.851680631801987
+share buildernet 2025Q3,52.37226716748531
+share beaverbuild.org 2025Q3,6.655711258788403
+share Quasar 2025Q3,7.6302610035635166
+share rsync 2025Q3,0.9889964364827121
+share Titan 2025Q4,25.73260073260073
+share buildernet 2025Q4,38.03846153846154
+share beaverbuild.org 2025Q4,2.9041514041514045
+share Quasar 2025Q4,27.6996336996337
+share rsync 2025Q4,1.7710622710622712
+share Titan 2026Q1,20.36278864167386
+share buildernet 2026Q1,35.970488559580694
+share beaverbuild.org 2026Q1,0.9135495821668387
+share Quasar 2026Q1,32.44258740817143
+share rsync 2026Q1,0.0
+share Titan 2026Q2,34.40617483016574
+share buildernet 2026Q2,32.232824931934125
+share beaverbuild.org 2026Q2,1.4041394623456953
+share Quasar 2026Q2,22.405434696412996
+share rsync 2026Q2,0.0
+"top-3 share 2024Q3 (L, %)",94.46284413164976
+"top-2 share 2024Q3 (M, %)",94.46284413164976
+HHI 2024Q3 (M),7422.436627519581
+HHI 2024Q3 (L),7385.442487221042
+"top-3 share 2024Q4 (L, %)",92.91338582677166
+"top-2 share 2024Q4 (M, %)",91.97143228997203
+HHI 2024Q4 (M),7328.352412151856
+HHI 2024Q4 (L),7298.749618501902
+"top-3 share 2025Q1 (L, %)",96.30913525955954
+"top-2 share 2025Q1 (M, %)",85.86456866045968
+HHI 2025Q1 (M),3833.362946706732
+HHI 2025Q1 (L),3697.7054156494355
+"top-3 share 2025Q2 (L, %)",84.85192823675463
+"top-2 share 2025Q2 (M, %)",84.85192823675463
+HHI 2025Q2 (M),3777.8776300896693
+HHI 2025Q2 (L),3201.7846821410994
+"top-3 share 2025Q3 (L, %)",89.85420880285082
+"top-2 share 2025Q3 (M, %)",88.87965905807572
+HHI 2025Q3 (M),4437.423533414751
+HHI 2025Q3 (L),3740.274156944937
+"top-3 share 2025Q4 (L, %)",91.47069597069597
+"top-2 share 2025Q4 (M, %)",68.64224664224665
+HHI 2025Q4 (M),3115.5346084521907
+HHI 2025Q4 (L),2894.5957054748255
+"top-3 share 2026Q1 (L, %)",88.77586460942598
+"top-2 share 2026Q1 (M, %)",69.32662554991896
+HHI 2026Q1 (M),2851.14395382367
+HHI 2026Q1 (L),2785.4223042357858
+"top-3 share 2026Q2 (L, %)",89.04443445851285
+"top-2 share 2026Q2 (M, %)",68.04313922444555
+HHI 2026Q2 (M),2839.4904869295888
+HHI 2026Q2 (L),2748.9717239899715
+"top-2 share (M, %)",77.05681550871346
+"top-3 share (M, %)",90.80434811683617
+"largest operator share (M, %)",41.62447810088909
+validation B purity_bids,1.0
+validation B completeness_bids,0.8419956324012762
+validation B purity_wins,1.0
+validation B completeness_wins,0.9521950626192164
+validation B operators with two or more labels,0.0
+validation B operators,93.0
+validation D purity_bids,0.9801126909613258
+validation D completeness_bids,0.9566024492578536
+validation D purity_wins,0.999326100695349
+validation D completeness_wins,0.9720274260580424
+validation D operators with two or more labels,1.0
+validation D operators,79.0
+validation F purity_bids,0.9792801911005004
+validation F completeness_bids,0.978502067871412
+validation F purity_wins,0.9977506556136224
+validation F completeness_wins,0.9993918469689737
+validation F operators with two or more labels,2.0
+validation F operators,73.0

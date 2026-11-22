@@ -1,0 +1,20 @@
+[     0s] loading parquet
+[     1s] unique slots: 1,271,079   (paper: 1,271,079)
+[     1s] AR(5) filter on level
+[     1s] AR(5) coefs [0.295 0.124 0.089 0.069 0.072]   (paper: 0.295 0.124 0.089 0.069 0.072)
+[     1s] Ljung-Box level resid^2 Q10/20/50: [44779.0, 56366.0, 72464.0]   (paper: 44,779 / 56,366 / 72,464)
+[     1s] Ljung-Box diff^2 Q10/20/50: [257972.0, 268977.0, 280428.0]   (paper: 257,972 / 268,977 / 280,428)
+[     2s] ACF r lag1: -0.425 (paper -0.425)   ACF r^2 lags1-2: [0.434 0.075] (paper 0.434, 0.075)
+[    38s] Table 4: AR(5) resid GARCH(1,1)   [0.044/0.965] alpha=0.044 beta=0.965 alpha+beta=1.009
+[    52s] Table 4: omega=0.648 alpha=0.044 beta=0.965  log-lik=-4,240,438  n=1,271,074   (paper: 0.648 / 0.044 / 0.965, -4,240,438)
+[    52s]    robust SE: omega=0.158 alpha=0.010 beta=0.007   (paper: .158 / .010 / .007)   score at optimum: [0.01, -0.01, -59.91]
+[    88s] Table 5: AR(1) resid   [1.007 / 1.010]   alpha=0.043 beta=0.964 alpha+beta=1.007
+[   136s] Table 5: AR(20) resid   [1.007 / 1.010]  alpha=0.044 beta=0.966 alpha+beta=1.010
+[   155s] Table 5: AR(5) first half   [1.002]      alpha=0.044 beta=0.958 alpha+beta=1.002
+[   174s] Table 5: AR(5) second half  [1.075]      alpha=0.231 beta=0.844 alpha+beta=1.075
+[   212s] Table 5: differenced (diagnostic) [0.539/0.731] alpha=0.539 beta=0.731 alpha+beta=1.270
+[   212s] theory table: pseudo-true alpha* (fast)
+[   214s]   Gaussian  alpha* = 0.251  (theorem: 0.250)
+[   216s]   Lognormal(1) alpha* = 0.38  (theory paper Table 1: 0.379)
+[   217s]   MEV log1p(v) bootstrap alpha* = 0.447  (theory paper Table 1: 0.44)
+[   217s] DONE. Tables 4-5 and Ljung-Box should match the bracketed paper values to the printed digits. The three theory rows are Monte Carlo: expect agreement to about +/-0.005.

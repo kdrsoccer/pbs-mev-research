@@ -1,0 +1,16 @@
+keys 803; labelled 229 (229 in the mapping file, 0 by extra_data only); labels 39
+labelled keys: 95.3% of bids, 99.73% of wins
+keys with both sources: 220; they agree for 218
+
+=== behavioural rules against the labels (labelled keys only) ===
+  rule D: operator 205 mixes {'Eureka Builder': 107864747, 'beaverbuild.org': 37895173, 'iobuilder': 30288932, 'smithbot': 1862473}
+  rule F: operator 205 mixes {'Eureka Builder': 107864747, 'beaverbuild.org': 37895173, 'iobuilder': 30288932, 'smithbot': 1862473}
+  rule F: operator 417 mixes {'buildernet': 632071129, 'flashbots': 2932210}
+   purity_bids  completeness_bids  purity_wins  completeness_wins  operators with two or more labels  operators
+B       1.0000             0.8420       1.0000             0.9522                                0.0       93.0
+D       0.9801             0.9566       0.9993             0.9720                                1.0       79.0
+F       0.9793             0.9785       0.9978             0.9994                                2.0       73.0
+
+operators: L 443  M 441
+[L] median standing margin 1.333%   rival higher 18.5%   no rival within 1% 54.8%
+[M] median standing margin 1.494%   rival higher 17.8%   no rival within 1% 56.4%

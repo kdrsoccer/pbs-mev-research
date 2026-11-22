@@ -1,0 +1,18 @@
+Full Q1 2025 bid archive (90 raw daily files), timing by relay and source_type. Run 2026-11-15 on the raw archive.
+rows 86805657
+relay,source_type,n,median_ms,late_n,late_median_ms
+aestus.live,1,126004,-4258,23467,2346
+agnostic-relay.net,1,125789,1890,17035,2177
+bloxroute.max-profit.blxrbdn.com,1,237888,2104,107705,2117
+bloxroute.regulated.blxrbdn.com,1,359445,2208,147855,2218
+boost-relay.flashbots.net,1,790105,-454,102805,282
+mainnet-relay.securerpc.com,1,8704,-4913,0,nan
+relay.edennetwork.io,1,15169,-4447,789,3079
+relay.ultrasound.money,1,73456,2110,40241,2121
+relay.ultrasound.money,2,83556614,-711,3227469,1566
+relay.wenmerge.com,1,63,-791,0,nan
+titanrelay.xyz,1,1512420,2497,499048,2992
+ALL,1,3249043,1959,938945,2491
+ALL_EX_ULTRASOUND,1,3175587,1948,,
+ALL,2,83556614,-711,3227469,1566
+(late_* columns: the 23 builders with median_timing > 1000 ms in reference/builder_clusters.csv)

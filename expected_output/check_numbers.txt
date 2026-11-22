@@ -1,0 +1,73 @@
+(bid-level block skipped)
+                                       statistic         paper    recomputed result
+                          unique delivered slots  1.271079e+06  1.271079e+06   PASS
+                                    regime Low n  4.193570e+05  4.193570e+05   PASS
+                                 regime Low mean  1.640000e-02  1.635300e-02   PASS
+                               regime Low median  1.020000e-02  1.017100e-02   PASS
+                                   regime Low sd  2.700000e-02  2.703400e-02   PASS
+                                  regime Low p25  7.000000e-03  7.037000e-03   PASS
+                                  regime Low p75  1.640000e-02  1.636400e-02   PASS
+                                  regime Low p95  4.270000e-02  4.273000e-02   PASS
+                                    regime Mid n  4.320650e+05  4.320650e+05   PASS
+                                 regime Mid mean  3.130000e-02  3.130700e-02   PASS
+                               regime Mid median  1.690000e-02  1.693900e-02   PASS
+                                   regime Mid sd  7.460000e-02  7.456200e-02   PASS
+                                  regime Mid p25  1.070000e-02  1.065800e-02   PASS
+                                  regime Mid p75  2.930000e-02  2.926100e-02   PASS
+                                  regime Mid p95  8.580000e-02  8.580400e-02   PASS
+                                   regime High n  4.193570e+05  4.193570e+05   PASS
+                                regime High mean  1.149000e-01  1.148990e-01   PASS
+                              regime High median  2.760000e-02  2.759600e-02   PASS
+                                  regime High sd  2.646300e+00  2.646310e+00   PASS
+                                 regime High p25  1.560000e-02  1.564800e-02   PASS
+                                 regime High p75  5.470000e-02  5.465700e-02   PASS
+                                 regime High p95  2.136000e-01  2.136140e-01   PASS
+                      regime high/low mean ratio  7.000000e+00  7.026000e+00   PASS
+                         regime Kruskal-Wallis H  2.669053e+05  2.669053e+05   PASS
+                               Spearman rv-value  4.940000e-01  4.935200e-01   PASS
+                             Spearman rv-value n  1.270779e+06  1.270779e+06   PASS
+                                       KW hour H  6.587500e+04  6.587466e+04   PASS
+                                    KW weekday H  3.359000e+04  3.359032e+04   PASS
+                                     Monday mean  8.600000e-02  8.596000e-02   PASS
+                                   Saturday mean  3.100000e-02  3.087000e-02   PASS
+                                           weeks  8.900000e+01  8.900000e+01   PASS
+                                   matched slots  1.219842e+06  1.219842e+06   PASS
+                                    match rate %  9.600000e+01  9.596900e+01   PASS
+                           auction n_bids median  1.320000e+02  1.320000e+02   PASS
+                       auction n_builders median  1.100000e+01  1.100000e+01   PASS
+                                 ETH hourly bars  1.530200e+04  1.530200e+04   PASS
+                    matched slots with ETH price  1.218624e+06  1.218624e+06   PASS
+                        ETH regression intercept -4.172000e+00 -4.171510e+00   PASS
+                            ETH regression slope  2.700000e-02  2.693000e-02   PASS
+                               ETH regression R2  1.000000e-04  6.000000e-05   PASS
+                Spearman ETH price - value (ETH)  5.000000e-02  5.026000e-02   PASS
+                Spearman ETH price - value (USD)  3.590000e-01  3.586800e-01   PASS
+     GARCH Table 4: AR(5) resid GARCH(1,1) alpha  4.400000e-02  4.400000e-02   PASS
+      GARCH Table 4: AR(5) resid GARCH(1,1) beta  9.650000e-01  9.650000e-01   PASS
+GARCH Table 4: AR(5) resid GARCH(1,1) alpha+beta  1.009000e+00  1.009000e+00   PASS
+                GARCH Table 5: AR(1) resid alpha  4.300000e-02  4.300000e-02   PASS
+                 GARCH Table 5: AR(1) resid beta  9.640000e-01  9.640000e-01   PASS
+           GARCH Table 5: AR(1) resid alpha+beta  1.007000e+00  1.007000e+00   PASS
+          GARCH Table 5: AR(20) resid alpha+beta  1.010000e+00  1.010000e+00   PASS
+           GARCH Table 5: AR(5) first half alpha  4.400000e-02  4.400000e-02   PASS
+            GARCH Table 5: AR(5) first half beta  9.580000e-01  9.580000e-01   PASS
+      GARCH Table 5: AR(5) first half alpha+beta  1.002000e+00  1.002000e+00   PASS
+          GARCH Table 5: AR(5) second half alpha  2.310000e-01  2.310000e-01   PASS
+           GARCH Table 5: AR(5) second half beta  8.440000e-01  8.440000e-01   PASS
+     GARCH Table 5: AR(5) second half alpha+beta  1.075000e+00  1.075000e+00   PASS
+                GARCH Table 5: differenced alpha  5.390000e-01  5.390000e-01   PASS
+                 GARCH Table 5: differenced beta  7.310000e-01  7.310000e-01   PASS
+           GARCH Table 5: differenced alpha+beta  1.270000e+00  1.270000e+00   PASS
+                     Ljung-Box level resid^2 Q10  4.477900e+04  4.477900e+04   PASS
+                     Ljung-Box level resid^2 Q20  5.636600e+04  5.636600e+04   PASS
+                     Ljung-Box level resid^2 Q50  7.246400e+04  7.246400e+04   PASS
+                            Ljung-Box diff^2 Q10  2.579720e+05  2.579720e+05   PASS
+                            Ljung-Box diff^2 Q20  2.689770e+05  2.689770e+05   PASS
+                            Ljung-Box diff^2 Q50  2.804280e+05  2.804280e+05   PASS
+                                   Table 4 omega  6.480000e-01  6.477500e-01   PASS
+                          Table 4 log-likelihood -4.240438e+06 -4.240438e+06   PASS
+                         Table 4 robust SE omega  1.580000e-01  1.578000e-01   PASS
+                         Table 4 robust SE alpha  1.000000e-02  9.780000e-03   PASS
+                          Table 4 robust SE beta  7.000000e-03  6.530000e-03   PASS
+
+69 of 69 match the paper.

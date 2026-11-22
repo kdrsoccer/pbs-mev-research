@@ -1,0 +1,90 @@
+raw matched (with dup rows): 1220099  dedup matched: 1219842
+raw n with finite margin 0<=m<100: 1219851
+dedup matched n 1219842
+margin NaN (monopoly, single bid) 213 frac 0.0001746127777203933 n_bids==1: 213
+margin==100 (second bid 0): 1 margin<0: 0 margin>=99 74
+clean n 1219628
+
+=== TABLE 7 (all matched, dedup) ===
+n_bids {'mean': 141.487, 'median': 132.0, 'p10': 19.0, 'p90': 251.0, 'max': 7135.0, 'min': 1.0}
+n_builders {'mean': 11.504, 'median': 11.0, 'p10': 7.0, 'p90': 17.0, 'max': 36.0, 'min': 0.0}
+n_relays {'mean': 2.587, 'median': 2.0, 'p10': 1.0, 'p90': 4.0, 'max': 9.0, 'min': 1.0}
+m {'mean': 3.265, 'median': 0.141, 'p10': 0.0, 'p90': 6.691, 'max': 100.0, 'min': 0.0}
+earliest_bid_ms {'mean': -8045.657, 'median': -8090.0, 'p10': -9772.0, 'p90': -5380.0, 'max': 5444.0, 'min': -32688.0}
+latest_bid_ms {'mean': 2185.891, 'median': 2057.0, 'p10': 1010.0, 'p90': 3647.0, 'max': 22082.0, 'min': -11908.0}
+margin (clean <100): {'mean': 3.265, 'median': 0.141, 'p10': 0.0, 'p90': 6.691, 'max': 100.0, 'min': 0.0}
+latest > 4000ms frac: 0.05261091190498442
+earliest > 0 frac: 0.0007861673888913482 earliest max 5444.0
+top_bid_wei max (ETH): 981.8730553124409  n top_bid>1000 ETH: 0 n top_bid > 100 ETH 25
+top bid vs delivered value: frac top_bid >= value_wei 0.991116062572038  median ratio top/value 1.0834116217809404
+frac value_wei > top_bid*1.01: 0.007705096233774538
+
+margin median by value tercile (all matched): {'Low': 0.1965, 'Mid': 0.1442, 'High': 0.1099}
+margin median by value tercile (clean): {'Low': 0.1965, 'Mid': 0.1442, 'High': 0.1099}
+n_builders median by tercile {'Low': 10.0, 'Mid': 11.0, 'High': 13.0}
+latest median by tercile {'Low': 1847.0, 'Mid': 2143.0, 'High': 2174.0}
+value vs margin (all matched, NaN dropped): rho=-0.0537 p=0.0e+00 n=1219629
+value vs margin (clean): rho=-0.0537 p=0.0e+00 n=1219628
+value vs n_builders: rho=0.2854 p=0.0e+00 n=1219842
+value vs latest_bid: rho=0.1459 p=0.0e+00 n=1219732
+value vs earliest_bid: rho=-0.1081 p=0.0e+00 n=1219732
+n_builders vs margin: rho=-0.0900 p=0.0e+00 n=1219629
+n_relays vs margin (all): rho=-0.0575 p=0.0e+00 n=1219629
+n_relays vs margin (clean): rho=-0.0575 p=0.0e+00 n=1219628
+n_relays vs margin excl 1 and 7+: rho=-0.0296 p=8.4e-194 n=1005219
+n_relays vs margin excl 8: rho=-0.0575 p=0.0e+00 n=1219575
+n_relays vs n_builders: rho=0.1124 p=0.0e+00 n=1219842
+boot value-margin: mean=-0.054 CI=[-0.077,-0.032]
+boot value-builders: mean=0.285 CI=[0.265,0.306]
+boot value-latest: mean=0.146 CI=[0.124,0.167]
+boot relays-margin: mean=-0.058 CI=[-0.081,-0.034]
+
+=== RELAY TABLE ===
+          med_margin       n   n_all
+n_relays                            
+1.0            0.217  213245  213458
+2.0            0.143  401127  401127
+3.0            0.124  350958  350958
+4.0            0.124  195332  195332
+5.0            0.109   49089   49089
+6.0            0.084    8713    8713
+7.0            0.066    1112    1112
+8.0            0.122      52      52
+9.0            1.568       1       1
+
+=== PROPOSER EFFICIENCY ===
+      mean  median
+ter               
+Low   95.5   99.80
+Mid   96.8   99.86
+High  97.9   99.89
+median margin by hour:
+hour_c
+0     0.1410
+1     0.1499
+2     0.1446
+3     0.1453
+4     0.1452
+5     0.1407
+6     0.1365
+7     0.1449
+8     0.1380
+9     0.1450
+10    0.1463
+11    0.1441
+12    0.1398
+13    0.1371
+14    0.1431
+15    0.1411
+16    0.1431
+17    0.1379
+18    0.1319
+19    0.1369
+20    0.1443
+21    0.1358
+22    0.1335
+23    0.1383
+lowest-eff (highest margin) hours [1, 10, 3, 4] highest-eff hours [18, 22, 21, 6, 19, 13]
+mean margin by hour top: {4: 3.544, 5: 3.435, 3: 3.403, 23: 3.391}
+median margin by dow: {0: 0.1385, 1: 0.1426, 2: 0.1408, 3: 0.1336, 4: 0.1413, 5: 0.1457, 6: 0.1438}
+monopoly (n_bids==1) frac 0.0001746127777203933 n_builders==1 frac 0.0038562371192334744 4704

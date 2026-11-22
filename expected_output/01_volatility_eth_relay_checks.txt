@@ -1,0 +1,35 @@
+rows 1271079 2024-09-17 18:11:11+00:00 2026-05-31 18:27:35+00:00
+
+A. Finding 1
+ contemporaneous window (paper):      rho=0.494 n=1270779  mean ratio hi/lo=7.03 median ratio=2.71
+ window ending one block earlier:     rho=0.490 n=1270778  mean ratio hi/lo=5.07 median ratio=2.70
+ window ending 300 blocks earlier (no overlap): rho=0.414 n=1270479  mean ratio hi/lo=3.45 median ratio=2.35
+ placebo, values shuffled in time:    rho=0.005 (5 shuffles, range 0.004..0.005); mean ratio hi/lo=2.49
+ eth columns ['datetime', 'eth_close', 'eth_high', 'eth_low'] 15302
+ hours with >=20 blocks and ETH price: 14621
+ hourly |ETH return|    vs hourly median value rho=0.234 (n=14621); vs hourly mean value rho=0.289
+ 24h ETH realized vol   vs hourly median value rho=0.245 (n=14621); vs hourly mean value rho=0.282
+ hourly mean block value by ETH 24h-vol tercile: low 0.0347 mid 0.0489 high 0.0848; medians 0.0137 0.0172 0.0210
+
+C. hourly change in log median block value on hourly ETH return: R2=0.0054, corr=-0.074, n=14423
+   same, on |ETH return|: corr(log median value, |ret|)=0.283
+
+B. relay composition
+ all relays pooled (paper)
+   2024-09..12: HHI 1573, builders/slot 16.6 (16 wks)
+   2025-01..04: HHI 991, builders/slot 12.6 (17 wks)
+   2025-05..12: HHI 886, builders/slot 10.8 (35 wks)
+   2026-01..05: HHI 897, builders/slot 9.5 (21 wks)
+ only slots won via bloxroute
+   2024-09..12: HHI n/a, builders/slot n/a (0 wks)
+   2025-01..04: HHI 1258, builders/slot 12.2 (17 wks)
+   2025-05..12: HHI 1124, builders/slot 10.7 (35 wks)
+   2026-01..05: HHI 1555, builders/slot 9.4 (21 wks)
+ only slots won via agnostic
+   2024-09..12: HHI 1573, builders/slot 16.6 (16 wks)
+   2025-01..04: HHI 1163, builders/slot 14.2 (17 wks)
+   2025-05..12: HHI 1675, builders/slot 11.5 (35 wks)
+   2026-01..05: HHI 2357, builders/slot 10.0 (18 wks)
+ weeks around the break (pooled): 2024-12-09 HHI 1613 nb 17 n 4950; 2024-12-16 HHI 1477 nb 17 n 4595; 2024-12-23 HHI 1638 nb 17 n 4406; 2024-12-30 HHI 1767 nb 18 n 4724; 2025-01-06 HHI 1074 nb 12 n 21080; 2025-01-13 HHI 989 nb 11 n 26570; 2025-01-20 HHI 1038 nb 11 n 25510; 2025-01-27 HHI 1096 nb 11 n 24950
+ same weeks, second-largest relay only: 2024-12-09 HHI 1613 nb 17 n 4950; 2024-12-16 HHI 1477 nb 17 n 4595; 2024-12-23 HHI 1638 nb 17 n 4406; 2024-12-30 HHI 1767 nb 18 n 4724; 2025-01-06 HHI 1988 nb 14 n 4922; 2025-01-13 HHI 1559 nb 13 n 4744; 2025-01-20 HHI 1402 nb 12 n 4856; 2025-01-27 HHI 1409 nb 12 n 4944
+ relay shares: {'bloxroute': 0.658, 'agnostic': 0.216, 'ultrasound': 0.079, 'flashbots': 0.046, 'aestus': 0.002}

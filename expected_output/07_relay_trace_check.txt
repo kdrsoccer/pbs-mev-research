@@ -1,0 +1,80 @@
+sample days                                                                            24
+sample slots with bids in the traces                                                   57,830
+                      slots  winner_found    bids
+relay                                            
+Aestus                37249         0.161   233.0
+Agnostic Gnosis       41811         0.404   621.0
+BloXroute Max Profit  52988         0.684  1505.0
+BloXroute Regulated   52742         0.774  1236.0
+Eden Network           1575         0.301   834.0
+EthGas                 2328         0.065   226.0
+Flashbots             53129         0.194   250.0
+Manifold              10268         0.001    16.0
+Titan Relay           53282         0.189   729.0
+Ultra Sound           12571         0.890  1179.0
+Wenmerge                813         0.000     9.0
+slot-relay pairs: winning block received and delivered by that relay                   113,679
+... slots                                                                              48,879
+
+=== on the relay that delivered the block, on that relay's clock ===
+a rival operator had a higher live bid on the delivering relay (% of slot-relay pairs) 8.72
+... and that bid was at least 0 ms old (% of slot-relay pairs)                         8.72
+... and that bid was at least 5 ms old (% of slot-relay pairs)                         6.35
+... and that bid was at least 10 ms old (% of slot-relay pairs)                        4.90
+... and that bid was at least 25 ms old (% of slot-relay pairs)                        2.95
+... and that bid was at least 50 ms old (% of slot-relay pairs)                        1.99
+... and that bid was at least 100 ms old (% of slot-relay pairs)                       1.47
+... and that bid was at least 250 ms old (% of slot-relay pairs)                       1.11
+... and that bid was at least 500 ms old (% of slot-relay pairs)                       0.89
+... and that bid was at least 1000 ms old (% of slot-relay pairs)                      0.70
+age of the higher rival bid: median (ms)                                               12
+age of the higher rival bid: p25 (ms)                                                  4
+age of the higher rival bid: p75 (ms)                                                  42
+age of the higher rival bid: p90 (ms)                                                  529
+share of higher rival bids less than 50 ms old (%)                                     77.1
+share of higher rival bids less than 100 ms old (%)                                    83.1
+                      pairs  higher  higher_100ms  archive  margin
+relay                                                             
+Aestus                 4792  0.0459        0.0090   0.1500  0.0416
+Agnostic Gnosis       11004  0.0226        0.0037   0.1797  0.0473
+BloXroute Max Profit  32152  0.1174        0.0191   0.1959  0.0192
+BloXroute Regulated   39516  0.0970        0.0116   0.1838  0.0177
+EthGas                  119  0.0336        0.0000   0.4454  0.0439
+Flashbots              7139  0.0233        0.0099   0.1684  0.0436
+Titan Relay            8679  0.0709        0.0104   0.1905  0.0291
+Ultra Sound           10278  0.1019        0.0347   0.1191  0.0135
+
+=== slot level ===
+slots in the same-relay check                                                          48,787
+archive: rival live bid higher (% of these slots)                                      20.00
+same relay: rival live bid higher on a delivering relay (% of slots)                   14.03
+same relay: higher and at least 100 ms old (% of slots)                                2.44
+median margin on the delivering relay (%)                                              1.395
+median archive standing margin, same slots (%)                                         1.092
+rank correlation of the two margins                                                    0.668
+        slots  archive   same  same100  m_same  m_arch
+q                                                     
+2024Q4   2031    13.05  25.06    12.06    0.57    1.36
+2025Q1  10979    11.98  10.13     3.01    1.42    1.59
+2025Q2   6542    10.47   5.92     1.45    2.65    2.18
+2025Q3   5602    13.96  11.09     0.80    1.77    1.51
+2025Q4   7270    19.46  11.73     1.44    1.87    1.25
+2026Q1   5758    23.74   8.61     2.05    1.40    0.59
+2026Q2  10605    37.02  27.05     2.35    0.46    0.19
+archive-negative slots in the check                                                    9,755
+archive-negative slots: higher rival bid found on a delivering relay (%)               49.1
+archive-negative slots: found on another relay only (%)                                18.4
+archive-negative slots: not found on any covered relay (%)                             32.5
+
+=== who holds the higher bids that are at least 100 ms old ===
+{'bobthebuilder': 38.3, 'bloXroute': 18.1, 'unlabelled': 11.6, 'BTCS': 7.3, 'beaverbuild.org': 5.7, 'Quasar': 4.4, 'Titan': 4.2, 'buildernet': 2.9}
+old higher bids: slot-relay pairs                                                      1,673
+old higher bids from one of the five largest operators (%)                             18.8
+old higher bids from bobthebuilder (%)                                                 38.3
+old higher bids from bloXroute (%)                                                     18.1
+old higher bids: median excess over the winning bid (%)                                33.3
+old higher bids from the five largest: median excess (%)                               1.59
+old higher bids: median age (ms)                                                       844
+slots with an old higher bid from one of the five largest operators (%)                0.55
+slots with an old higher bid, excluding 15 December 2024 (%)                           2.06
+15 December 2024, BloXroute: old higher bids (% of slot-relay pairs)                   27.3

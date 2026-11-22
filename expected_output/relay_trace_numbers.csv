@@ -1,0 +1,84 @@
+,value
+sample days,24.0
+sample slots with bids in the traces,57830.0
+slot-relay pairs: winning block received and delivered by that relay,113679.0
+... slots,48879.0
+a rival operator had a higher live bid on the delivering relay (% of slot-relay pairs),8.71752918305052
+... and that bid was at least 0 ms old (% of slot-relay pairs),8.71752918305052
+... and that bid was at least 5 ms old (% of slot-relay pairs),6.345939003685817
+... and that bid was at least 10 ms old (% of slot-relay pairs),4.895363259704959
+... and that bid was at least 25 ms old (% of slot-relay pairs),2.953052014884016
+... and that bid was at least 50 ms old (% of slot-relay pairs),1.9942117717432417
+... and that bid was at least 100 ms old (% of slot-relay pairs),1.471687822728912
+... and that bid was at least 250 ms old (% of slot-relay pairs),1.1075044643249852
+... and that bid was at least 500 ms old (% of slot-relay pairs),0.8875869773660922
+... and that bid was at least 1000 ms old (% of slot-relay pairs),0.6975782686336087
+age of the higher rival bid: median (ms),12.0
+age of the higher rival bid: p25 (ms),4.0
+age of the higher rival bid: p75 (ms),42.0
+age of the higher rival bid: p90 (ms),529.1000000000004
+share of higher rival bids less than 50 ms old (%),77.12411705348133
+share of higher rival bids less than 100 ms old (%),83.11806256306761
+slots in the same-relay check,48787.0
+archive: rival live bid higher (% of these slots),19.995080656732327
+same relay: rival live bid higher on a delivering relay (% of slots),14.034476397400947
+same relay: higher and at least 100 ms old (% of slots),2.435074917498514
+median margin on the delivering relay (%),1.395389437675476
+"median archive standing margin, same slots (%)",1.092439889907837
+rank correlation of the two margins,0.6684109442645177
+quarter 2024Q4 slots,2031.0
+quarter 2024Q4 archive,13.047759724273758
+quarter 2024Q4 same,25.061546036435256
+quarter 2024Q4 same100,12.0630231413097
+quarter 2024Q4 m_same,0.5738377571105957
+quarter 2024Q4 m_arch,1.363992691040039
+quarter 2025Q1 slots,10979.0
+quarter 2025Q1 archive,11.977411421805265
+quarter 2025Q1 same,10.128426996994262
+quarter 2025Q1 same100,3.014846525184443
+quarter 2025Q1 m_same,1.4174044132232666
+quarter 2025Q1 m_arch,1.5868604183197021
+quarter 2025Q2 slots,6542.0
+quarter 2025Q2 archive,10.470804035463162
+quarter 2025Q2 same,5.915622133904005
+quarter 2025Q2 same100,1.4521553041883217
+quarter 2025Q2 m_same,2.6472508907318115
+quarter 2025Q2 m_arch,2.17512845993042
+quarter 2025Q3 slots,5602.0
+quarter 2025Q3 archive,13.959300249910747
+quarter 2025Q3 same,11.085326669046768
+quarter 2025Q3 same100,0.803284541235273
+quarter 2025Q3 m_same,1.773524284362793
+quarter 2025Q3 m_arch,1.512625813484192
+quarter 2025Q4 slots,7270.0
+quarter 2025Q4 archive,19.463548830811554
+quarter 2025Q4 same,11.733149931224208
+quarter 2025Q4 same100,1.4442916093535076
+quarter 2025Q4 m_same,1.8737435340881348
+quarter 2025Q4 m_arch,1.2542903423309326
+quarter 2026Q1 slots,5758.0
+quarter 2026Q1 archive,23.74088225078152
+quarter 2026Q1 same,8.614102118791248
+quarter 2026Q1 same100,2.049322681486627
+quarter 2026Q1 m_same,1.4003723859786987
+quarter 2026Q1 m_arch,0.5854547023773193
+quarter 2026Q2 slots,10605.0
+quarter 2026Q2 archive,37.02027345591702
+quarter 2026Q2 same,27.05327675624705
+quarter 2026Q2 same100,2.3479490806223478
+quarter 2026Q2 m_same,0.45506954193115234
+quarter 2026Q2 m_arch,0.19478797912597656
+archive-negative slots in the check,9755.0
+archive-negative slots: higher rival bid found on a delivering relay (%),49.133777549974376
+archive-negative slots: found on another relay only (%),18.41107124551512
+archive-negative slots: not found on any covered relay (%),32.45515120451051
+old higher bids: slot-relay pairs,1673.0
+old higher bids from one of the five largest operators (%),18.828451882845187
+old higher bids from bobthebuilder (%),38.31440526001195
+old higher bids from bloXroute (%),18.051404662283325
+old higher bids: median excess over the winning bid (%),33.28113555908203
+old higher bids from the five largest: median excess (%),1.5874147415161133
+old higher bids: median age (ms),844.0
+slots with an old higher bid from one of the five largest operators (%),0.5472769385287064
+"slots with an old higher bid, excluding 15 December 2024 (%)",2.0620699690273763
+"15 December 2024, BloXroute: old higher bids (% of slot-relay pairs)",27.27272727272727

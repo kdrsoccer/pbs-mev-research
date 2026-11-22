@@ -1,0 +1,63 @@
+raw rows 1271336
+unique slots 1271079
+dup rows 514
+             slot     relay  value_eth  n_bids
+1266031  10025997  agnostic   0.090200     3.0
+1266030  10025997  agnostic   0.090200   310.0
+1247050  10249198  agnostic   0.040697   147.0
+1247051  10249198  agnostic   0.040697    83.0
+1232555  10393198  agnostic   0.381687   154.0
+1232556  10393198  agnostic   0.381687     4.0
+1229636  10421998  agnostic   0.025770   145.0
+1229637  10421998  agnostic   0.025770    70.0
+1221968  10501198  agnostic   0.017176   141.0
+1221969  10501198  agnostic   0.017176    44.0
+dup slots with differing value: 0 of 257
+relay counts raw
+ relay
+bloxroute     836316
+agnostic      274205
+ultrasound    100719
+flashbots      58129
+aestus          1967
+Name: count, dtype: int64
+after dedupe 1271079
+relay counts dedup
+ relay
+bloxroute     836139
+agnostic      274161
+ultrasound    100700
+flashbots      58114
+aestus          1965
+Name: count, dtype: int64 relay
+bloxroute     0.657818
+agnostic      0.215692
+ultrasound    0.079224
+flashbots     0.045720
+aestus        0.001546
+Name: proportion, dtype: float64
+time range 2024-09-17 18:11:11+00:00 2026-05-31 18:27:35+00:00
+stored datetime range 2026-07-02 12:53:47+00:00 2028-03-14 13:10:11+00:00
+stored timestamp range 1782996827 1836652211
+offset days stored vs slot-derived:  count    1.271079e+06
+mean    -6.527796e+02
+std      0.000000e+00
+min     -6.527796e+02
+25%     -6.527796e+02
+50%     -6.527796e+02
+75%     -6.527796e+02
+max     -6.527796e+02
+dtype: float64
+stored hour == correct hour frac 0.0  dow eq 0.0
+matched (n_bids notna) 1219842 0.9596901530117325
+value stats count    1.271079e+06
+mean     5.396781e-02
+std      1.521324e+00
+min      6.525743e-05
+25%      9.603139e-03
+50%      1.637129e-02
+75%      3.160910e-02
+max      1.243345e+03
+Name: value_eth, dtype: float64 max 1243.3445562370953
+n unique builders 227
+proposer_fee_recipient nunique 32376

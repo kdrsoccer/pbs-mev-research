@@ -1,0 +1,76 @@
+Loading data...
+  Delivered payloads: 1,219,842
+  ETH price candles:  15,302
+
+=== ANALYSIS 1: ETH Price Decomposition ===
+  Matched 1,218,624 slots to hourly ETH price (99.9%)
+
+  OLS: log(block_value) = -4.172 + 0.027 * log(ETH_price)
+  R² = 0.0001 — ETH price explains 0.0% of log block value variance
+  Slope = 0.027 (elasticity of block value to ETH price)
+  Spearman rho (ETH price vs block value ETH): 0.0503, p=0.00e+00
+  Spearman rho (ETH price vs block value USD): 0.3587, p=0.00e+00
+  Saved fig_eth_decomposition.pdf
+
+=== ANALYSIS 2: HHI-Margin Regression ===
+  Loaded HHI data: 89 weeks
+  Columns: ['week', 'hhi', 'gini', 'n']
+  HHI merge failed: You are trying to merge on period[W-SUN] and str columns for key 'week'. If you wish to proceed you should use pd.concat — will compute HHI inline
+
+=== ANALYSIS 3: Builder-Level Bidding Behavior ===
+  Sampling 13 weeks for builder-level analysis...
+
+=== ANALYSIS 4: Relay-Level Analysis ===
+  Loading relay data from full auction stats...
+
+  Relay count distribution per slot:
+n_relays
+1.0    213458
+2.0    401127
+3.0    350958
+4.0    195332
+5.0     49089
+6.0      8713
+7.0      1112
+8.0        52
+9.0         1
+
+  Bid margin by relay count:
+   n_relays  med_margin  med_value       n
+0       1.0    0.217135   0.013569  213245
+1       2.0    0.143005   0.016049  401127
+2       3.0    0.124154   0.016915  350958
+3       4.0    0.124083   0.018453  195332
+4       5.0    0.108551   0.017222   49089
+5       6.0    0.083543   0.014714    8713
+6       7.0    0.066360   0.015296    1112
+7       8.0    0.121965   0.018407      52
+8       9.0    1.567588   0.027608       1
+
+  Spearman rho (n_relays vs margin): -0.0575, p=0.00e+00
+  Saved fig_relay_analysis.pdf
+
+=== ANALYSIS 5: GARCH on Bid Margins ===
+  margin GARCH skipped (not identified; see Finding 9)
+
+=== ANALYSIS 6: Validator Revenue Efficiency ===
+
+  Proposer revenue efficiency by value tercile:
+                  mean     median
+vol_tercile                      
+Low          95.500575  99.803492
+Mid          96.804601  99.855815
+High         97.900169  99.890135
+
+  Lowest efficiency hours: hour
+1     99.850065
+10    99.853734
+3     99.854676
+  Highest efficiency hours: hour
+18    99.868136
+22    99.866518
+21    99.864180
+  Saved fig_proposer_efficiency.pdf
+
+=== ALL ANALYSES COMPLETE ===
+Figures saved to: /home/claude/cleanroom/figures/
